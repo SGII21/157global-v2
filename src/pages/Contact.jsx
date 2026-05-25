@@ -1,18 +1,12 @@
-import { contact, CONTACT_EMAIL } from '../content/copy'
-import { Page, ContactLines } from '../components/Page'
+import { contact } from '../content/copy'
+import { PageShell, PageH1, Body } from '../components/PageShell'
 
 export default function Contact() {
   return (
-    <Page>
-      <ContactLines lines={contact.lines} />
-      <p className="mt-10">
-        <a
-          href={`mailto:${CONTACT_EMAIL}`}
-          className="text-ink underline hover:text-accent"
-        >
-          {CONTACT_EMAIL}
-        </a>
-      </p>
-    </Page>
+    <PageShell>
+      <PageH1>{contact.h1}</PageH1>
+      <Body className="mb-8">{contact.body}</Body>
+      <p className="text-primary">Email: {contact.email}</p>
+    </PageShell>
   )
 }

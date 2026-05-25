@@ -1,14 +1,14 @@
-import { situations } from '../content/copy'
+import { purpose } from '../content/copy'
 import { PageShell, PageH1, PageH2, Body, SectionBlock } from '../components/PageShell'
 
-export default function Situations() {
+export default function Purpose() {
   return (
     <PageShell>
       <SectionBlock>
-        <PageH1>{situations.h1}</PageH1>
-        <Body>{situations.intro}</Body>
+        <PageH1>{purpose.h1}</PageH1>
+        <Body>{purpose.intro}</Body>
       </SectionBlock>
-      {situations.sections.map(({ h2, body }) => (
+      {purpose.sections.map(({ h2, body }) => (
         <SectionBlock key={h2}>
           <PageH2>{h2}</PageH2>
           <Body>{body}</Body>

@@ -1,22 +1,23 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-paper: #f7f5f2;
-  --color-ink: #2c2c2c;
-  --color-muted: #5c5c5c;
-  --color-accent: #4a5568;
+  --color-bg: #0f1110;
+  --color-primary: #e7e3da;
+  --color-secondary: #a8a39a;
+  --color-accent: #9b8a64;
+  --color-border: rgba(231, 227, 218, 0.12);
 
-  --font-serif: 'Source Serif 4', Georgia, serif;
-  --font-sans: 'Source Sans 3', system-ui, sans-serif;
+  --font-serif: Georgia, 'Times New Roman', serif;
+  --font-sans: Inter, system-ui, sans-serif;
 }
 
 @layer base {
   html {
-    @apply bg-paper text-ink antialiased;
+    @apply bg-bg text-primary antialiased;
   }
 
   body {
-    @apply font-sans text-[17px] leading-relaxed md:text-[18px];
+    @apply font-sans text-[17px] leading-[1.65] md:text-[18px];
   }
 
   a:focus-visible {
