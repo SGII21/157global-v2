@@ -1,26 +1,20 @@
-@import 'tailwindcss';
-
-@theme {
-  --color-bg: #0f1110;
-  --color-primary: #e7e3da;
-  --color-secondary: #a8a39a;
-  --color-accent: #9b8a64;
-  --color-border: rgba(231, 227, 218, 0.12);
-
-  --font-serif: Georgia, 'Times New Roman', serif;
-  --font-sans: Inter, system-ui, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400&display=swap');
+html {
+  background-color: #F2EFE9;
+  color: #232320;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
 }
-
-@layer base {
-  html {
-    @apply bg-bg text-primary antialiased;
-  }
-
-  body {
-    @apply font-sans text-[17px] leading-[1.65] md:text-[18px];
-  }
-
-  a:focus-visible {
-    @apply outline-2 outline-offset-2 outline-accent;
-  }
+body {
+  background-color: #F2EFE9;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
 }

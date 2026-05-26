@@ -1,104 +1,154 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { navLinks } from '../content/copy'
 
-const navLinkClass = ({ isActive }) =>
-  [
-    'text-[0.8125rem] leading-snug text-secondary hover:text-primary md:text-[0.875rem]',
-    isActive ? 'text-primary' : '',
-  ].join(' ')
+const links = [
+  { label: 'Home', path: '/' },
+  { label: 'About', path: '/about' },
+  { label: 'Philosophy', path: '/philosophy' },
+  { label: 'Situations', path: '/situations' },
+  { label: 'Operational & Legal Reality', path: '/operational-legal-reality' },
+  { label: 'Contact', path: '/contact' },
+]
+
+const desktopLinkStyle = ({ isActive }) => ({
+  fontFamily: 'Inter, Arial, sans-serif',
+  fontSize: '13px',
+  letterSpacing: '0.06em',
+  textTransform: 'uppercase',
+  color: isActive ? '#232320' : '#7A7670',
+  textDecoration: 'none',
+  transition: 'color 200ms ease',
+})
 
 export default function Header() {
-  const [scrolled, setScrolled] = useState(false)
-  const [menuOpen, setMenuOpen] = useState(false)
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8)
-    onScroll()
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
-
-  useEffect(() => {
-    document.body.style.overflow = menuOpen ? 'hidden' : ''
-    return () => {
-      document.body.style.overflow = ''
-    }
-  }, [menuOpen])
+  const [open, setOpen] = useState(false)
 
   return (
     <>
       <header
-        className={[
-          'fixed inset-x-0 top-0 z-40 border-b border-transparent',
-          scrolled ? 'border-[var(--color-border)] bg-[rgba(15,17,16,0.92)]' : 'bg-transparent',
-        ].join(' ')}
+        style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          width: '100%',
+          height: '72px',
+          background: 'rgba(242, 239, 233, 0.96)',
+          backdropFilter: 'blur(4px)',
+          borderBottom: '1px solid rgba(35, 35, 32, 0.12)',
+          zIndex: 40,
+        }}
       >
-        <div className="mx-auto flex h-[88px] max-w-[1180px] items-center justify-between px-6">
-          <NavLink to="/" className="shrink-0" onClick={() => setMenuOpen(false)}>
+        <div
+          style={{
+            maxWidth: '920px',
+            margin: '0 auto',
+            padding: '0 24px',
+            height: '72px',
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+          }}
+        >
+          <NavLink to="/" onClick={() => setOpen(false)}>
             <img
-              src="/157Global-Stacked-Silver-web.png"
+              src="/157Global-Stacked-Black-web.png"
               alt="157Global"
-              className="h-[72px] w-auto"
-              height={72}
+              style={{ height: '56px', width: 'auto', display: 'block' }}
             />
           </NavLink>
 
-          <nav className="hidden items-center gap-5 xl:flex xl:gap-6" aria-label="Main">
-            {navLinks.map(({ label, path }) => (
+          <nav className="hidden md:flex" style={{ gap: '28px' }}>
+            {links.map((link) => (
               <NavLink
-                key={path}
-                to={path}
-                end={path === '/'}
-                className={navLinkClass}
+                key={link.path}
+                to={link.path}
+                end={link.path === '/'}
+                style={desktopLinkStyle}
+                onMouseEnter={(event) => {
+                  event.currentTarget.style.color = '#232320'
+                }}
+                onMouseLeave={(event) => {
+                  if (!event.currentTarget.getAttribute('aria-current')) {
+                    event.currentTarget.style.color = '#7A7670'
+                  }
+                }}
               >
-                {label}
+                {link.label}
               </NavLink>
             ))}
           </nav>
 
           <button
             type="button"
-            className="text-[0.8125rem] text-secondary xl:hidden"
-            aria-expanded={menuOpen}
-            aria-controls="mobile-nav"
-            onClick={() => setMenuOpen((v) => !v)}
+            className="flex md:hidden"
+            aria-label="Open menu"
+            onClick={() => setOpen(true)}
+            style={{
+              flexDirection: 'column',
+              gap: '5px',
+              background: 'transparent',
+              border: 0,
+              padding: 0,
+            }}
           >
-            {menuOpen ? 'Close' : 'Menu'}
+            <span style={{ display: 'block', width: '20px', height: '1px', background: '#232320' }} />
+            <span style={{ display: 'block', width: '20px', height: '1px', background: '#232320' }} />
+            <span style={{ display: 'block', width: '20px', height: '1px', background: '#232320' }} />
           </button>
         </div>
       </header>
 
-      <div
-        id="mobile-nav"
-        className={[
-          'fixed inset-0 z-50 flex flex-col bg-bg px-6 pt-20 xl:hidden',
-          menuOpen ? 'pointer-events-auto opacity-100' : 'pointer-events-none opacity-0',
-        ].join(' ')}
-        style={{ transition: 'opacity 250ms ease' }}
-        aria-hidden={!menuOpen}
-      >
-        <nav className="flex flex-col gap-6" aria-label="Main">
-          {navLinks.map(({ label, path }) => (
-            <NavLink
-              key={path}
-              to={path}
-              end={path === '/'}
-              className={({ isActive }) =>
-                [
-                  'font-serif text-[1.375rem] text-primary',
-                  isActive ? 'text-primary' : 'text-secondary',
-                ].join(' ')
-              }
-              onClick={() => setMenuOpen(false)}
-            >
-              {label}
-            </NavLink>
-          ))}
-        </nav>
-      </div>
+      {open && (
+        <div
+          style={{
+            position: 'fixed',
+            inset: 0,
+            background: '#F2EFE9',
+            zIndex: 50,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        >
+          <button
+            type="button"
+            aria-label="Close menu"
+            onClick={() => setOpen(false)}
+            style={{
+              position: 'absolute',
+              top: '24px',
+              right: '24px',
+              color: '#232320',
+              background: 'transparent',
+              border: 0,
+              fontSize: '24px',
+              padding: 0,
+            }}
+          >
+            X
+          </button>
 
-      <div className="h-[88px]" aria-hidden="true" />
+          <nav style={{ display: 'flex', flexDirection: 'column', gap: '40px', alignItems: 'center' }}>
+            {links.map((link) => (
+              <NavLink
+                key={link.path}
+                to={link.path}
+                end={link.path === '/'}
+                onClick={() => setOpen(false)}
+                style={{
+                  fontFamily: '"Playfair Display", Georgia, serif',
+                  fontSize: '24px',
+                  color: '#232320',
+                  textDecoration: 'none',
+                }}
+              >
+                {link.label}
+              </NavLink>
+            ))}
+          </nav>
+        </div>
+      )}
     </>
   )
 }

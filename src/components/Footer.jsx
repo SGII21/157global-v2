@@ -1,12 +1,44 @@
 export default function Footer() {
-  const year = new Date().getFullYear()
-
   return (
-    <footer className="border-t border-[var(--color-border)]">
-      <div className="mx-auto max-w-[1180px] px-6 py-8">
-        <p className="text-[0.8125rem] text-secondary">
-          157Global {year}
-        </p>
+    <footer
+      style={{
+        width: '100%',
+        background: '#F2EFE9',
+        borderTop: '1px solid rgba(35, 35, 32, 0.12)',
+        padding: '40px 24px',
+      }}
+    >
+      <div
+        style={{
+          maxWidth: '920px',
+          margin: '0 auto',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+        }}
+      >
+        <div
+          style={{
+            fontFamily: 'Inter, Arial, sans-serif',
+            fontSize: '13px',
+            letterSpacing: '0.06em',
+            textTransform: 'uppercase',
+            color: '#7A7670',
+          }}
+        >
+          157Global
+        </div>
+        <a
+          href="mailto:inquiries@157global.com"
+          style={{
+            fontFamily: 'Inter, Arial, sans-serif',
+            fontSize: '13px',
+            color: '#7A7670',
+            textDecoration: 'none',
+          }}
+        >
+          inquiries@157global.com
+        </a>
       </div>
     </footer>
   )
