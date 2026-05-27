@@ -40,6 +40,18 @@ export default function Footer() {
           inquiries@157global.com
         </a>
       </div>
+      <div
+        style={{
+          fontFamily: 'Inter, Arial, sans-serif',
+          fontSize: '12px',
+          color: '#7A7670',
+          marginTop: '16px',
+          textAlign: 'center',
+          width: '100%',
+        }}
+      >
+        © 2025 157Global LLC. All rights reserved.
+      </div>
     </footer>
   )
 }
