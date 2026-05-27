@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Page from '../components/Page'
 
 const beliefs = [
@@ -11,6 +12,11 @@ const beliefs = [
 ]
 
 export default function Philosophy() {
+  useEffect(() => {
+    document.body.setAttribute('data-page-title', 'Philosophy');
+    return () => document.body.removeAttribute('data-page-title');
+  }, []);
+
   return (
     <Page>
       <h1
@@ -21,11 +27,12 @@ export default function Philosophy() {
           color: '#232320',
           lineHeight: 1.2,
           margin: 0,
+          marginBottom: '24px',
         }}
       >
         What we believe.
       </h1>
-      <ul style={{ marginTop: '40px', listStyle: 'none', padding: 0 }}>
+      <ul style={{ marginTop: '0', listStyle: 'none', padding: 0 }}>
         {beliefs.map((item) => (
           <li
             key={item}

@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
 import Page from '../components/Page'
 
 export default function RepresentativeWork() {
+  useEffect(() => {
+    document.body.setAttribute('data-page-title', 'Representative Work');
+    return () => document.body.removeAttribute('data-page-title');
+  }, []);
+
   return (
     <Page>
       <h1
@@ -26,7 +32,7 @@ export default function RepresentativeWork() {
       <h2
         className="text-[24px] md:text-[28px]"
         style={{
-          marginTop: '64px',
+          marginTop: '40px',
           fontFamily: '"Playfair Display", Georgia, serif',
           fontWeight: 400,
           color: '#232320',

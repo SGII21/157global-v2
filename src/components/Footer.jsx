@@ -3,7 +3,7 @@ export default function Footer() {
     <footer
       style={{
         width: '100%',
-        background: '#EDEDEA',
+        background: '#E3E3DF',
         borderTop: '1px solid rgba(35, 35, 32, 0.12)',
         padding: '40px 24px',
       }}

@@ -3,7 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400&display=swap');
 html {
-  background-color: #EDEDEA;
+  background-color: #E3E3DF;
   color: #232320;
   font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
@@ -11,10 +11,44 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 body {
-  background-color: #EDEDEA;
+  background-color: #E3E3DF;
   margin: 0;
   padding: 0;
 }
 * {
   box-sizing: border-box;
+}
+@media print {
+  header,
+  nav,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  body::before {
+    content: "157Global — " attr(data-page-title);
+    display: block;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 11pt;
+    color: #232320;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-bottom: 0.5pt solid #232320;
+    padding-bottom: 6pt;
+    margin-bottom: 24pt;
+  }
+  html, body {
+    background: #ffffff;
+    color: #000000;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 }

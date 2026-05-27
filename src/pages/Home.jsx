@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Page from '../components/Page'
 
 const bullets = [
@@ -10,9 +11,14 @@ const bullets = [
 ]
 
 export default function Home() {
+  useEffect(() => {
+    document.body.setAttribute('data-page-title', 'Home');
+    return () => document.body.removeAttribute('data-page-title');
+  }, []);
+
   return (
-    <Page>
-      <section style={{ paddingTop: '80px', paddingBottom: 0 }}>
+    <Page className="!pb-0 md:!pb-0">
+      <section style={{ paddingTop: '20px', paddingBottom: 0, marginTop: 0 }}>
         <h1
           className="text-[36px] md:text-[52px]"
           style={{
@@ -40,7 +46,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="mt-9 md:mt-12">
+      <section style={{ marginTop: '32px' }}>
         <h2
           className="text-[26px] md:text-[32px]"
           style={{
@@ -85,9 +91,10 @@ export default function Home() {
         </ul>
       </section>
 
-      <section className="mt-14 md:mt-20">
+      <section style={{ paddingBottom: '80px' }}>
         <p
           style={{
+            marginTop: '24px',
             maxWidth: '640px',
             fontFamily: 'Inter, Arial, sans-serif',
             fontSize: '18px',
@@ -96,18 +103,6 @@ export default function Home() {
           }}
         >
           We help to establish clarity, stabilize, and move forward.
-        </p>
-        <p
-          style={{
-            marginTop: '20px',
-            maxWidth: '640px',
-            fontFamily: 'Inter, Arial, sans-serif',
-            fontSize: '18px',
-            color: '#232320',
-            lineHeight: 1.75,
-          }}
-        >
-          Because we increase survivability and create forward movement regardless of pressure.
         </p>
       </section>
     </Page>

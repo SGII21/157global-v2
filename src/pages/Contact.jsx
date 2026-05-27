@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
 import Page from '../components/Page'
 
 export default function Contact() {
+  useEffect(() => {
+    document.body.setAttribute('data-page-title', 'Contact');
+    return () => document.body.removeAttribute('data-page-title');
+  }, []);
+
   return (
     <Page className="pb-[160px] pt-[110px] md:pt-[160px]">
       <h1
@@ -21,7 +27,7 @@ export default function Contact() {
           maxWidth: '480px',
           fontFamily: 'Inter, Arial, sans-serif',
           fontSize: '18px',
-          color: '#7A7670',
+          color: '#232320',
           lineHeight: 1.75,
         }}
       >
@@ -34,7 +40,7 @@ export default function Contact() {
           marginTop: '40px',
           fontFamily: 'Inter, Arial, sans-serif',
           fontSize: '18px',
-          color: '#8C7355',
+          color: '#232320',
           textDecoration: 'none',
         }}
       >

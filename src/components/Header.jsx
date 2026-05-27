@@ -2,12 +2,11 @@ import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 const links = [
-  { label: 'Home', path: '/' },
   { label: 'About', path: '/about' },
   { label: 'Philosophy', path: '/philosophy' },
   { label: 'Situations', path: '/situations' },
-  { label: 'Operational & Legal Reality', path: '/operational-legal-reality' },
-  { label: 'Representative Work', path: '/representative-work' },
+  { label: 'Realities', path: '/operational-legal-reality' },
+  { label: 'Work', path: '/representative-work' },
   { label: 'Contact', path: '/contact' },
 ]
 
@@ -51,15 +50,15 @@ export default function Header() {
             alignItems: 'center',
           }}
         >
-          <NavLink to="/" onClick={() => setOpen(false)}>
+          <a href="/" style={{ display: 'inline-flex', alignItems: 'center', marginRight: '48px', flexShrink: 0 }}>
             <img
               src="/157Global-Stacked-Black-web.png"
               alt="157Global"
               style={{ height: '56px', width: 'auto', display: 'block' }}
             />
-          </NavLink>
+          </a>
 
-          <nav className="hidden md:flex" style={{ gap: '28px' }}>
+          <nav className="hidden md:flex" style={{ marginLeft: 'auto', gap: '48px' }}>
             {links.map((link) => (
               <NavLink
                 key={link.path}

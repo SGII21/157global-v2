@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Page from '../components/Page'
 
 const shapeItems = [
@@ -35,6 +36,11 @@ function DashList({ items }) {
 }
 
 export default function OperationalLegal() {
+  useEffect(() => {
+    document.body.setAttribute('data-page-title', 'Realities');
+    return () => document.body.removeAttribute('data-page-title');
+  }, []);
+
   return (
     <Page>
       <h1
@@ -46,11 +52,12 @@ export default function OperationalLegal() {
           maxWidth: '680px',
           lineHeight: 1.2,
           margin: 0,
+          marginBottom: '24px',
         }}
       >
         Operational reality affects legal outcome.
       </h1>
-      <div style={{ marginTop: '40px', maxWidth: '640px' }}>
+      <div style={{ marginTop: '40px', marginBottom: '40px', maxWidth: '640px' }}>
         <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
           Most disputes, investigations, and legal matters do not originate legally.
         </p>
@@ -62,7 +69,7 @@ export default function OperationalLegal() {
       <h2
         className="text-[24px] md:text-[28px]"
         style={{
-          marginTop: '64px',
+          marginTop: '0',
           fontFamily: '"Playfair Display", Georgia, serif',
           fontWeight: 400,
           color: '#232320',
@@ -76,7 +83,7 @@ export default function OperationalLegal() {
       <h2
         className="text-[24px] md:text-[28px]"
         style={{
-          marginTop: '80px',
+          marginTop: '40px',
           fontFamily: '"Playfair Display", Georgia, serif',
           fontWeight: 400,
           color: '#232320',

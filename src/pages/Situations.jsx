@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Page from '../components/Page'
 
 const navigateItems = [
@@ -45,12 +46,12 @@ function DashList({ items }) {
   )
 }
 
-function H2({ children }) {
+function H2({ children, marginTop = '80px' }) {
   return (
     <h2
       className="text-[24px] md:text-[28px]"
       style={{
-        marginTop: '80px',
+        marginTop,
         fontFamily: '"Playfair Display", Georgia, serif',
         fontWeight: 400,
         color: '#232320',
@@ -63,6 +64,11 @@ function H2({ children }) {
 }
 
 export default function Situations() {
+  useEffect(() => {
+    document.body.setAttribute('data-page-title', 'Situations');
+    return () => document.body.removeAttribute('data-page-title');
+  }, []);
+
   return (
     <Page>
       <h1
@@ -74,14 +80,15 @@ export default function Situations() {
           maxWidth: '680px',
           lineHeight: 1.2,
           margin: 0,
+          marginBottom: '24px',
         }}
       >
         Difficult situations rarely begin all at once.
       </h1>
-      <H2>The situations we navigate.</H2>
+      <H2 marginTop="0">The situations we navigate.</H2>
       <DashList items={navigateItems} />
 
-      <H2>When our involvement matters most.</H2>
+      <H2 marginTop="40px">When our involvement matters most.</H2>
       <DashList items={involvementItems} />
     </Page>
   )

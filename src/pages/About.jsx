@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
 import Page from '../components/Page'
 
 export default function About() {
+  useEffect(() => {
+    document.body.setAttribute('data-page-title', 'About');
+    return () => document.body.removeAttribute('data-page-title');
+  }, []);
+
   return (
     <Page>
       <h1
