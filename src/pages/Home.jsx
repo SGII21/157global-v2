@@ -2,10 +2,10 @@ import Page from '../components/Page'
 
 const bullets = [
   'Pressure changes decision-making.',
+  'Early decisions often shape later outcomes.',
   'Information loses its truth under pressure.',
   'Delay compounds consequence.',
   'Legal environments are often shaped by broader operational, reputational, financial, and personal realities.',
-  'Early decisions often shape later outcomes.',
   'Facts and stability create time, options and leverage.',
 ]
 
@@ -88,18 +88,6 @@ export default function Home() {
       <section className="mt-14 md:mt-20">
         <p
           style={{
-            maxWidth: '640px',
-            fontFamily: 'Inter, Arial, sans-serif',
-            fontSize: '18px',
-            color: '#232320',
-            lineHeight: 1.75,
-          }}
-        >
-          Successful exits from difficult situations become harder as pressure, uncertainty, and competing realities increase.
-        </p>
-        <p
-          style={{
-            marginTop: '20px',
             maxWidth: '640px',
             fontFamily: 'Inter, Arial, sans-serif',
             fontSize: '18px',

@@ -14,14 +14,14 @@ export default function About() {
           margin: 0,
         }}
       >
-        Built from lived experience.
+        Thirty years working, not observing, in difficult situations.
       </h1>
       <div style={{ marginTop: '40px', maxWidth: '640px' }}>
         <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          157Global is built from 30 years of lived global experience inside difficult operational, financial, reputational, and legal realities. Where pressure, uncertainty, and consequence required correct decisions and movement to survive, let alone succeed.
+          157Global is built from 30 years of global experience inside difficult operational, financial, reputational, and legal realities. Where pressure, uncertainty, and consequence required correct decisions and movement to survive, let alone succeed.
         </p>
         <p style={{ margin: '28px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Our foundation is shaped by the experience of an operator building and operating organizations throughout North America, Central and Eastern Europe, and Southern Europe while also advising, operating, and leading inside one of the world's most demanding global conglomerates.
+          Our foundation is shaped from an operator building and operating organizations throughout North America, Central and Eastern Europe, and Southern Europe while also simultaneously advising, operating, and leading inside one of the world's most demanding global conglomerates.
         </p>
         <p style={{ margin: '28px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
           Through these experiences, we know that success out of difficult situations depends on experienced involvement before options narrow and positions harden.

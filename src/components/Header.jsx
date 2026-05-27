@@ -7,6 +7,7 @@ const links = [
   { label: 'Philosophy', path: '/philosophy' },
   { label: 'Situations', path: '/situations' },
   { label: 'Operational & Legal Reality', path: '/operational-legal-reality' },
+  { label: 'Representative Work', path: '/representative-work' },
   { label: 'Contact', path: '/contact' },
 ]
 
@@ -33,7 +34,7 @@ export default function Header() {
           right: 0,
           width: '100%',
           height: '72px',
-          background: 'rgba(242, 239, 233, 0.96)',
+          background: 'rgba(237, 237, 234, 0.96)',
           backdropFilter: 'blur(4px)',
           borderBottom: '1px solid rgba(35, 35, 32, 0.12)',
           zIndex: 40,
@@ -104,7 +105,7 @@ export default function Header() {
           style={{
             position: 'fixed',
             inset: 0,
-            background: '#F2EFE9',
+            background: '#EDEDEA',
             zIndex: 50,
             display: 'flex',
             alignItems: 'center',

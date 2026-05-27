@@ -1,12 +1,13 @@
 import Page from '../components/Page'
 
 const beliefs = [
-  'We exist to help clients navigate their worst moments.',
-  'Knowledge requires situational experience.',
+  'We exist to help clients through their worst moments.',
+  'Difficult situations affect more than balance sheets, public narratives, or legal positions. They affect people, families, organizations, livelihoods, reputations, and survivability.',
+  'Knowledge requires situational experience. Theory, credentials, and institutional language do not replace real operational experience inside difficult environments.',
+  'The work is not about institutional image. It is about solving the problem responsibly and effectively.',
+  'No crisis or legal matter is unavoidable. Decisions and perceptions are their catalysts.',
+  'Help should not be determined solely by how much someone can spend, but by our ability to help.',
   'Stewardship, humility, responsibility, and dignity of work matter.',
-  'It is not about how great we are. It is about how we can solve the problem.',
-  'No crisis or legal matter is unavoidable. Decisions and perceptions are often their catalysts.',
-  'Help should not be determined solely by how much someone can spend, but by our ability to help solve the problem.',
 ]
 
 export default function Philosophy() {
@@ -43,20 +44,6 @@ export default function Philosophy() {
           </li>
         ))}
       </ul>
-      <div style={{ marginTop: '48px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Difficult situations affect more than balance sheets, public narratives, or legal positions. They affect people, families, organizations, livelihoods, reputations, and survivability.
-        </p>
-        <p style={{ margin: '24px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Knowledge requires situational experience. Theory, credentials, and institutional language do not replace lived operational experience inside difficult environments.
-        </p>
-        <p style={{ margin: '24px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          The work is not about institutional image. It is about solving the problem responsibly and effectively.
-        </p>
-        <p style={{ margin: '24px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Help should not be determined solely by how much someone can spend, but by their need and our ability to help solve the problem.
-        </p>
-      </div>
     </Page>
   )
 }

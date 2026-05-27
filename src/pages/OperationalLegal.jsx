@@ -1,11 +1,12 @@
 import Page from '../components/Page'
 
 const shapeItems = [
-  'Legal consequence is often the downstream expression of earlier operational failures',
+  'Legal consequence is often the downstream expression of earlier decisions and operational failures',
   'Operational decisions often shape legal outcomes long before positions harden',
   'Pressure changes how people communicate, decide, and behave',
-  'Information in performance-driven environments is often sanitized as it moves upward',
+  'Information in performance-driven environments is often pasteurized and sanitized as it moves upward',
   'Reputation affects legal posture, negotiations, and survivability',
+  'Perception shapes legal posture and negotiating conditions',
   'Timing affects what remains possible',
 ]
 
@@ -54,7 +55,7 @@ export default function OperationalLegal() {
           Most disputes, investigations, and legal matters do not originate legally.
         </p>
         <p style={{ margin: '20px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          They often begin operationally, financially, reputationally, or through failures in communication, leadership, execution, or judgment — long before legal realities emerge.
+          They begin operationally, financially, reputationally, or through failures in communication, leadership, execution, or judgment, long before legal realities emerge.
         </p>
       </div>
 

@@ -5,6 +5,7 @@ import About from './pages/About'
 import Philosophy from './pages/Philosophy'
 import Situations from './pages/Situations'
 import OperationalLegal from './pages/OperationalLegal'
+import RepresentativeWork from './pages/RepresentativeWork'
 import Contact from './pages/Contact'
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="philosophy" element={<Philosophy />} />
         <Route path="situations" element={<Situations />} />
         <Route path="operational-legal-reality" element={<OperationalLegal />} />
+        <Route path="representative-work" element={<RepresentativeWork />} />
         <Route path="contact" element={<Contact />} />
       </Route>
     </Routes>
