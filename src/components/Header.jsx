@@ -41,7 +41,7 @@ export default function Header() {
       >
         <div
           style={{
-            maxWidth: '920px',
+            maxWidth: '1200px',
             margin: '0 auto',
             padding: '0 24px',
             height: '72px',
