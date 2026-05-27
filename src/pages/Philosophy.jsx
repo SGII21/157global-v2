@@ -30,7 +30,7 @@ export default function Philosophy() {
           marginBottom: '24px',
         }}
       >
-        What we believe.
+        Why we exist.
       </h1>
       <ul style={{ marginTop: '0', listStyle: 'none', padding: 0 }}>
         {beliefs.map((item) => (
