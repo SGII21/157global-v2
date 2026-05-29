@@ -102,7 +102,43 @@ export default function Home() {
             lineHeight: 1.75,
           }}
         >
-          We help to establish clarity, stabilize, and move forward.
+          Financial issues, litigation, regulatory exposure, and reputational damage are not the problem. They are the symptoms. The problem is what caused the symptoms: decisions, actions, lack of action, and even perception.
+        </p>
+        <p
+          style={{
+            marginTop: '20px',
+            maxWidth: '640px',
+            fontFamily: 'Inter, Arial, sans-serif',
+            fontSize: '18px',
+            color: '#232320',
+            lineHeight: 1.75,
+          }}
+        >
+          Addressing the symptom without understanding and resolving the underlying cause is a shortsighted fix. That is where most engagements fail.
+        </p>
+        <p
+          style={{
+            marginTop: '20px',
+            maxWidth: '640px',
+            fontFamily: 'Inter, Arial, sans-serif',
+            fontSize: '18px',
+            color: '#232320',
+            lineHeight: 1.75,
+          }}
+        >
+          When a situation requires additional capabilities, we listen, assess, engage the right people, and manage the full effort on behalf of the client.
+        </p>
+        <p
+          style={{
+            marginTop: '20px',
+            maxWidth: '640px',
+            fontFamily: 'Inter, Arial, sans-serif',
+            fontSize: '18px',
+            color: '#232320',
+            lineHeight: 1.75,
+          }}
+        >
+          We establish clarity, stabilize, and move forward, one point of accountability. No gaps.
         </p>
       </section>
     </Page>

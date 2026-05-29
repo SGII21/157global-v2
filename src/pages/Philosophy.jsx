@@ -4,7 +4,7 @@ import Page from '../components/Page'
 const beliefs = [
   'We exist to help clients through their worst moments.',
   'Difficult situations affect more than balance sheets, public narratives, or legal positions. They affect people, families, organizations, livelihoods, reputations, and survivability.',
-  'Knowledge requires situational experience. Theory, credentials, and institutional language do not replace real operational experience inside difficult environments.',
+  'Knowledge requires more than situational experience. Theory, credentials, and institutional language do not replace real operational experience inside difficult environments.',
   'The work is not about institutional image. It is about solving the problem responsibly and effectively.',
   'No crisis or legal matter is unavoidable. Decisions and perceptions are their catalysts.',
   'Help should not be determined solely by how much someone can spend, but by our ability to help.',
