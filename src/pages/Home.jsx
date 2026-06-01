@@ -42,7 +42,7 @@ export default function Home() {
             lineHeight: 1.75,
           }}
         >
-          Experience and judgment can create leverage. Leverage can create time. Time can create operational stability. Operational stability can create optionality. We help companies and individuals through their most difficult moments.
+          Experience and judgment can create leverage. Leverage can create time. Time can create operational stability. Operational stability can create optionality. We help companies and individuals before and through their most difficult moments.
         </p>
       </section>
 

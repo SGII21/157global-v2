@@ -5,9 +5,6 @@ const links = [
   { label: 'About', path: '/about' },
   { label: 'Philosophy', path: '/philosophy' },
   { label: 'Situations', path: '/situations' },
-  { label: 'Realities', path: '/operational-legal-reality' },
-  { label: 'Work', path: '/representative-work' },
-  { label: 'Contact', path: '/contact' },
 ]
 
 const desktopLinkStyle = ({ isActive }) => ({
@@ -22,6 +19,7 @@ const desktopLinkStyle = ({ isActive }) => ({
 
 export default function Header() {
   const [open, setOpen] = useState(false)
+  const [whoOpen, setWhoOpen] = useState(false)
 
   return (
     <>
@@ -71,7 +69,7 @@ export default function Header() {
             </svg>
           </a>
 
-          <nav className="hidden md:flex" style={{ marginLeft: 'auto', gap: '48px' }}>
+          <nav className="hidden md:flex" style={{ marginLeft: 'auto', gap: '48px', alignItems: 'center' }}>
             {links.map((link) => (
               <NavLink
                 key={link.path}
@@ -90,6 +88,89 @@ export default function Header() {
                 {link.label}
               </NavLink>
             ))}
+            <div
+              style={{ position: 'relative', display: 'flex', alignItems: 'center' }}
+              onMouseEnter={() => setWhoOpen(true)}
+              onMouseLeave={() => setWhoOpen(false)}
+            >
+              <span
+                style={{
+                  fontFamily: 'Inter, Arial, sans-serif',
+                  fontSize: '13px',
+                  letterSpacing: '0.06em',
+                  textTransform: 'uppercase',
+                  color: '#7A7670',
+                  cursor: 'pointer',
+                  transition: 'color 200ms ease',
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#232320'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#7A7670'}
+              >
+                Who We Serve
+              </span>
+              {whoOpen && (
+                <div
+                  style={{
+                    position: 'absolute',
+                    top: '100%',
+                    right: 0,
+                    background: 'rgba(237, 237, 234, 0.98)',
+                    border: '1px solid rgba(35, 35, 32, 0.12)',
+                    padding: '16px 24px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '16px',
+                    minWidth: '220px',
+                    zIndex: 50,
+                  }}
+                >
+                  <NavLink
+                    to="/operational-legal-reality"
+                    style={desktopLinkStyle}
+                    onMouseEnter={(e) => e.currentTarget.style.color = '#232320'}
+                    onMouseLeave={(e) => e.currentTarget.style.color = '#7A7670'}
+                  >
+                    For Counsel
+                  </NavLink>
+                  <NavLink
+                    to="/individuals-institutions"
+                    style={desktopLinkStyle}
+                    onMouseEnter={(e) => e.currentTarget.style.color = '#232320'}
+                    onMouseLeave={(e) => e.currentTarget.style.color = '#7A7670'}
+                  >
+                    Individuals & Institutions
+                  </NavLink>
+                </div>
+              )}
+            </div>
+            <NavLink
+              to="/representative-work"
+              style={desktopLinkStyle}
+              onMouseEnter={(event) => {
+                event.currentTarget.style.color = '#232320'
+              }}
+              onMouseLeave={(event) => {
+                if (!event.currentTarget.getAttribute('aria-current')) {
+                  event.currentTarget.style.color = '#7A7670'
+                }
+              }}
+            >
+              Work
+            </NavLink>
+            <NavLink
+              to="/contact"
+              style={desktopLinkStyle}
+              onMouseEnter={(event) => {
+                event.currentTarget.style.color = '#232320'
+              }}
+              onMouseLeave={(event) => {
+                if (!event.currentTarget.getAttribute('aria-current')) {
+                  event.currentTarget.style.color = '#7A7670'
+                }
+              }}
+            >
+              Contact
+            </NavLink>
           </nav>
 
           <button
@@ -159,6 +240,30 @@ export default function Header() {
                 {link.label}
               </NavLink>
             ))}
+            <NavLink
+              to="/operational-legal-reality"
+              onClick={() => setOpen(false)}
+              style={{
+                fontFamily: '"Playfair Display", Georgia, serif',
+                fontSize: '24px',
+                color: '#232320',
+                textDecoration: 'none',
+              }}
+            >
+              For Counsel
+            </NavLink>
+            <NavLink
+              to="/individuals-institutions"
+              onClick={() => setOpen(false)}
+              style={{
+                fontFamily: '"Playfair Display", Georgia, serif',
+                fontSize: '24px',
+                color: '#232320',
+                textDecoration: 'none',
+              }}
+            >
+              Individuals & Institutions
+            </NavLink>
           </nav>
         </div>
       )}

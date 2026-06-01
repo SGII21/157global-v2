@@ -22,6 +22,14 @@ const involvementItems = [
   'Time has not yet run out',
 ]
 
+const engageItems = [
+  'Instinct tells you something may be developing',
+  'The stakes are high enough that the wrong first move matters',
+  'You have good advisors, but no one is looking at the entire picture',
+  'You want someone who has been through it, not someone who has only studied it',
+  'You need experienced judgment before decisions become consequences',
+]
+
 function DashList({ items }) {
   return (
     <ul style={{ marginTop: '28px', listStyle: 'none', padding: 0 }}>
@@ -83,13 +91,46 @@ export default function Situations() {
           marginBottom: '24px',
         }}
       >
-        Difficult situations rarely begin all at once.
+        Situations
       </h1>
-      <H2 marginTop="0">The situations we navigate.</H2>
-      <DashList items={navigateItems} />
-
-      <H2 marginTop="40px">When our involvement matters most.</H2>
-      <DashList items={involvementItems} />
+      <p style={{ marginTop: '28px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
+        Some situations are obvious. Most sneak up.
+      </p>
+      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
+        They begin as decisions, opportunities, concerns, disagreements, unusual circumstances, or differing perceptions.
+      </p>
+      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
+        The earlier a situation is understood and addressed, the better the options.
+      </p>
+      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
+        Owners, investors, executives, and institutions bring us in early when they want an experienced perspective up front.
+      </p>
+      <H2 marginTop="40px">Engage us when:</H2>
+      <DashList items={[
+        'Instinct tells you something may be developing',
+        'A decision that carries a lot of weight is being considered',
+        'You have good advisors, but no one coordinating the entire picture',
+        'You want someone who has been through it, not someone who has only studied it or talked about it',
+        'You need experienced judgment before decisions create consequences',
+      ]} />
+      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
+        Others engage us when operations, relationships, finances, reputation, or outcomes begin to take a hit.
+      </p>
+      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
+        When that happens, experience matters.
+      </p>
+      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
+        157Global helps ownership assess the situation, identify priorities, coordinate resources when necessary, and focus attention on what matters most.
+      </p>
+      <H2 marginTop="40px">Engage us when:</H2>
+      <DashList items={[
+        'Uncertainty is affecting decision-making',
+        'Leadership lacks reliable information',
+        'Operational realities are creating legal, financial, or reputational concerns',
+        'Advisors are providing different answers',
+        'Time, resources, or options are becoming limited',
+        'The cost of inaction is increasing',
+      ]} />
     </Page>
   )
 }
