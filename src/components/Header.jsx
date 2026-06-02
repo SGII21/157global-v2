@@ -264,6 +264,30 @@ export default function Header() {
             >
               Individuals & Institutions
             </NavLink>
+            <NavLink
+              to="/representative-work"
+              onClick={() => setOpen(false)}
+              style={{
+                fontFamily: '"Playfair Display", Georgia, serif',
+                fontSize: '24px',
+                color: '#232320',
+                textDecoration: 'none',
+              }}
+            >
+              Work
+            </NavLink>
+            <NavLink
+              to="/contact"
+              onClick={() => setOpen(false)}
+              style={{
+                fontFamily: '"Playfair Display", Georgia, serif',
+                fontSize: '24px',
+                color: '#232320',
+                textDecoration: 'none',
+              }}
+            >
+              Contact
+            </NavLink>
           </nav>
         </div>
       )}
