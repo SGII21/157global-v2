@@ -240,6 +240,17 @@ export default function Header() {
                 {link.label}
               </NavLink>
             ))}
+            <span
+              style={{
+                fontFamily: 'Inter, Arial, sans-serif',
+                fontSize: '13px',
+                letterSpacing: '0.06em',
+                textTransform: 'uppercase',
+                color: '#7A7670',
+              }}
+            >
+              Who We Serve
+            </span>
             <NavLink
               to="/operational-legal-reality"
               onClick={() => setOpen(false)}
