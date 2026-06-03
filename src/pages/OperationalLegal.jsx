@@ -97,7 +97,7 @@ export default function OperationalLegal() {
           157Global is not a law firm, investigative agency, expert witness practice, or pseudo-legal advisory operation.
         </p>
         <p style={{ margin: '20px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          We work alongside counsel by helping organizations and individuals stabilize environments, improve grounded decision-making, reconstruct operational reality, preserve survivability, support disciplined movement, and improve execution quality under pressure.
+          We work alongside counsel by helping organizations and individuals stabilize environments, improve grounded decision-making, reconstruct operational reality, including under Kovel engagement where privilege requires it, preserve survivability, support disciplined movement, and improve execution quality under pressure.
         </p>
         <p style={{ margin: '20px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
           Our involvement is not limited to what we do directly. Thirty years of working inside difficult situations across multiple industries and jurisdictions has produced relationships with experienced professionals who understand what these moments actually require. We engage them when the situation calls for it, based on capability and experience, not proximity or convenience.

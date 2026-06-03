@@ -242,11 +242,15 @@ export default function Header() {
             ))}
             <span
               style={{
-                fontFamily: 'Inter, Arial, sans-serif',
-                fontSize: '13px',
-                letterSpacing: '0.06em',
-                textTransform: 'uppercase',
-                color: '#7A7670',
+                fontFamily: '"Playfair Display", Georgia, serif',
+                fontSize: '24px',
+                color: '#232320',
+                textDecoration: 'none',
+                background: 'rgba(35, 35, 32, 0.08)',
+                width: '100%',
+                textAlign: 'center',
+                padding: '12px 32px',
+                borderRadius: '4px',
               }}
             >
               Who We Serve
@@ -256,7 +260,7 @@ export default function Header() {
               onClick={() => setOpen(false)}
               style={{
                 fontFamily: '"Playfair Display", Georgia, serif',
-                fontSize: '24px',
+                fontSize: '20px',
                 color: '#232320',
                 textDecoration: 'none',
               }}
@@ -268,7 +272,7 @@ export default function Header() {
               onClick={() => setOpen(false)}
               style={{
                 fontFamily: '"Playfair Display", Georgia, serif',
-                fontSize: '24px',
+                fontSize: '20px',
                 color: '#232320',
                 textDecoration: 'none',
               }}
