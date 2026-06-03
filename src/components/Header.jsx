@@ -244,13 +244,13 @@ export default function Header() {
               style={{
                 fontFamily: '"Playfair Display", Georgia, serif',
                 fontSize: '24px',
-                color: '#232320',
+                color: '#EDEDEA',
                 textDecoration: 'none',
-                background: 'rgba(255, 255, 255, 0.12)',
+                background: '#3A3A37',
                 display: 'block',
                 width: '100%',
                 textAlign: 'center',
-                padding: '12px 32px',
+                padding: '16px 32px',
                 borderRadius: '4px',
               }}
             >
