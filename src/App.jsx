@@ -7,6 +7,7 @@ import Situations from './pages/Situations'
 import OperationalLegal from './pages/OperationalLegal'
 import IndividualsInstitutions from './pages/IndividualsInstitutions'
 import RepresentativeWork from './pages/RepresentativeWork'
+import Founder from './pages/Founder'
 import Contact from './pages/Contact'
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="operational-legal-reality" element={<OperationalLegal />} />
         <Route path="individuals-institutions" element={<IndividualsInstitutions />} />
         <Route path="representative-work" element={<RepresentativeWork />} />
+        <Route path="founder" element={<Founder />} />
         <Route path="contact" element={<Contact />} />
       </Route>
     </Routes>

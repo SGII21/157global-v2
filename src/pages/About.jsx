@@ -32,6 +32,23 @@ export default function About() {
         <p style={{ margin: '28px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
           Through these experiences, we know that success out of difficult situations depends on experienced involvement before options narrow and positions harden.
         </p>
+        <p style={{
+          fontFamily: 'Inter, Arial, sans-serif',
+          fontSize: '15px',
+          color: '#232320',
+          marginTop: '48px',
+        }}>
+          <a
+            href="/founder"
+            style={{
+              color: '#232320',
+              textDecoration: 'underline',
+              textUnderlineOffset: '3px',
+            }}
+          >
+            Our Founder
+          </a>
+        </p>
       </div>
     </Page>
   )
