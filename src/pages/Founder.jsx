@@ -41,10 +41,10 @@ export default function Founder() {
           alt="Skip Glass, Founder of 157Global"
           style={{
             width: '100%',
-            maxWidth: '480px',
+            maxWidth: '380px',
             height: 'auto',
             display: 'block',
-            margin: '48px 0',
+            margin: '64px auto',
           }}
         />
         <p style={{
