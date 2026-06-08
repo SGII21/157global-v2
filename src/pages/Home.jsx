@@ -26,7 +26,7 @@ export default function Home() {
             fontWeight: '400',
             color: '#232320',
             letterSpacing: '0.04em',
-            marginBottom: '2px',
+            marginBottom: '0px',
           }}>
             Private Advisory
           </p>
@@ -37,7 +37,7 @@ export default function Home() {
             color: '#7A7670',
             letterSpacing: '0.02em',
           }}>
-            Before and through difficulty.
+            Before and Through Difficulty.
           </p>
         </div>
         <h1
