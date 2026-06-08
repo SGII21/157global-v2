@@ -26,6 +26,7 @@ export default function Home() {
             fontWeight: '400',
             color: '#232320',
             letterSpacing: '0.04em',
+            lineHeight: '1',
             marginBottom: '0px',
           }}>
             Private Advisory
@@ -36,6 +37,8 @@ export default function Home() {
             fontWeight: '400',
             color: '#7A7670',
             letterSpacing: '0.02em',
+            lineHeight: '1',
+            marginTop: '0px',
           }}>
             Before and Through Difficulty.
           </p>
