@@ -1,3 +1,4 @@
 https://www.157global.com/* https://157global.com/:splat 301!
 http://157global.com/* https://157global.com/:splat 301!
 http://www.157global.com/* https://157global.com/:splat 301!
+/* /index.html 200
