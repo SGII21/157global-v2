@@ -48,7 +48,7 @@ export default function Header() {
             alignItems: 'center',
           }}
         >
-          <a href="/" style={{ display: 'inline-flex', flexDirection: 'column', alignItems: 'flex-start', gap: '4px', marginRight: '48px', flexShrink: 0, textDecoration: 'none' }}>
+          <a href="/" style={{ display: 'inline-flex', alignItems: 'center', marginRight: '48px', flexShrink: 0 }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 2006.01 1608.19"
@@ -67,19 +67,6 @@ export default function Header() {
                 <path d="M1895.06,232.63h-588.74l60.84-214.74h638.85c-159.26,492.11-284.53,578-322.11,1075.48h-212.95l424.11-860.74Z"/>
               </g>
             </svg>
-            <span
-              style={{
-                fontFamily: 'Inter, Arial, sans-serif',
-                fontSize: '11px',
-                letterSpacing: '0.08em',
-                textTransform: 'uppercase',
-                color: '#7A7670',
-                fontWeight: 400,
-                lineHeight: 1,
-              }}
-            >
-              Private Advisory. Before and through difficulty.
-            </span>
           </a>
 
           <nav className="hidden md:flex" style={{ marginLeft: 'auto', gap: '48px', alignItems: 'center' }}>

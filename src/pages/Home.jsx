@@ -19,6 +19,27 @@ export default function Home() {
   return (
     <Page className="!pb-0 md:!pb-0">
       <section style={{ paddingTop: '20px', paddingBottom: 0, marginTop: 0 }}>
+        <div style={{ marginBottom: '48px' }}>
+          <p style={{
+            fontFamily: '"Playfair Display", Georgia, serif',
+            fontSize: '28px',
+            fontWeight: '400',
+            color: '#232320',
+            letterSpacing: '0.04em',
+            marginBottom: '8px',
+          }}>
+            Private Advisory
+          </p>
+          <p style={{
+            fontFamily: '"Playfair Display", Georgia, serif',
+            fontSize: '18px',
+            fontWeight: '400',
+            color: '#7A7670',
+            letterSpacing: '0.02em',
+          }}>
+            Before and through difficulty.
+          </p>
+        </div>
         <h1
           className="text-[36px] md:text-[52px]"
           style={{
