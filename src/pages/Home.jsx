@@ -26,7 +26,7 @@ export default function Home() {
             fontWeight: '400',
             color: '#232320',
             letterSpacing: '0.04em',
-            marginBottom: '8px',
+            marginBottom: '2px',
           }}>
             Private Advisory
           </p>
