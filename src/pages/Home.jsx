@@ -46,7 +46,7 @@ export default function Home() {
             fontWeight: '300',
             color: '#7A7670',
             letterSpacing: '0.02em',
-            marginTop: '6px',
+            marginTop: '0px',
           }}>
             Applying real world experience to complex, pressing private and corporate concerns.
           </span>
