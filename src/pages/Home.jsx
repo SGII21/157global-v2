@@ -39,6 +39,7 @@ export default function Home() {
             letterSpacing: '0.02em',
             lineHeight: '1',
             marginTop: '0px',
+            marginBottom: '0px',
           }}>
             Before and Through Difficulty.
           </p>
@@ -49,7 +50,8 @@ export default function Home() {
             color: '#7A7670',
             letterSpacing: '0.02em',
             lineHeight: '1',
-            marginTop: '12px',
+            marginTop: '0px',
+            marginBottom: '0px',
           }}>
             Applying real world experience to complex, pressing private and corporate concerns.
           </p>
