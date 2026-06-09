@@ -26,6 +26,8 @@ export default function Home() {
             fontSize: '28px',
             fontWeight: '400',
             color: '#232320',
+            lineHeight: '1.2',
+            marginBottom: '0px',
           }}>
             Private Advisory
           </span>
@@ -36,7 +38,8 @@ export default function Home() {
             fontWeight: '400',
             color: '#7A7670',
             letterSpacing: '0.08em',
-            lineHeight: '1.1',
+            fontStyle: 'italic',
+            lineHeight: '1.2',
             marginTop: '0px',
           }}>
             Before and Through Difficulty.
@@ -48,6 +51,8 @@ export default function Home() {
             fontWeight: '300',
             color: '#7A7670',
             letterSpacing: '0.02em',
+            fontStyle: 'italic',
+            lineHeight: '1.2',
             marginTop: '0px',
           }}>
             Applying real world experience to complex, pressing private and corporate concerns.
