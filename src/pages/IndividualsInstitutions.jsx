@@ -40,54 +40,35 @@ export default function IndividualsInstitutions() {
           While corporations and individuals already have attorneys, accountants, financial advisors, bankers, and other professionals they trust, what is often missing is the experiential knowledge that allows an independent perspective focused on the entire picture.
         </p>
       </div>
-
       <h2
-        className="text-[24px] md:text-[28px]"
         style={{
           marginTop: '40px',
           fontFamily: '"Playfair Display", Georgia, serif',
           fontWeight: 400,
+          fontSize: '28px',
           color: '#232320',
           lineHeight: 1.3,
         }}
       >
         Real experience teaches certain realities:
       </h2>
-      <ul style={{ marginTop: '28px', listStyle: 'none', padding: 0 }}>
-        <li style={{ display: 'flex', gap: '10px', marginBottom: '14px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '17px', color: '#232320', lineHeight: 1.6 }}>
-          <span style={{ color: '#8C7355' }}>—</span>
-          <span>Decisions made without the full picture create consequences. Understanding the why behind the what often determines the outcome.</span>
-        </li>
-        <li style={{ display: 'flex', gap: '10px', marginBottom: '14px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '17px', color: '#232320', lineHeight: 1.6 }}>
-          <span style={{ color: '#8C7355' }}>—</span>
-          <span>Financial pressure changes how people communicate, decide, and behave.</span>
-        </li>
-        <li style={{ display: 'flex', gap: '10px', marginBottom: '14px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '17px', color: '#232320', lineHeight: 1.6 }}>
-          <span style={{ color: '#8C7355' }}>—</span>
-          <span>Situational knowledge will never match experiential knowledge.</span>
-        </li>
-        <li style={{ display: 'flex', gap: '10px', marginBottom: '14px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '17px', color: '#232320', lineHeight: 1.6 }}>
-          <span style={{ color: '#8C7355' }}>—</span>
-          <span>Reputation affects relationships, negotiating position, and outcomes.</span>
-        </li>
-        <li style={{ display: 'flex', gap: '10px', marginBottom: '14px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '17px', color: '#232320', lineHeight: 1.6 }}>
-          <span style={{ color: '#8C7355' }}>—</span>
-          <span>Leadership breakdown affects execution at every level.</span>
-        </li>
-        <li style={{ display: 'flex', gap: '10px', marginBottom: '14px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '17px', color: '#232320', lineHeight: 1.6 }}>
-          <span style={{ color: '#8C7355' }}>—</span>
-          <span>Timing affects what remains possible.</span>
-        </li>
-        <li style={{ display: 'flex', gap: '10px', marginBottom: '14px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '17px', color: '#232320', lineHeight: 1.6 }}>
-          <span style={{ color: '#8C7355' }}>—</span>
-          <span>Misunderstandings, assumptions, and perceptions become reality if left unaddressed.</span>
-        </li>
-        <li style={{ display: 'flex', gap: '10px', marginBottom: '14px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '17px', color: '#232320', lineHeight: 1.6 }}>
-          <span style={{ color: '#8C7355' }}>—</span>
-          <span>Sometimes success means stabilization, protection, or survival. Other times it means winning. Neither can be true without clarity and execution.</span>
-        </li>
+      <ul style={{ marginTop: '28px', listStyle: 'none', padding: 0, maxWidth: '640px' }}>
+        {[
+          'Decisions made without the full picture create consequences. Understanding the why behind the what often determines the outcome.',
+          'Financial pressure changes how people communicate, decide, and behave.',
+          'Situational knowledge will never match experiential knowledge.',
+          'Reputation affects relationships, negotiating position, and outcomes.',
+          'Leadership breakdown affects execution at every level.',
+          'Timing affects what remains possible.',
+          'Misunderstandings, assumptions, and perceptions become reality if left unaddressed.',
+          'Sometimes success means stabilization, protection, or survival. Other times it means winning. Neither can be true without clarity and execution.',
+        ].map((item, i) => (
+          <li key={i} style={{ display: 'flex', gap: '16px', marginBottom: '16px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '17px', color: '#232320', lineHeight: 1.65 }}>
+            <span style={{ flexShrink: 0, color: '#7A7670' }}>—</span>
+            <span>{item}</span>
+          </li>
+        ))}
       </ul>
-
       <div style={{ marginTop: '40px', maxWidth: '640px' }}>
         <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
           157Global works directly with individuals, business owners, investors, family enterprises, principals, and institutions to evaluate situations, identify risks, and create solutions.
