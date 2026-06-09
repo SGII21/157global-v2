@@ -19,42 +19,37 @@ export default function Home() {
   return (
     <Page className="!pb-0 md:!pb-0">
       <section style={{ paddingTop: '20px', paddingBottom: 0, marginTop: 0 }}>
-        <div style={{ marginBottom: '48px' }}>
-          <p style={{
+        <div style={{ marginBottom: '32px', lineHeight: '1.3' }}>
+          <span style={{
+            display: 'block',
             fontFamily: '"Playfair Display", Georgia, serif',
             fontSize: '28px',
             fontWeight: '400',
             color: '#232320',
-            letterSpacing: '0.04em',
-            lineHeight: '1',
-            marginBottom: '0px',
           }}>
             Private Advisory
-          </p>
-          <p style={{
+          </span>
+          <span style={{
+            display: 'block',
             fontFamily: '"Playfair Display", Georgia, serif',
-            fontSize: '18px',
+            fontSize: '13px',
             fontWeight: '400',
             color: '#7A7670',
-            letterSpacing: '0.02em',
-            lineHeight: '1',
-            marginTop: '0px',
-            marginBottom: '0px',
+            letterSpacing: '0.08em',
           }}>
             Before and Through Difficulty.
-          </p>
-          <p style={{
+          </span>
+          <span style={{
+            display: 'block',
             fontFamily: '"Inter", Arial, sans-serif',
-            fontSize: '14px',
+            fontSize: '13px',
             fontWeight: '300',
             color: '#7A7670',
             letterSpacing: '0.02em',
-            lineHeight: '1',
-            marginTop: '0px',
-            marginBottom: '0px',
+            marginTop: '6px',
           }}>
             Applying real world experience to complex, pressing private and corporate concerns.
-          </p>
+          </span>
         </div>
         <h1
           className="text-[36px] md:text-[52px]"
