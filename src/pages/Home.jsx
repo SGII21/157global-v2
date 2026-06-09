@@ -36,12 +36,14 @@ export default function Home() {
             fontWeight: '400',
             color: '#7A7670',
             letterSpacing: '0.08em',
+            lineHeight: '1.1',
+            marginTop: '0px',
           }}>
             Before and Through Difficulty.
           </span>
           <span style={{
             display: 'block',
-            fontFamily: '"Inter", Arial, sans-serif',
+            fontFamily: '"Playfair Display", Georgia, serif',
             fontSize: '13px',
             fontWeight: '300',
             color: '#7A7670',
