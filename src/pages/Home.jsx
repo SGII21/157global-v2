@@ -42,6 +42,17 @@ export default function Home() {
           }}>
             Before and Through Difficulty.
           </p>
+          <p style={{
+            fontFamily: '"Inter", Arial, sans-serif',
+            fontSize: '14px',
+            fontWeight: '300',
+            color: '#7A7670',
+            letterSpacing: '0.02em',
+            lineHeight: '1',
+            marginTop: '12px',
+          }}>
+            Applying real world experience to complex, pressing private and corporate concerns.
+          </p>
         </div>
         <h1
           className="text-[36px] md:text-[52px]"
