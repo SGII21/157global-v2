@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
         Owner and Data Controller
       </h2>
       <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
+        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
           157Global, LLC
         </p>
         <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
