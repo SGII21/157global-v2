@@ -9,6 +9,10 @@ import IndividualsInstitutions from './pages/IndividualsInstitutions'
 import RepresentativeWork from './pages/RepresentativeWork'
 import Founder from './pages/Founder'
 import Contact from './pages/Contact'
+import PrivacyPolicy from './pages/PrivacyPolicy'
+import CookiePolicy from './pages/CookiePolicy'
+import LegalNotice from './pages/LegalNotice'
+import TermsOfUse from './pages/TermsOfUse'
 
 export default function App() {
   return (
@@ -23,6 +27,10 @@ export default function App() {
         <Route path="representative-work" element={<RepresentativeWork />} />
         <Route path="founder" element={<Founder />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="cookie-policy" element={<CookiePolicy />} />
+        <Route path="legal-notice" element={<LegalNotice />} />
+        <Route path="terms-of-use" element={<TermsOfUse />} />
       </Route>
     </Routes>
   )
