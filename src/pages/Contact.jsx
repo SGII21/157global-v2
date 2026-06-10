@@ -46,6 +46,32 @@ export default function Contact() {
       >
         inquiries@157global.com
       </a>
+      <div
+        style={{
+          marginTop: '64px',
+          display: 'flex',
+          gap: '24px',
+          flexWrap: 'wrap',
+        }}
+      >
+        {['Privacy Policy', 'Cookie Policy', 'Legal Notice', 'Terms of Use'].map((label) => (
+          <a
+            key={label}
+            href={`/${label.toLowerCase().replace(/ /g, '-')}`}
+            style={{
+              fontFamily: 'Inter, Arial, sans-serif',
+              fontSize: '13px',
+              color: '#7A7670',
+              textDecoration: 'none',
+              letterSpacing: '0.02em',
+            }}
+            onMouseEnter={e => e.target.style.color = '#232320'}
+            onMouseLeave={e => e.target.style.color = '#7A7670'}
+          >
+            {label}
+          </a>
+        ))}
+      </div>
     </Page>
   )
 }
