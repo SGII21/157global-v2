@@ -45,10 +45,10 @@ export default function CookiePolicy() {
         <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
           157Global, LLC
         </p>
-        <p style={{ margin: '2px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
+        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
           201 N. Franklin Street, Tampa, Florida 33602, USA
         </p>
-        <p style={{ margin: '2px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
+        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
           Email: inquiries@157global.com
         </p>
       </div>
