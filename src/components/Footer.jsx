@@ -52,6 +52,36 @@ export default function Footer() {
       >
         © 2025 157Global LLC. All rights reserved.
       </div>
+      <div
+        style={{
+          fontFamily: 'Inter, Arial, sans-serif',
+          fontSize: '12px',
+          color: '#7A7670',
+          marginTop: '12px',
+          textAlign: 'center',
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'center',
+          gap: '24px',
+        }}
+      >
+        {['Privacy Policy', 'Cookie Policy', 'Legal Notice', 'Terms of Use'].map((label) => (
+          <a
+            key={label}
+            href={`/${label.toLowerCase().replace(/ /g, '-')}`}
+            style={{
+              fontFamily: 'Inter, Arial, sans-serif',
+              fontSize: '12px',
+              color: '#7A7670',
+              textDecoration: 'none',
+            }}
+            onMouseEnter={e => e.target.style.color = '#232320'}
+            onMouseLeave={e => e.target.style.color = '#7A7670'}
+          >
+            {label}
+          </a>
+        ))}
+      </div>
     </footer>
   )
 }
