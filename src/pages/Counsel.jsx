@@ -10,10 +10,22 @@ function Loading() {
 }
 
 const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink md:text-[17px]'
-const h3Class = 'mt-8 font-serif text-[20px] font-semibold italic text-ink'
+const h2Class = 'mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]'
 
 function Rule() {
   return <div className="my-10 h-px w-full bg-[rgba(30,30,28,0.15)]" />
+}
+
+function LabeledList({ items }) {
+  return (
+    <ul className="mt-5 space-y-3">
+      {items.map((item) => (
+        <li key={item.label} className="border-l border-accent pl-4 font-sans text-[17px] text-ink">
+          <span className="font-medium text-ink">{item.label}:</span> {item.text}
+        </li>
+      ))}
+    </ul>
+  )
 }
 
 export default function Counsel() {
@@ -31,45 +43,50 @@ export default function Counsel() {
   return (
     <PageLayout>
       <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
-        Supporting Legal Strategy through Facts and Narratives
+        Legal Counsel
       </h1>
       <p className={`${bodyClass} mt-8`}>
         Legal outcomes are determined by operational facts.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        Strong legal counsel knows that what actually happened, why it happened, what the records reflect, and what people knew at the time are not legal questions. They are operational realities which actively help or hurt the legal strategy.
+        Experienced legal counsel knows that what happened, why it happened, and what the records reflect are not legal questions. They are the reality that actively builds or destroys legal strategy.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        157Global is not a law firm, a traditional investigative agency, or an expert witness practice. Our job is to close the gap between what the legal strategy requires and what the operational facts support, building the exact leverage legal counsel needs.
+        157Global is not a law firm, a traditional investigative agency, or an expert witness practice. We close the gap between what the legal strategy requires and what the facts support, establishing the leverage counsel needs to win.
       </p>
 
       <Rule />
 
-      <h3 className={h3Class}>1. Before Positions Harden (Pre-Litigation)</h3>
-      <p className={`${bodyClass} mt-4`}>
-        Many legal matters are born long before a lawsuit is filed. We assist legal counsel and ownership by reconstructing messy timelines, separating fact from fiction, and uncovering the ground truth before public or legal positions become fixed. We align individual or business goals with the legal strategy while actively managing reputation and perception to gain early leverage.
-      </p>
-      <h3 className={h3Class}>2. During Active Proceedings & Pre-Litigation</h3>
-      <p className={`${bodyClass} mt-4`}>
-        We support legal counsel with deep financial reviews, operational analysis, and evidence-supported narrative construction. Where necessary, we operate under Kovel engagements and other privileged structures to protect investigations involving commercial fraud, white-collar defense, regulatory exposure, and complex litigation.
-      </p>
-      <h3 className={h3Class}>3. When the Business Must Survive the Lawsuit</h3>
-      <p className={`${bodyClass} mt-4`}>
-        We understand a brilliant legal strategy is useless if the company or individual goes under before or during the trial. Legal pressure usually brings financial distress, operational chaos, and cratering confidence. We step in to build a moat. We develop and execute a strategy to protect cash flow, stabilize operations, and address reputational and perception impacts, giving legal counsel the room and time they need to win the legal fight.
-      </p>
-      <h3 className={h3Class}>4. Direct Operational Intervention</h3>
-      <p className={`${bodyClass} mt-4`}>
-        If a client's business is actively deteriorating or leadership is compromised, we move from advisory to direct intervention. We can assume interim executive authority, take operational control, and stabilize stakeholders to ensure there is still a functioning business left to defend.
-      </p>
-      <h3 className={h3Class}>5. After Resolution</h3>
-      <p className={`${bodyClass} mt-4`}>
-        Settlements and judgments carry operational and reputational fallout that lasts long after the court case is closed. We manage that transition, rebuilding credibility, restoring market confidence, and structuring the business to move forward cleanly.
-      </p>
+      <h2 className={h2Class}>How We Support Legal Strategy</h2>
+      <LabeledList
+        items={[
+          {
+            label: 'Pre-Litigation Assessment',
+            text: 'Reconstructing messy timelines, separating fact from fiction, and uncovering what actively happened before public or legal positions harden. We align business goals with legal strategy while managing early reputation and perception.',
+          },
+          {
+            label: 'Active Proceedings',
+            text: 'Supporting counsel with deep financial reviews, operational analysis, reputation and perception strategy, and evidence-backed narrative construction. We routinely operate under Kovel engagements and protected structures involving high-stakes litigation, fraud, white-collar defense, and regulatory exposure.',
+          },
+          {
+            label: 'Crisis Stabilization',
+            text: 'Protecting cash flow, stabilizing operations, and managing external perception when legal pressure brings financial distress and cratering confidence. We build the operational moat that gives counsel the time and space they need to litigate.',
+          },
+          {
+            label: 'Operational Intervention',
+            text: "Assuming interim executive authority or operational control if a client's business is actively deteriorating or leadership is compromised. We work to extend the operational lifespan before, during, and after litigation.",
+          },
+          {
+            label: 'Post-Resolution Transition',
+            text: 'Managing the operational and reputational impact that lasts long after a settlement or judgment is closed to rebuild credibility, restore market confidence, and move the client forward cleanly.',
+          },
+        ]}
+      />
 
       <Rule />
 
-      <p className="font-serif text-[20px] italic leading-[1.6] text-ink">
-        Legal counsel who knows the gap between legal strategy and operational reality needs to be closed by experienced operators rely on us.
+      <p className={bodyClass}>
+        We turn facts into leverage.
       </p>
     </PageLayout>
   )

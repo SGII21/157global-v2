@@ -33,7 +33,7 @@ export default function Header() {
                 Individuals & Institutions
               </Link>
               <Link to="/who-we-serve/counsel" className={dropdownLinkClass}>
-                Counsel
+                Legal Counsel
               </Link>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function Header() {
                   Individuals & Institutions
                 </Link>
                 <Link to="/who-we-serve/counsel" className={navLinkClass} onClick={() => setMenuOpen(false)}>
-                  Counsel
+                  Legal Counsel
                 </Link>
               </div>
             )}
