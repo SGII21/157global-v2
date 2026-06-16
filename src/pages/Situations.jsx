@@ -32,7 +32,7 @@ function NumberedList({ items }) {
   return (
     <ol className="mt-5 space-y-3">
       {items.map((item, index) => (
-        <li key={item} className="border-l border-accent pl-4 font-sans text-[17px] text-ink">
+        <li key={index} className="border-l border-accent pl-4 font-sans text-[17px] text-ink">
           {index + 1}. {item}
         </li>
       ))}
@@ -123,7 +123,9 @@ export default function Situations() {
         items={[
           'Establish facts over assumptions.',
           'Isolate priorities immediately.',
-          'Build the leverage to protect what matters most and execute a workable path forward.',
+          <>
+            Build the leverage to protect what matters most and execute a <span className="whitespace-nowrap">workable path forward.</span>
+          </>,
         ]}
       />
     </PageLayout>
