@@ -27,16 +27,16 @@ export default function About() {
   return (
     <PageLayout>
       <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
-        157Global is built on over 30 years of direct accountability inside the world's most demanding operational, financial, and legal environments.
+        <span className="whitespace-nowrap">157Global</span> is built on over three decades of direct accountability inside the world's most demanding operational, financial, and legal environments.
       </h1>
       <p className={`${bodyClass} mt-8`}>
-        Our firm is built on the experiences and philosophy of an operator who has stood up, scaled, and advised organizations across North America, Central, Eastern, and Southern Europe. This includes years of direct leadership and advisory work within one of the world's most complex global conglomerates.
+        Our firm reflects the hands-on experience and philosophy of an operator who has built, scaled, and advised organizations across North America and Europe. This history includes years of direct operational leadership and strategic counsel within one of the world's most complex global conglomerates.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        Our capabilities were not developed through observation or consulting frameworks. They were forged through ownership of outcomes, where performance was mandatory and actions carried real consequences.
+        Our capabilities were not developed through academic observation or consulting frameworks. They were forged through the actual ownership of outcomes, where performance was mandatory and actions carried real consequences.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        We know that when a crisis hits, credentials and theoretical models fail. What matters is experienced involvement, tactical execution, and the ability to establish the leverage needed. That is 157Global.
+        We know that when a crisis hits, credentials and theoretical models fail. What matters is experienced involvement, tactical execution, and the ability to establish the leverage needed to survive.
       </p>
       <Link
         to="/about/founder"
