@@ -1,55 +1,49 @@
-import { useEffect } from 'react';
-import Page from '../components/Page'
+import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import PageLayout from '../components/PageLayout'
+
+function Loading() {
+  return (
+    <div className="flex min-h-screen items-center justify-center">
+      <div className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent" style={{ animation: 'spin 0.7s linear infinite' }} />
+    </div>
+  )
+}
+
+const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink md:text-[17px]'
 
 export default function About() {
+  const [loading, setLoading] = useState(true)
+
   useEffect(() => {
-    document.body.setAttribute('data-page-title', 'About');
-    return () => document.body.removeAttribute('data-page-title');
-  }, []);
+    const timer = setTimeout(() => setLoading(false), 400)
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (loading) {
+    return <Loading />
+  }
 
   return (
-    <Page>
-      <h1
-        className="text-[34px] md:text-[48px]"
-        style={{
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          maxWidth: '680px',
-          lineHeight: 1.2,
-          margin: 0,
-        }}
-      >
-        Thirty years working, not observing, in difficult situations.
+    <PageLayout>
+      <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
+        157Global is built on over 30 years of direct accountability inside the world's most demanding operational, financial, and legal environments.
       </h1>
-      <div style={{ marginTop: '40px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          157Global is built from 30 years of global experience inside difficult operational, financial, reputational, and legal realities. Where pressure, uncertainty, and consequence required correct decisions and movement to survive, let alone succeed.
-        </p>
-        <p style={{ margin: '28px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Our foundation is shaped from an operator building and operating organizations throughout North America, Central and Eastern Europe, and Southern Europe while also simultaneously advising, operating, and leading inside one of the world's most demanding global conglomerates.
-        </p>
-        <p style={{ margin: '28px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Through these experiences, we know that success out of difficult situations depends on experienced involvement before options narrow and positions harden.
-        </p>
-        <p style={{
-          fontFamily: 'Inter, Arial, sans-serif',
-          fontSize: '15px',
-          color: '#232320',
-          marginTop: '48px',
-        }}>
-          <a
-            href="/founder"
-            style={{
-              color: '#232320',
-              textDecoration: 'underline',
-              textUnderlineOffset: '3px',
-            }}
-          >
-            Our Founder
-          </a>
-        </p>
-      </div>
-    </Page>
+      <p className={`${bodyClass} mt-8`}>
+        Our firm is built on the experiences and philosophy of an operator who has stood up, scaled, and advised organizations across North America, Central, Eastern, and Southern Europe. This includes years of direct leadership and advisory work within one of the world's most complex global conglomerates.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Our capabilities were not developed through observation or consulting frameworks. They were forged through ownership of outcomes, where performance was mandatory and actions carried real consequences.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        We know that when a crisis hits, credentials and theoretical models fail. What matters is experienced involvement, tactical execution, and the ability to establish the leverage needed. That is 157Global.
+      </p>
+      <Link
+        to="/about/founder"
+        className="mt-8 inline-block font-sans text-[15px] text-accent transition-colors duration-200 hover:text-accent-hover hover:underline"
+      >
+        Meet our Founder
+      </Link>
+    </PageLayout>
   )
 }

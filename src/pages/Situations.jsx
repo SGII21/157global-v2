@@ -1,136 +1,107 @@
-import { useEffect } from 'react';
-import Page from '../components/Page'
+import { useEffect, useState } from 'react'
+import PageLayout from '../components/PageLayout'
 
-const navigateItems = [
-  'Leadership and stakeholder conflict',
-  'Operational or reputational issues',
-  'Legal disputes and external pressure',
-  'Contract or performance breakdown',
-  'Cross-border transition and complexity',
-  'Reliance on false data',
-]
-
-const involvementItems = [
-  'Instability appears',
-  'Pressure begins affecting decisions',
-  'Leadership becomes isolated from operational reality',
-  'Movement is paralyzed',
-  'Operational decisions begin affecting legal realities',
-  'Legal realities begin affecting operational ability',
-  'Reputation affects outcomes',
-  'Businesses are failing operationally while strategy is still being debated',
-  'Time has not yet run out',
-]
-
-const engageItems = [
-  'Instinct tells you something may be developing',
-  'The stakes are high enough that the wrong first move matters',
-  'You have good advisors, but no one is looking at the entire picture',
-  'You want someone who has been through it, not someone who has only studied it',
-  'You need experienced judgment before decisions become consequences',
-]
-
-function DashList({ items }) {
+function Loading() {
   return (
-    <ul style={{ marginTop: '28px', listStyle: 'none', padding: 0 }}>
+    <div className="flex min-h-screen items-center justify-center">
+      <div className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent" style={{ animation: 'spin 0.7s linear infinite' }} />
+    </div>
+  )
+}
+
+const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink md:text-[17px]'
+const h2Class = 'mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]'
+const h3Class = 'mt-8 font-serif text-[20px] font-semibold italic text-ink'
+
+function Rule() {
+  return <div className="my-10 h-px w-full bg-[rgba(30,30,28,0.15)]" />
+}
+
+function BulletList({ items }) {
+  return (
+    <ul className="mt-5 space-y-3">
       {items.map((item) => (
-        <li
-          key={item}
-          style={{
-            display: 'flex',
-            gap: '10px',
-            marginBottom: '14px',
-            fontFamily: 'Inter, Arial, sans-serif',
-            fontSize: '17px',
-            color: '#232320',
-            lineHeight: 1.6,
-          }}
-        >
-          <span style={{ color: '#8C7355' }}>—</span>
-          <span>{item}</span>
+        <li key={item} className="border-l border-accent pl-4 font-sans text-[17px] text-ink">
+          {item}
         </li>
       ))}
     </ul>
   )
 }
 
-function H2({ children, marginTop = '80px' }) {
-  return (
-    <h2
-      className="text-[24px] md:text-[28px]"
-      style={{
-        marginTop,
-        fontFamily: '"Playfair Display", Georgia, serif',
-        fontWeight: 400,
-        color: '#232320',
-        lineHeight: 1.3,
-      }}
-    >
-      {children}
-    </h2>
-  )
-}
-
 export default function Situations() {
+  const [loading, setLoading] = useState(true)
+
   useEffect(() => {
-    document.body.setAttribute('data-page-title', 'Situations');
-    return () => document.body.removeAttribute('data-page-title');
-  }, []);
+    const timer = setTimeout(() => setLoading(false), 400)
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (loading) {
+    return <Loading />
+  }
 
   return (
-    <Page>
-      <h1
-        className="text-[34px] md:text-[48px]"
-        style={{
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          maxWidth: '680px',
-          lineHeight: 1.2,
-          margin: 0,
-          marginBottom: '24px',
-        }}
-      >
+    <PageLayout>
+      <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         Situations
       </h1>
-      <p style={{ marginTop: '28px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-        Some situations are obvious. Most sneak up.
+      <p className={`${bodyClass} mt-8`}>
+        Most critical situations do not start as emergencies.
       </p>
-      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-        They begin as decisions, opportunities, concerns, disagreements, unusual circumstances, or differing perceptions.
+      <p className={`${bodyClass} mt-6`}>
+        They begin as standard decisions, new opportunities, shifting pressures, or quiet disagreements. By the time a problem is obvious, timelines are compressed, choices are becoming limited, and leverage is weakening. People engage 157Global when the stakes are high enough to require professionals who have navigated these exact scenarios before.
       </p>
-      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-        The earlier a situation is understood and addressed, the better the options.
+
+      <Rule />
+
+      <h2 className={h2Class}>Why People Call Us</h2>
+      <h3 className={h3Class}>Building Leverage Before a Concern Forms</h3>
+      <p className={`${bodyClass} mt-4`}>
+        We work with clients during major transitions to develop and execute a strategy to insulate them from future risk and establish early leverage.
       </p>
-      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-        Owners, investors, executives, and institutions bring us in early when they want an experienced perspective up front.
+      <BulletList
+        items={[
+          'A significant investment, transaction, or strategic decision is on the table.',
+          'Advisors are misaligned on the ultimate objective, slowing down momentum.',
+          'A leadership transition or restructuring threatens organizational stability.',
+          'A cross-border or cross-jurisdictional matter requires cultural and regulatory alignment.',
+          'Reputation and perception are vital to future success.',
+          "Questions on tactical strategy or upcoming activity don't have clear, positive outcomes.",
+        ]}
+      />
+
+      <Rule />
+
+      <h3 className={h3Class}>Regaining Leverage When Pressure Builds</h3>
+      <p className={`${bodyClass} mt-4`}>
+        We step in to stabilize operations, re-establish control, and win back leverage when a situation begins to slip.
       </p>
-      <H2 marginTop="40px">Engage us when:</H2>
-      <DashList items={[
-        'Instinct tells you something may be developing',
-        'A decision that carries a lot of weight is being considered',
-        'You have good advisors, but no one coordinating the entire picture',
-        'You want someone who has been through it, not someone who has only studied it or talked about it',
-        'You need experienced judgment before decisions create consequences',
-      ]} />
-      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-        Others engage us when operations, relationships, finances, reputation, or outcomes begin to take a hit.
+      <BulletList
+        items={[
+          'An acquisition is failing to deliver its expected results.',
+          'The business is underperforming and the root cause needs to be addressed.',
+          'Ownership groups, partnerships, or vital stakeholder relationships are deteriorating.',
+          'Leadership lacks reliable information, damaging the organization from within.',
+          'Financial, legal, and reputational concerns begin to compound or overlap.',
+          'A legal, regulatory, or governmental matter begins to develop.',
+          'Another party has gained leverage, shifting the power dynamic against our client.',
+        ]}
+      />
+
+      <Rule />
+
+      <h2 className={h2Class}>The Objective is Always the Same</h2>
+      <p className={`${bodyClass} mt-6`}>
+        Whether we enter a situation early to build leverage or come in late to manage a crisis, our mandate does not change:
       </p>
-      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-        When that happens, experience matters.
-      </p>
-      <p style={{ marginTop: '20px', maxWidth: '640px', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-        157Global helps ownership assess the situation, identify priorities, coordinate resources when necessary, and focus attention on what matters most.
-      </p>
-      <H2 marginTop="40px">Engage us when:</H2>
-      <DashList items={[
-        'Uncertainty is affecting decision-making',
-        'Leadership lacks reliable information',
-        'Operational realities are creating legal, financial, or reputational concerns',
-        'Advisors are providing different answers',
-        'Time, resources, or options are becoming limited',
-        'The cost of inaction is increasing',
-      ]} />
-    </Page>
+      <BulletList
+        items={[
+          'Establish facts over assumptions.',
+          'Isolate priorities immediately.',
+          'Build the leverage to protect what matters most and execute a workable path forward.',
+        ]}
+      />
+    </PageLayout>
   )
 }

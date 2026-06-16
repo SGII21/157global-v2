@@ -1,185 +1,110 @@
-import { useEffect } from 'react';
-import Page from '../components/Page'
+import { useEffect, useState } from 'react'
 
-const bullets = [
-  'Pressure changes decision-making.',
-  'Early decisions often shape later outcomes.',
-  'Information loses its truth under pressure.',
-  'Delay compounds consequence.',
-  'Legal environments are often shaped by broader operational, reputational, financial, and personal realities.',
-  'Facts and stability create time, options and leverage.',
-]
+function Loading() {
+  return (
+    <div className="flex min-h-screen items-center justify-center">
+      <div
+        className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent"
+        style={{ animation: 'spin 0.7s linear infinite' }}
+      />
+    </div>
+  )
+}
 
 export default function Home() {
+  const [loading, setLoading] = useState(true)
+
   useEffect(() => {
-    document.body.setAttribute('data-page-title', 'Home');
-    return () => document.body.removeAttribute('data-page-title');
-  }, []);
+    const timer = setTimeout(() => setLoading(false), 400)
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (loading) {
+    return <Loading />
+  }
 
   return (
-    <Page className="!pb-0 md:!pb-0">
-      <section style={{ paddingTop: '20px', paddingBottom: 0, marginTop: 0 }}>
-        <div style={{ marginBottom: '32px', lineHeight: '1.3' }}>
-          <span style={{
-            display: 'block',
-            fontFamily: '"Playfair Display", Georgia, serif',
-            fontSize: '28px',
-            fontWeight: '400',
-            color: '#232320',
-            lineHeight: '1.2',
-            marginBottom: '0px',
-          }}>
-            Private Advisory
-          </span>
-          <span style={{
-            display: 'block',
-            fontFamily: '"Playfair Display", Georgia, serif',
-            fontSize: '13px',
-            fontWeight: '400',
-            color: '#7A7670',
-            letterSpacing: '0.08em',
-            fontStyle: 'italic',
-            lineHeight: '1.2',
-            marginTop: '0px',
-          }}>
-            Before and Through Difficulty.
-          </span>
-          <span style={{
-            display: 'block',
-            fontFamily: '"Playfair Display", Georgia, serif',
-            fontSize: '13px',
-            fontWeight: '300',
-            color: '#7A7670',
-            letterSpacing: '0.02em',
-            fontStyle: 'italic',
-            lineHeight: '1.2',
-            marginTop: '0px',
-          }}>
-            Applying real world experience to complex, pressing private and corporate concerns.
-          </span>
+    <>
+      <section
+        className="relative flex h-screen w-full items-center justify-center bg-cover bg-center px-6"
+        style={{ backgroundImage: 'url("/LinkedIn_Banner.png")' }}
+      >
+        <div className="absolute inset-0 bg-hero-overlay" />
+        <div className="relative z-10 mx-auto max-w-4xl text-center text-white">
+          <img
+            src="/157Global-Stacked-Black-web.png"
+            alt="157Global"
+            className="mx-auto mb-8 w-[180px]"
+            style={{ filter: 'invert(1)' }}
+          />
+          <h1 className="font-serif text-[34px] font-bold leading-[1.1] text-white md:text-[52px]">
+            Experience That Counts, Support Before and Through Difficulty.
+          </h1>
         </div>
-        <h1
-          className="text-[36px] md:text-[52px]"
-          style={{
-            fontFamily: '"Playfair Display", Georgia, serif',
-            fontWeight: 400,
-            color: '#232320',
-            maxWidth: '680px',
-            lineHeight: 1.15,
-            margin: 0,
-          }}
-        >
-          Outcome depends on who you call.
-        </h1>
-        <p
-          style={{
-            marginTop: '32px',
-            maxWidth: '640px',
-            fontFamily: 'Inter, Arial, sans-serif',
-            fontSize: '18px',
-            color: '#232320',
-            lineHeight: 1.75,
-          }}
-        >
-          Experience and judgment can create leverage. Leverage can create time. Time can create operational stability. Operational stability can create optionality. We help companies and individuals before and through their most difficult moments.
-        </p>
       </section>
 
-      <section style={{ marginTop: '32px' }}>
-        <h2
-          className="text-[26px] md:text-[32px]"
-          style={{
-            fontFamily: '"Playfair Display", Georgia, serif',
-            fontWeight: 400,
-            color: '#232320',
-            maxWidth: '640px',
-            lineHeight: 1.25,
-            margin: 0,
-          }}
-        >
-          Difficult situations rarely begin when they become visible.
+      <section className="mx-auto max-w-3xl px-6 py-20">
+        <p className="font-sans text-[17px] leading-[1.75] text-ink">
+          Leverage is the power, resource, or ability to influence an outcome, a decision, or another person. Our job is to help individuals and companies establish leverage to successfully navigate high-stakes matters.
+        </p>
+
+        <div className="mt-8">
+          <h3 className="font-serif text-[20px] font-semibold italic text-ink">
+            Proactively
+          </h3>
+          <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
+            We step into deals, transactions, and strategic initiatives to ensure the structure and management of them create the leverage required for our client's success.
+          </p>
+        </div>
+
+        <div className="mt-8">
+          <h3 className="font-serif text-[20px] font-semibold italic text-ink">
+            Reactively
+          </h3>
+          <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
+            We are called when leverage is required in existing financial distress, legal exposure, or a reputational crisis to stop the bleeding, establish the narrative, extend the lifeline, and protect our clients' options.
+          </p>
+        </div>
+      </section>
+
+      <section className="bg-[rgba(30,30,28,0.06)] px-6 py-16">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]">
+            The Reality
+          </h2>
+          <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
+            Difficult situations start long before they become a visible issue. They begin as decisions, pressures, disagreements, or concerns. By the time a situation has a name, the options are already narrowing.
+          </p>
+          <ul className="mt-8 space-y-3">
+            {[
+              'Pressure changes decision-making.',
+              'Early decisions shape later outcomes.',
+              'Information loses its truth under pressure.',
+              'Delay compounds consequence.',
+              'Facts, stability, and experience create time, options, and leverage.',
+            ].map((item) => (
+              <li key={item} className="border-l border-accent pl-4 font-sans text-[17px] text-ink">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-6 py-20">
+        <h2 className="font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]">
+          What We Do
         </h2>
-        <p
-          style={{
-            marginTop: '24px',
-            fontFamily: 'Inter, Arial, sans-serif',
-            fontSize: '18px',
-            color: '#232320',
-          }}
-        >
-          Experience tells us:
+        <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
+          We bring order to chaos and experienced execution to strategy. We cut through the noise across financial, legal, and reputational fronts to build the path forward.
         </p>
-        <ul style={{ marginTop: '20px', listStyle: 'none', padding: 0 }}>
-          {bullets.map((item) => (
-            <li
-              key={item}
-              style={{
-                display: 'flex',
-                gap: '10px',
-                marginBottom: '12px',
-                fontFamily: 'Inter, Arial, sans-serif',
-                fontSize: '17px',
-                color: '#232320',
-                lineHeight: 1.6,
-              }}
-            >
-              <span style={{ color: '#8C7355' }}>—</span>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section style={{ paddingBottom: '80px' }}>
-        <p
-          style={{
-            marginTop: '24px',
-            maxWidth: '640px',
-            fontFamily: 'Inter, Arial, sans-serif',
-            fontSize: '18px',
-            color: '#232320',
-            lineHeight: 1.75,
-          }}
-        >
-          Financial issues, litigation, regulatory exposure, and reputational damage are not the problem. They are the symptoms. The problem is what caused the symptoms: decisions, actions, lack of action, and even perception.
+        <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
+          We do not learn on the job. We apply over three decades of direct operational and advisory experience to build leverage and protect our clients.
         </p>
-        <p
-          style={{
-            marginTop: '20px',
-            maxWidth: '640px',
-            fontFamily: 'Inter, Arial, sans-serif',
-            fontSize: '18px',
-            color: '#232320',
-            lineHeight: 1.75,
-          }}
-        >
-          Addressing the symptom without understanding and resolving the underlying cause is a shortsighted fix. That is where most engagements fail.
-        </p>
-        <p
-          style={{
-            marginTop: '20px',
-            maxWidth: '640px',
-            fontFamily: 'Inter, Arial, sans-serif',
-            fontSize: '18px',
-            color: '#232320',
-            lineHeight: 1.75,
-          }}
-        >
-          When a situation requires additional capabilities, we listen, assess, engage the right people, and manage the full effort on behalf of the client.
-        </p>
-        <p
-          style={{
-            marginTop: '20px',
-            maxWidth: '640px',
-            fontFamily: 'Inter, Arial, sans-serif',
-            fontSize: '18px',
-            color: '#232320',
-            lineHeight: 1.75,
-          }}
-        >
-          We establish clarity, stabilize, and move forward, one point of accountability. No gaps.
+        <p className="mt-6 font-serif text-[22px] italic text-ink">
+          Experience and judgment create leverage.
         </p>
       </section>
-    </Page>
+    </>
   )
 }

@@ -1,201 +1,63 @@
-import { useEffect } from 'react';
-import Page from '../components/Page'
+import { useEffect, useState } from 'react'
+import PageLayout from '../components/PageLayout'
+
+function Loading() {
+  return (
+    <div className="flex min-h-screen items-center justify-center">
+      <div className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent" style={{ animation: 'spin 0.7s linear infinite' }} />
+    </div>
+  )
+}
+
+const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink'
 
 export default function PrivacyPolicy() {
+  const [loading, setLoading] = useState(true)
+
   useEffect(() => {
-    document.body.setAttribute('data-page-title', 'Privacy Policy');
-    return () => document.body.removeAttribute('data-page-title');
-  }, []);
+    const timer = setTimeout(() => setLoading(false), 400)
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (loading) {
+    return <Loading />
+  }
 
   return (
-    <Page>
-      <h1
-        className="text-[34px] md:text-[48px]"
-        style={{
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          maxWidth: '680px',
-          lineHeight: 1.2,
-          margin: 0,
-          marginBottom: '24px',
-        }}
-      >
+    <PageLayout>
+      <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         Privacy Policy
       </h1>
-      <div style={{ marginTop: '40px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Last updated: June 10, 2026.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Owner and Data Controller
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
-          157Global, LLC
-        </p>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
-          201 N. Franklin Street, Tampa, Florida 33602, USA
-        </p>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
-          Email: inquiries@157global.com
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Data We Collect
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          We automatically collect usage data when you visit this site, including session statistics and number of users, processed through Google Analytics 4 operated by Google Ireland Limited.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Purpose of Processing
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Data is collected solely for analytics — to understand site traffic and improve the site. It is not used for marketing, profiling, or sale to third parties.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Legal Basis
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          For users in the European Union and United Kingdom, processing is based on consent. You may withdraw consent at any time through the cookie preferences panel.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Data Retention
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Personal data is retained only as long as required for the purposes collected, or as required by applicable law.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Your Rights
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Under GDPR and UK GDPR you have the right to access, correct, delete, restrict, or port your data, and to withdraw consent at any time. To exercise any right, contact inquiries@157global.com. Requests are answered within one month at no charge.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Third Party Processors
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Google Ireland Limited operates Google Analytics 4. Data is processed in Ireland. For details see Google's privacy policy.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Changes to This Policy
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          We reserve the right to update this policy. The current version is always available at this address.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Cookie Policy
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          This site uses cookies. For full details see our Cookie Policy at 157global.com/cookie-policy.
-        </p>
-      </div>
-    </Page>
+      <p className={`${bodyClass} mt-8`}>
+        Last updated: January 1, 2025
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        157Global LLC ("157Global," "we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you visit www.157global.com.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Information We Collect
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        We collect non-personally identifiable information automatically through Google Analytics, including pages visited, time spent on site, browser type, and general geographic location. We do not collect names, email addresses, or personal data unless you contact us directly.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        How We Use Information
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Analytics data is used solely to understand how visitors use our site and to improve content and performance. We do not sell, rent, or share this data with third parties for marketing purposes.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Cookies
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        We use cookies to support Google Analytics. You may decline cookies via the banner on our site. Declining cookies will disable analytics tracking but will not affect your ability to use the site.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Contact
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        If you have questions about this policy, contact us at inquiries@157global.com.
+      </p>
+    </PageLayout>
   )
 }

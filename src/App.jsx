@@ -1,37 +1,46 @@
-import { Route, Routes } from 'react-router-dom'
-import Layout from './components/Layout'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import CookieBanner from './components/CookieBanner'
 import Home from './pages/Home'
-import About from './pages/About'
-import Philosophy from './pages/Philosophy'
 import Situations from './pages/Situations'
-import OperationalLegal from './pages/OperationalLegal'
-import IndividualsInstitutions from './pages/IndividualsInstitutions'
-import RepresentativeWork from './pages/RepresentativeWork'
+import Individuals from './pages/Individuals'
+import Counsel from './pages/Counsel'
+import Philosophy from './pages/Philosophy'
+import Work from './pages/Work'
+import About from './pages/About'
 import Founder from './pages/Founder'
 import Contact from './pages/Contact'
 import PrivacyPolicy from './pages/PrivacyPolicy'
+import TermsOfUse from './pages/TermsOfUse'
 import CookiePolicy from './pages/CookiePolicy'
 import LegalNotice from './pages/LegalNotice'
-import TermsOfUse from './pages/TermsOfUse'
 
 export default function App() {
   return (
-    <Routes>
-      <Route element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="philosophy" element={<Philosophy />} />
-        <Route path="situations" element={<Situations />} />
-        <Route path="operational-legal-reality" element={<OperationalLegal />} />
-        <Route path="individuals-institutions" element={<IndividualsInstitutions />} />
-        <Route path="representative-work" element={<RepresentativeWork />} />
-        <Route path="founder" element={<Founder />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="cookie-policy" element={<CookiePolicy />} />
-        <Route path="legal-notice" element={<LegalNotice />} />
-        <Route path="terms-of-use" element={<TermsOfUse />} />
-      </Route>
-    </Routes>
+    <BrowserRouter>
+      <div className="bg-linen-texture min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/situations" element={<Situations />} />
+            <Route path="/who-we-serve/individuals-and-institutions" element={<Individuals />} />
+            <Route path="/who-we-serve/counsel" element={<Counsel />} />
+            <Route path="/philosophy" element={<Philosophy />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/about/founder" element={<Founder />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-use" element={<TermsOfUse />} />
+            <Route path="/cookie-policy" element={<CookiePolicy />} />
+            <Route path="/legal-notice" element={<LegalNotice />} />
+          </Routes>
+        </main>
+        <Footer />
+        <CookieBanner />
+      </div>
+    </BrowserRouter>
   )
 }

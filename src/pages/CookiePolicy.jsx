@@ -1,168 +1,63 @@
-import { useEffect } from 'react';
-import Page from '../components/Page'
+import { useEffect, useState } from 'react'
+import PageLayout from '../components/PageLayout'
+
+function Loading() {
+  return (
+    <div className="flex min-h-screen items-center justify-center">
+      <div className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent" style={{ animation: 'spin 0.7s linear infinite' }} />
+    </div>
+  )
+}
+
+const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink md:text-[17px]'
 
 export default function CookiePolicy() {
+  const [loading, setLoading] = useState(true)
+
   useEffect(() => {
-    document.body.setAttribute('data-page-title', 'Cookie Policy');
-    return () => document.body.removeAttribute('data-page-title');
-  }, []);
+    const timer = setTimeout(() => setLoading(false), 400)
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (loading) {
+    return <Loading />
+  }
 
   return (
-    <Page>
-      <h1
-        className="text-[34px] md:text-[48px]"
-        style={{
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          maxWidth: '680px',
-          lineHeight: 1.2,
-          margin: 0,
-          marginBottom: '24px',
-        }}
-      >
+    <PageLayout>
+      <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         Cookie Policy
       </h1>
-      <div style={{ marginTop: '40px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Last updated: June 10, 2026.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Owner and Data Controller
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
-          157Global, LLC
-        </p>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
-          201 N. Franklin Street, Tampa, Florida 33602, USA
-        </p>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
-          Email: inquiries@157global.com
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        What Are Trackers
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          This site uses cookies and similar tracking technologies. These may include cookies, unique identifiers, and embedded scripts that store or access information on your device.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Trackers We Use
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Necessary trackers: Technical cookies required for the site to function.
-        </p>
-        <p style={{ margin: '20px 0 0', fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Measurement trackers: Google Analytics 4, operated by Google Ireland Limited, used to analyze traffic and user behavior. Data processed in Ireland.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Managing Your Preferences
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          You may accept or decline non-essential trackers when you first visit this site. You may change your preferences at any time through the cookie preferences panel. You may also control cookies through your browser settings, though this does not allow control by category.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Consequences of Declining
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Declining non-essential trackers will disable Google Analytics. The site will continue to function normally.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Your Rights
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Under GDPR and UK GDPR you have the right to withdraw consent at any time. Contact inquiries@157global.com to exercise any data rights. Requests are answered within one month at no charge.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Changes to This Policy
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          We reserve the right to update this policy. The current version is always available at this address.
-        </p>
-      </div>
-    </Page>
+      <p className={`${bodyClass} mt-8`}>
+        Last updated: January 1, 2025
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        This Cookie Policy explains how 157Global LLC uses cookies on www.157global.com.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        What Are Cookies
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Cookies are small text files stored on your device when you visit a website. They help us understand how visitors use our site.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Cookies We Use
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        We use Google Analytics cookies to collect anonymous data about site traffic and usage. These cookies do not identify you personally.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Your Choices
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        When you first visit the site, you will be asked to accept or decline cookies. If you decline, analytics cookies will not be set. You can change your preference at any time by clearing your browser cookies and revisiting the site.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Contact
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        For questions about our cookie use, contact inquiries@157global.com.
+      </p>
+    </PageLayout>
   )
 }

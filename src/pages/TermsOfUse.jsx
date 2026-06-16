@@ -1,201 +1,69 @@
-import { useEffect } from 'react';
-import Page from '../components/Page'
+import { useEffect, useState } from 'react'
+import PageLayout from '../components/PageLayout'
+
+function Loading() {
+  return (
+    <div className="flex min-h-screen items-center justify-center">
+      <div className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent" style={{ animation: 'spin 0.7s linear infinite' }} />
+    </div>
+  )
+}
+
+const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink md:text-[17px]'
 
 export default function TermsOfUse() {
+  const [loading, setLoading] = useState(true)
+
   useEffect(() => {
-    document.body.setAttribute('data-page-title', 'Terms of Use');
-    return () => document.body.removeAttribute('data-page-title');
-  }, []);
+    const timer = setTimeout(() => setLoading(false), 400)
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (loading) {
+    return <Loading />
+  }
 
   return (
-    <Page>
-      <h1
-        className="text-[34px] md:text-[48px]"
-        style={{
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          maxWidth: '680px',
-          lineHeight: 1.2,
-          margin: 0,
-          marginBottom: '24px',
-        }}
-      >
+    <PageLayout>
+      <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         Terms of Use
       </h1>
-      <div style={{ marginTop: '40px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Last updated: June 10, 2026.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Nature of This Site
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          157Global LLC operates this website for informational purposes. Nothing on this site constitutes an offer of services, a consulting engagement, or a contractual relationship of any kind. No advisory or professional relationship is created by visiting this site, reading its content, or contacting us through it.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        No Professional Advice
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Content on this site is general in nature. It does not constitute legal, financial, operational, or other professional advice and should not be relied upon as such. Engagement of 157Global for any matter requires a separate written agreement.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
+      <p className={`${bodyClass} mt-8`}>
+        Last updated: January 1, 2025
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        By accessing www.157global.com, you agree to these Terms of Use. If you do not agree, please do not use this site.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Use of the Site
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        This site is provided for informational purposes only. Nothing on this site constitutes legal, financial, or professional advice. Use of any information on this site is at your own risk.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
         Intellectual Property
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          All content on this site, including text, design, and the 157Global name and mark, is the property of 157Global LLC. No content may be reproduced, distributed, or used without prior written permission.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        All content on this site, including text, design, and images, is the property of 157Global LLC and may not be reproduced without written permission.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
         Limitation of Liability
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          To the extent permitted by applicable law, 157Global LLC accepts no liability for loss or damage arising from use of this site or reliance on its content.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Third Party Links
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          This site may contain links to third party websites. 157Global LLC has no control over and accepts no responsibility for their content.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Privacy and Cookies
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          Use of this site is also governed by our Privacy Policy and Cookie Policy.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        157Global LLC is not liable for any damages arising from use of or inability to use this site.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
         Governing Law
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          These terms are governed by the laws of the State of Florida, United States. For users in the European Union or United Kingdom, mandatory consumer protection laws applicable in your jurisdiction apply alongside these terms.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
-        Changes
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          157Global LLC reserves the right to update these terms at any time. The current version will always be available at this address.
-        </p>
-      </div>
-
-      <h2
-        className="text-[24px] md:text-[28px]"
-        style={{
-          marginTop: '40px',
-          fontFamily: '"Playfair Display", Georgia, serif',
-          fontWeight: 400,
-          color: '#232320',
-          lineHeight: 1.3,
-        }}
-      >
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        These terms are governed by the laws of the State of New York.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
         Contact
-      </h2>
-      <div style={{ marginTop: '24px', maxWidth: '640px' }}>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.75 }}>
-          157Global LLC
-        </p>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
-          201 N. Franklin Street, Tampa, Florida 33602, USA
-        </p>
-        <p style={{ margin: 0, fontFamily: 'Inter, Arial, sans-serif', fontSize: '18px', color: '#232320', lineHeight: 1.3 }}>
-          inquiries@157global.com
-        </p>
-      </div>
-    </Page>
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Questions regarding these terms may be directed to inquiries@157global.com.
+      </p>
+    </PageLayout>
   )
 }

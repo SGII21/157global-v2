@@ -1,86 +1,61 @@
+import { Link } from 'react-router-dom'
+
+const footerLinkClass = 'font-sans text-[13px] text-[rgba(255,255,255,0.65)] transition-colors duration-200 hover:text-white'
+
 export default function Footer() {
   return (
-    <footer
-      style={{
-        width: '100%',
-        background: '#E3E3DF',
-        borderTop: '1px solid rgba(35, 35, 32, 0.12)',
-        padding: '40px 24px',
-      }}
-    >
-      <div
-        style={{
-          maxWidth: '1200px',
-          margin: '0 auto',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-        }}
-      >
-        <div
-          style={{
-            fontFamily: 'Inter, Arial, sans-serif',
-            fontSize: '13px',
-            letterSpacing: '0.06em',
-            textTransform: 'uppercase',
-            color: '#7A7670',
-          }}
-        >
-          157Global
+    <footer className="bg-black px-6 py-12">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid gap-10 md:grid-cols-4">
+          <div>
+            <Link to="/" aria-label="157Global Home">
+              <img
+                src="/157Global-Stacked-Black-web.png"
+                alt="157Global"
+                className="h-9 w-auto"
+                style={{ filter: 'invert(1)' }}
+              />
+            </Link>
+            <p className="mt-4 font-sans text-[12px] leading-relaxed text-ink-muted">
+              Senior operational advisory for high-stakes matters.
+            </p>
+          </div>
+
+          <nav className="flex flex-col gap-3">
+            <Link to="/" className={footerLinkClass}>Home</Link>
+            <Link to="/situations" className={footerLinkClass}>Situations</Link>
+            <Link to="/who-we-serve/individuals-and-institutions" className={footerLinkClass}>Who We Serve</Link>
+            <Link to="/philosophy" className={footerLinkClass}>Philosophy</Link>
+            <Link to="/work" className={footerLinkClass}>Work</Link>
+            <Link to="/about" className={footerLinkClass}>About</Link>
+            <Link to="/contact" className={footerLinkClass}>Contact</Link>
+          </nav>
+
+          <nav className="flex flex-col gap-3">
+            <Link to="/privacy-policy" className={footerLinkClass}>Privacy Policy</Link>
+            <Link to="/terms-of-use" className={footerLinkClass}>Terms of Use</Link>
+            <Link to="/cookie-policy" className={footerLinkClass}>Cookie Policy</Link>
+            <Link to="/legal-notice" className={footerLinkClass}>Legal Notice</Link>
+          </nav>
+
+          <div>
+            <a href="mailto:inquiries@157global.com" className={footerLinkClass}>
+              inquiries@157global.com
+            </a>
+            <p className="mt-3 font-sans text-[12px] text-[rgba(255,255,255,0.40)]">
+              157Global LLC
+            </p>
+          </div>
         </div>
-        <a
-          href="mailto:inquiries@157global.com"
-          style={{
-            fontFamily: 'Inter, Arial, sans-serif',
-            fontSize: '13px',
-            color: '#7A7670',
-            textDecoration: 'none',
-          }}
-        >
-          inquiries@157global.com
-        </a>
-      </div>
-      <div
-        style={{
-          fontFamily: 'Inter, Arial, sans-serif',
-          fontSize: '12px',
-          color: '#7A7670',
-          marginTop: '16px',
-          textAlign: 'center',
-          width: '100%',
-        }}
-      >
-        © 2025 157Global LLC. All rights reserved.
-      </div>
-      <div
-        style={{
-          fontFamily: 'Inter, Arial, sans-serif',
-          fontSize: '12px',
-          color: '#7A7670',
-          marginTop: '12px',
-          textAlign: 'center',
-          width: '100%',
-          display: 'flex',
-          justifyContent: 'center',
-          gap: '24px',
-        }}
-      >
-        {['Privacy Policy', 'Cookie Policy', 'Legal Notice', 'Terms of Use'].map((label) => (
-          <a
-            key={label}
-            href={`/${label.toLowerCase().replace(/ /g, '-')}`}
-            style={{
-              fontFamily: 'Inter, Arial, sans-serif',
-              fontSize: '12px',
-              color: '#7A7670',
-              textDecoration: 'none',
-            }}
-            onMouseEnter={e => e.target.style.color = '#232320'}
-            onMouseLeave={e => e.target.style.color = '#7A7670'}
-          >
-            {label}
-          </a>
-        ))}
+
+        <div className="mt-10 flex flex-col gap-3 border-t border-[rgba(255,255,255,0.10)] pt-5 md:flex-row md:justify-between">
+          <p className="font-sans text-[12px] text-[rgba(255,255,255,0.40)]">
+            © 2025 157Global LLC. All rights reserved.
+          </p>
+          <p className="font-sans text-[12px] text-[rgba(255,255,255,0.40)]">
+            157global.com
+          </p>
+        </div>
       </div>
     </footer>
   )
