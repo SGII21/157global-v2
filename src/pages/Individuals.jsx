@@ -42,12 +42,9 @@ export default function Individuals() {
 
   return (
     <PageLayout>
-      <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
-        Who We Serve
-      </h1>
-      <p className="mt-4 font-sans text-[15px] text-ink-muted">
+      <h1 className="font-sans text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         Individuals & Institutions
-      </p>
+      </h1>
       <p className={`${bodyClass} mt-8`}>
         We step in when the gravity of the situation requires professionals whose experience meets the level.
       </p>
