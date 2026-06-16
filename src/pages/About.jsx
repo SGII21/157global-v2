@@ -27,9 +27,12 @@ export default function About() {
   return (
     <PageLayout>
       <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
-        <span className="whitespace-nowrap">157Global</span> is built on over three decades of direct accountability inside the world's most demanding operational, financial, and legal environments.
+        About
       </h1>
       <p className={`${bodyClass} mt-8`}>
+        157Global is built on over three decades of direct accountability inside the world's most demanding operational, financial, and legal environments.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
         Our firm reflects the hands-on experience and philosophy of an operator who has built, scaled, and advised organizations across North America and Europe. This history includes years of direct operational leadership and strategic counsel within one of the world's most complex global conglomerates.
       </p>
       <p className={`${bodyClass} mt-6`}>
