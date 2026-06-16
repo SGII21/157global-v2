@@ -38,7 +38,7 @@ export default function Home() {
             style={{ filter: 'invert(1)' }}
           />
           <h1 className="font-serif text-[34px] font-bold leading-[1.1] text-white md:text-[52px]">
-            Experienced judgment for clients in difficult places.
+            Experienced judgment in difficult places.
           </h1>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function Home() {
         <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
           We do not learn on the job. We apply over three decades of direct operational and advisory experience to build leverage and protect our clients.
         </p>
-        <p className="mt-6 font-serif text-[22px] italic text-ink">
+        <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
           Experience dictates judgment. Judgment secures leverage.
         </p>
       </section>
