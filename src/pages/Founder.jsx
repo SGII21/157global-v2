@@ -32,7 +32,7 @@ export default function Founder() {
       <img
         src="/skip-glass.jpg"
         alt="Skip Glass"
-        className="mx-auto mb-10 block w-full max-w-[480px]"
+        className="mx-auto mb-10 block h-auto max-h-[450px] w-auto"
       />
       <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         Our Founder
