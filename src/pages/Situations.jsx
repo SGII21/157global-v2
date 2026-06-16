@@ -124,7 +124,7 @@ export default function Situations() {
           'Establish facts over assumptions.',
           'Isolate priorities immediately.',
           <>
-            Build the leverage to protect what matters most and execute a <span className="whitespace-nowrap">workable path forward.</span>
+            Build the leverage to protect what matters most and execute a <span className="whitespace-nowrap">clear path forward.</span>
           </>,
         ]}
       />
