@@ -16,6 +16,23 @@ function Rule() {
   return <div className="my-10 h-px w-full bg-[rgba(30,30,28,0.15)]" />
 }
 
+function CaseStudy({ title, challenge, action, outcome }) {
+  return (
+    <>
+      <h3 className={h3Class}>{title}</h3>
+      <p className={`${bodyClass} mt-4`}>
+        <span className="font-medium text-ink">The Challenge:</span> {challenge}
+      </p>
+      <p className={`${bodyClass} mt-4`}>
+        <span className="font-medium text-ink">The Action:</span> {action}
+      </p>
+      <p className={`${bodyClass} mt-4`}>
+        <span className="font-medium text-ink">The Outcome:</span> {outcome}
+      </p>
+    </>
+  )
+}
+
 export default function Work() {
   const [loading, setLoading] = useState(true)
 
@@ -31,53 +48,65 @@ export default function Work() {
   return (
     <PageLayout>
       <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
-        Experience That Counts: Case Studies in Leverage
+        Representative Work
       </h1>
       <p className={`${bodyClass} mt-8`}>
-        These matters are a small subset of the environments our leadership has lived in over the last three-plus decades.
+        These matters represent a subset of the high-stakes environments our leadership has navigated over the past three decades.
       </p>
 
       <Rule />
 
-      <h3 className={h3Class}>Gateway Turnaround</h3>
-      <p className={`${bodyClass} mt-4`}>
-        Retained by the board of a Euro 50 conglomerate during a critical gateway crisis, 157Global leadership created a solution to resolve compounding financial, labor, reputational, and quality failures. Operating under compressed timelines and intense political pressure, we stood up and ran a completely new independent company with complete P&L responsibility. We negotiated a revised labor agreement and implemented rigorous operating protocols and quality processes, while directly managing a union-represented workforce of over 300 employees. Over an eight-year tenure, the operation achieved the highest-rated quality performance in North America for the group while generating annual cost savings exceeding eight figures.
-      </p>
+      <CaseStudy
+        title="Enterprise Support"
+        challenge="Retained by the board of a Euro 50 conglomerate during a critical gateway issue involving compounding financial, labor, reputational, and quality failures under compressed timelines and intense political pressure."
+        action="Created and led a solution which included standing up an independent company with responsibility for P&L, establishing rigorous operating protocols and quality processes, and negotiating new agreements with labor to directly manage a union-represented workforce of over 300 employees."
+        outcome="Achieved the highest-rated quality performance in North America for the group while generating annual cost savings exceeding eight figures over an eight-year tenure."
+      />
 
       <Rule />
 
-      <h3 className={h3Class}>Institutional Operations</h3>
-      <p className={`${bodyClass} mt-4`}>
-        Following severe internal failures, a global enterprise faced continued legal, liability, reputational, and commercial exposure across multiple jurisdictions. The mandate came directly from the Chairman of the Management Board: design and execute a strategic solution under an aggressive timetable. We built, established, and operated an independent operational structure outside the main enterprise organization. This framework embedded essential enterprise functions while bypassing internal political strife and neutralizing risk across all fronts. The structure operated successfully for more than three decades without a single incident.
-      </p>
+      <CaseStudy
+        title="Institutional Operations"
+        challenge="Following internal failures, a global enterprise faced continued legal, liability, reputational, and commercial exposure across multiple jurisdictions, with a mandate directly from the Chairman of the Management Board."
+        action="Designed and executed an independent operational structure outside the main enterprise organization, embedding essential enterprise functions while bypassing internal political strife and neutralizing legal, reputational and commercial risk."
+        outcome="The structure operated successfully across the enterprise under 157Global leadership, through multiple CEO and Board transitions, for more than three decades without a single incident."
+      />
 
       <Rule />
 
-      <h3 className={h3Class}>Operational Support for Complex Legal Matters</h3>
-      <p className={`${bodyClass} mt-4`}>
-        We provide international organizations with the operational facts necessary to support complex legal strategies, working directly alongside outside litigation counsel, transactional attorneys, and in-house general counsel. Our engagements span preventative business structuring, pre-litigation advisory, active civil and white-collar criminal defense, and post-resolution stabilization. We reconstruct messy operational data, build evidence-supported narratives, and stabilize business functions to align corporate objectives with the legal strategy, securing realistic outcomes and legal leverage.
-      </p>
+      <CaseStudy
+        title="Operational Support for Complex Legal Matters"
+        challenge="International organizations required operational facts to support complex legal strategies across preventative business structuring, pre-litigation advisory, active civil and white-collar criminal defense, and post-resolution stabilization."
+        action="Worked directly alongside outside litigation counsel, transactional attorneys, and in-house general counsel to reconstruct messy operational data and build evidence-supported narratives."
+        outcome="Aligned corporate and principal's objectives with legal strategy, securing realistic outcomes and legal leverage."
+      />
 
       <Rule />
 
-      <h3 className={h3Class}>Reputation and Stakeholder Management</h3>
-      <p className={`${bodyClass} mt-4`}>
-        An organization facing severe reputational deterioration from negative public reporting and operational breakdowns required immediate intervention to protect confidence and organizational stability. We stepped in to isolate and fix the root operational failures while simultaneously controlling the narrative. By integrating targeted communications, disciplined stakeholder engagement, and operational corrections, we restored market confidence, protected organizational stability, and re-established the entity's competitive position in the global market.
-      </p>
+      <CaseStudy
+        title="Reputation and Stakeholder Management"
+        challenge="An organization facing severe reputational repercussions from public reporting and operational breakdowns required immediate intervention to protect confidence and organizational stability."
+        action="Isolated and fixed the root operational failures while simultaneously controlling the narrative through integrated communications and disciplined engagement."
+        outcome="Restored confidence, protected organizational stability, and protected the entity's competitive position in the global market."
+      />
 
       <Rule />
 
-      <h3 className={h3Class}>Post-Acquisition Integration</h3>
-      <p className={`${bodyClass} mt-4`}>
-        Following the acquisition of a significant stake in a ten-figure enterprise, the acquiring entity encountered deep cultural conflict, operational bottlenecks, and severe quality gaps that were not recognized prior to closing. Active resistance from the acquiree, paired with external government backing for the legacy owners, created a hostile operating environment. We stepped in to manage both operations and stakeholder politics, establishing an independent operating framework that bridged competing objectives and cultures. This allowed operations to continue profitably while protecting the investor's long-term capital and strategic interests.
-      </p>
+      <CaseStudy
+        title="Post-Acquisition Integration"
+        challenge="Following the acquisition of a significant stake in a ten-figure enterprise, the acquiring entity encountered deep cultural conflict, operational bottlenecks, and severe quality gaps not addressed prior to closing, compounded by active resistance from the acquiree and external government backing for the legacy owners."
+        action="Managed both operations and stakeholder politics, establishing an independent operating framework that bridged competing objectives and cultures."
+        outcome="Successfully protected the investor's long-term capital and strategic interests by achieving requirements and goals set forth in engagement."
+      />
 
       <Rule />
 
-      <h3 className={h3Class}>Government and Regulatory Navigation</h3>
-      <p className={`${bodyClass} mt-4`}>
-        Engaged following systemic compliance failures involving imports, exports, regulatory violations, and substantial liability exposure for a global enterprise. The assignment required building and running an operational structure capable of coordinating compliance, security, legal, and operational functions simultaneously, with zero margin for error or public exposure. We successfully met all regulatory requirements across multiple jurisdictions while maintaining uninterrupted operational continuity for more than three decades.
-      </p>
+      <CaseStudy
+        title="Government and Regulatory Navigation"
+        challenge="Engaged following systemic compliance failures involving imports, exports, regulatory violations, and substantial liability exposure for a global enterprise."
+        action="Built and ran an operational structure capable of coordinating compliance, security, legal, and operational functions simultaneously, with zero margin for error or public exposure."
+        outcome="Met all regulatory requirements across multiple jurisdictions while maintaining uninterrupted operational continuity for more than three decades."
+      />
     </PageLayout>
   )
 }
