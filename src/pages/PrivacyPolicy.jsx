@@ -29,34 +29,67 @@ export default function PrivacyPolicy() {
         Privacy Policy
       </h1>
       <p className={`${bodyClass} mt-8`}>
-        Last updated: January 1, 2025
+        Last updated: June 10, 2026.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        157Global LLC ("157Global," "we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you visit www.157global.com.
+        Owner and Data Controller
       </p>
       <p className={`${bodyClass} mt-6`}>
-        Information We Collect
+        157Global, LLC
       </p>
       <p className={`${bodyClass} mt-6`}>
-        We collect non-personally identifiable information automatically through Google Analytics, including pages visited, time spent on site, browser type, and general geographic location. We do not collect names, email addresses, or personal data unless you contact us directly.
+        201 N. Franklin Street, Tampa, Florida 33602, USA
       </p>
       <p className={`${bodyClass} mt-6`}>
-        How We Use Information
+        Email: inquiries@157global.com
       </p>
       <p className={`${bodyClass} mt-6`}>
-        Analytics data is used solely to understand how visitors use our site and to improve content and performance. We do not sell, rent, or share this data with third parties for marketing purposes.
+        Data We Collect
       </p>
       <p className={`${bodyClass} mt-6`}>
-        Cookies
+        We automatically collect usage data when you visit this site, including session statistics and number of users, processed through Google Analytics 4 operated by Google Ireland Limited.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        We use cookies to support Google Analytics. You may decline cookies via the banner on our site. Declining cookies will disable analytics tracking but will not affect your ability to use the site.
+        Purpose of Processing
       </p>
       <p className={`${bodyClass} mt-6`}>
-        Contact
+        Data is collected solely for analytics, to understand site traffic and improve the site. It is not used for marketing, profiling, or sale to third parties.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        If you have questions about this policy, contact us at inquiries@157global.com.
+        Legal Basis
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        For users in the European Union and United Kingdom, processing is based on consent. You may withdraw consent at any time through the cookie preferences panel.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Data Retention
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Personal data is retained only as long as required for the purposes collected, or as required by applicable law.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Your Rights
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Under GDPR and UK GDPR you have the right to access, correct, delete, restrict, or port your data, and to withdraw consent at any time. To exercise any right, contact inquiries@157global.com. Requests are answered within one month at no charge.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Third Party Processors
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Google Ireland Limited operates Google Analytics 4. Data is processed in Ireland. For details see Google's privacy policy.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Changes to This Policy
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        We reserve the right to update this policy. The current version is always available at this address.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Cookie Policy
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        This site uses cookies. For full details see our Cookie Policy at 157global.com/cookie-policy.
       </p>
     </PageLayout>
   )
