@@ -29,17 +29,18 @@ export default function Founder() {
 
   return (
     <PageLayout>
-      <img
-        src="/skip-glass.jpg"
-        alt="Skip Glass"
-        className="mx-auto mb-10 block h-auto max-h-[450px] w-auto"
-      />
-      <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
-        Our Founder
-      </h1>
-      <p className="mt-8 font-serif text-[22px] italic text-ink">
-        Skip Glass built 157&#8288;Global from more than 30 years of working inside difficult situations, not observing them.
-      </p>
+      <div className="pt-8 md:pt-10">
+        <img
+          src="/skip-glass.jpg"
+          alt="Skip Glass"
+          className="mx-auto mb-10 block h-auto max-h-[450px] w-auto"
+        />
+        <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
+          Our Founder
+        </h1>
+        <p className="mt-8 font-serif text-[22px] italic text-ink">
+          Skip Glass built this firm from more than 30 years of working inside difficult situations, not observing them.
+        </p>
       <p className={`${bodyClass} mt-6`}>
         From startups to global conglomerates, he earned his experience through operational leadership, performance, financial pressure, reputational crises, government and regulatory matters, and legal complexity across North America, Central, Eastern, and Southern Europe.
       </p>
@@ -54,7 +55,7 @@ export default function Founder() {
 
       <blockquote className="my-10 border-l-[3px] border-accent pl-6 font-serif text-[20px] italic leading-[1.6] text-ink">
         <p>
-          "I founded 157Global because when real problems hit, the room gets loud, the clock speeds up, and pressure takes over decision-making. That is when many friendships disappear.
+          "I founded <span style={{ whiteSpace: 'nowrap' }}>157Global</span> because when real problems hit, the room gets loud, the clock speeds up, and pressure takes over decision-making. That is when many friendships disappear.
         </p>
         <p className="mt-6">
           I built this firm on equal parts empathy and an unyielding desire for fairness. Our job is to step in, either before trouble starts or right in the middle of the chaos, and ensure the next actions are driven by seasoned judgment and disciplined execution, not bravado or emotional reaction."
@@ -63,6 +64,7 @@ export default function Founder() {
       <p className="font-sans text-[14px] text-ink-muted">
         Skip Glass, Founder, 157Global
       </p>
+      </div>
     </PageLayout>
   )
 }
