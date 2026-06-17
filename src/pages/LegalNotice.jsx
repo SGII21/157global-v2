@@ -10,6 +10,27 @@ function Loading() {
 }
 
 const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink md:text-[17px]'
+const h2Class = 'mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]'
+
+function ContactBlock() {
+  return (
+    <div className="mt-8">
+      {[
+        '157Global, LLC',
+        'Florida Limited Liability Company',
+        '201 N. Franklin Street, Tampa, Florida 33602, USA',
+        'Represented by: A.L. Skip Glass II, Managing Member',
+        'Phone: +1 813.462.2580',
+        'Email: inquiries@157global.com',
+        'Website: 157global.com',
+      ].map((item) => (
+        <p key={item} className={bodyClass}>
+          {item}
+        </p>
+      ))}
+    </div>
+  )
+}
 
 export default function LegalNotice() {
   const [loading, setLoading] = useState(true)
@@ -28,17 +49,17 @@ export default function LegalNotice() {
       <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         Legal Notice
       </h1>
-      <p className={`${bodyClass} mt-8`}>
-        157Global LLC is a limited liability company organized under the laws of the State of New York.
-      </p>
+
+      <ContactBlock />
+
+      <h2 className={h2Class}>Professional Disclaimer</h2>
       <p className={`${bodyClass} mt-6`}>
-        The information contained on this website is for general informational purposes only and does not constitute legal, financial, regulatory, or professional advice of any kind. No attorney-client or advisory relationship is created by use of this site or by contacting 157Global LLC through this site.
+        157Global, LLC is a private advisory firm. It does not provide legal representation, public accounting, tax advisory, or licensed investigative services. All services provided by 157Global are operational, strategic, and advisory in nature.
       </p>
+
+      <h2 className={h2Class}>Applicable Jurisdictions</h2>
       <p className={`${bodyClass} mt-6`}>
-        157Global LLC is not a law firm and does not provide legal services.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        All inquiries: inquiries@157global.com
+        This notice satisfies the legal disclosure requirements applicable in Germany, Austria, Italy, Spain, and the United Kingdom. For German and Austrian users, this page constitutes the required Impressum under §5 TMG and §25 MedienG respectively.
       </p>
     </PageLayout>
   )
