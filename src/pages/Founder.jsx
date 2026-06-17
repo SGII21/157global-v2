@@ -38,7 +38,7 @@ export default function Founder() {
         Our Founder
       </h1>
       <p className="mt-8 font-serif text-[22px] italic text-ink">
-        Skip Glass built <span className="whitespace-nowrap">157Global</span> from more than 30 years of working inside difficult situations, not observing them.
+        Skip Glass built 157&#8288;Global from more than 30 years of working inside difficult situations, not observing them.
       </p>
       <p className={`${bodyClass} mt-6`}>
         From startups to global conglomerates, he earned his experience through operational leadership, performance, financial pressure, reputational crises, government and regulatory matters, and legal complexity across North America, Central, Eastern, and Southern Europe.
