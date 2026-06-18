@@ -9,7 +9,8 @@ function Loading() {
   )
 }
 
-const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink md:text-[17px]'
+const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink'
+const h2Class = 'mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]'
 
 export default function CookiePolicy() {
   const [loading, setLoading] = useState(true)
@@ -29,34 +30,49 @@ export default function CookiePolicy() {
         Cookie Policy
       </h1>
       <p className={`${bodyClass} mt-8`}>
-        Last updated: January 1, 2025
+        Last updated: June 10, 2026.
+      </p>
+
+      <h2 className={h2Class}>Owner and Data Controller</h2>
+      <p className={`${bodyClass} mt-6`}>
+        157Global, LLC
+        <br />
+        201 N. Franklin Street, Tampa, Florida 33602, USA
+        <br />
+        Email: inquiries@157global.com
+      </p>
+
+      <h2 className={h2Class}>What Are Trackers</h2>
+      <p className={`${bodyClass} mt-6`}>
+        This site uses cookies and similar tracking technologies. These may include cookies, unique identifiers, and embedded scripts that store or access information on your device.
+      </p>
+
+      <h2 className={h2Class}>Trackers We Use</h2>
+      <p className={`${bodyClass} mt-6`}>
+        Necessary trackers: Technical cookies required for the site to function.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        This Cookie Policy explains how 157Global LLC uses cookies on www.157global.com.
+        Measurement trackers: Google Analytics 4, operated by Google Ireland Limited, used to analyze traffic and user behavior. Data processed in Ireland.
       </p>
+
+      <h2 className={h2Class}>Managing Your Preferences</h2>
       <p className={`${bodyClass} mt-6`}>
-        What Are Cookies
+        You may accept or decline non-essential trackers when you first visit this site. You may change your preferences at any time through the cookie preferences panel. You may also control cookies through your browser settings, though this does not allow control by category.
       </p>
+
+      <h2 className={h2Class}>Consequences of Declining</h2>
       <p className={`${bodyClass} mt-6`}>
-        Cookies are small text files stored on your device when you visit a website. They help us understand how visitors use our site.
+        Declining non-essential trackers will disable Google Analytics. The site will continue to function normally.
       </p>
+
+      <h2 className={h2Class}>Your Rights</h2>
       <p className={`${bodyClass} mt-6`}>
-        Cookies We Use
+        Under GDPR and UK GDPR you have the right to withdraw consent at any time. Contact inquiries@157global.com to exercise any data rights. Requests are answered within one month at no charge.
       </p>
+
+      <h2 className={h2Class}>Changes to This Policy</h2>
       <p className={`${bodyClass} mt-6`}>
-        We use Google Analytics cookies to collect anonymous data about site traffic and usage. These cookies do not identify you personally.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        Your Choices
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        When you first visit the site, you will be asked to accept or decline cookies. If you decline, analytics cookies will not be set. You can change your preference at any time by clearing your browser cookies and revisiting the site.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        Contact
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        For questions about our cookie use, contact inquiries@157global.com.
+        We reserve the right to update this policy. The current version is always available at this address.
       </p>
     </PageLayout>
   )
