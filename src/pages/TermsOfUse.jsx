@@ -9,7 +9,8 @@ function Loading() {
   )
 }
 
-const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink md:text-[17px]'
+const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink'
+const h2Class = 'mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]'
 
 export default function TermsOfUse() {
   const [loading, setLoading] = useState(true)
@@ -29,40 +30,56 @@ export default function TermsOfUse() {
         Terms of Use
       </h1>
       <p className={`${bodyClass} mt-8`}>
-        Last updated: January 1, 2025
+        Last updated: June 10, 2026.
       </p>
+
+      <h2 className={h2Class}>Nature of This Site</h2>
       <p className={`${bodyClass} mt-6`}>
-        By accessing www.157global.com, you agree to these Terms of Use. If you do not agree, please do not use this site.
+        157Global LLC operates this website for informational purposes. Nothing on this site constitutes an offer of services, a consulting engagement, or a contractual relationship of any kind. No advisory or professional relationship is created by visiting this site, reading its content, or contacting us through it.
       </p>
+
+      <h2 className={h2Class}>No Professional Advice</h2>
       <p className={`${bodyClass} mt-6`}>
-        Use of the Site
+        Content on this site is general in nature. It does not constitute legal, financial, operational, or other professional advice and should not be relied upon as such. Engagement of 157Global for any matter requires a separate written agreement.
       </p>
+
+      <h2 className={h2Class}>Intellectual Property</h2>
       <p className={`${bodyClass} mt-6`}>
-        This site is provided for informational purposes only. Nothing on this site constitutes legal, financial, or professional advice. Use of any information on this site is at your own risk.
+        All content on this site, including text, design, and the 157Global name and mark, is the property of 157Global LLC. No content may be reproduced, distributed, or used without prior written permission.
       </p>
+
+      <h2 className={h2Class}>Limitation of Liability</h2>
       <p className={`${bodyClass} mt-6`}>
-        Intellectual Property
+        To the extent permitted by applicable law, 157Global LLC accepts no liability for loss or damage arising from use of this site or reliance on its content.
       </p>
+
+      <h2 className={h2Class}>Third Party Links</h2>
       <p className={`${bodyClass} mt-6`}>
-        All content on this site, including text, design, and images, is the property of 157Global LLC and may not be reproduced without written permission.
+        This site may contain links to third party websites. 157Global LLC has no control over and accepts no responsibility for their content.
       </p>
+
+      <h2 className={h2Class}>Privacy and Cookies</h2>
       <p className={`${bodyClass} mt-6`}>
-        Limitation of Liability
+        Use of this site is also governed by our Privacy Policy and Cookie Policy.
       </p>
+
+      <h2 className={h2Class}>Governing Law</h2>
       <p className={`${bodyClass} mt-6`}>
-        157Global LLC is not liable for any damages arising from use of or inability to use this site.
+        These terms are governed by the laws of the State of Florida, United States. For users in the European Union or United Kingdom, mandatory consumer protection laws applicable in your jurisdiction apply alongside these terms.
       </p>
+
+      <h2 className={h2Class}>Changes</h2>
       <p className={`${bodyClass} mt-6`}>
-        Governing Law
+        157Global LLC reserves the right to update these terms at any time. The current version will always be available at this address.
       </p>
+
+      <h2 className={h2Class}>Contact</h2>
       <p className={`${bodyClass} mt-6`}>
-        These terms are governed by the laws of the State of New York.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        Contact
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        Questions regarding these terms may be directed to inquiries@157global.com.
+        157Global LLC
+        <br />
+        201 N. Franklin Street, Tampa, Florida 33602, USA
+        <br />
+        inquiries@157global.com
       </p>
     </PageLayout>
   )
