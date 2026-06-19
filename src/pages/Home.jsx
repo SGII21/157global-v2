@@ -47,9 +47,6 @@ export default function Home() {
         <p className="font-sans text-[17px] leading-[1.75] text-ink">
           <strong>Leverage:</strong> The power, resource, or ability to influence an outcome, a decision, or adversary.
         </p>
-        <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
-          We help individuals and companies establish the power, resources, and narrative required to control outcomes. Over three decades of direct operational experience.
-        </p>
 
         <div className="mt-8">
           <h3 className="font-serif text-[20px] font-semibold italic text-ink">
@@ -57,15 +54,6 @@ export default function Home() {
           </h3>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
             We step into deals, transactions, and strategic initiatives early to ensure the structure and management of the matter create the leverage required for success.
-          </p>
-        </div>
-
-        <div className="mt-8">
-          <h3 className="font-serif text-[20px] font-semibold italic text-ink">
-            During difficulty:
-          </h3>
-          <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            We enter when financial distress, legal exposure, or a reputational crisis means there is an immediate need for our experience. We step in to stop the bleeding, establish the narrative, extend the lifeline, and protect options.
           </p>
         </div>
 
