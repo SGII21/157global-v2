@@ -21,13 +21,13 @@ function CaseStudy({ title, challenge, action, outcome }) {
     <>
       <h3 className={h3Class}>{title}</h3>
       <p className={`${bodyClass} mt-4`}>
-        <span className="font-medium text-ink">The Challenge:</span> {challenge}
+        <strong>The Challenge:</strong> {challenge}
       </p>
       <p className={`${bodyClass} mt-4`}>
-        <span className="font-medium text-ink">The Action:</span> {action}
+        <strong>The Action:</strong> {action}
       </p>
       <p className={`${bodyClass} mt-4`}>
-        <span className="font-medium text-ink">The Outcome:</span> {outcome}
+        <strong>The Outcome:</strong> {outcome}
       </p>
     </>
   )

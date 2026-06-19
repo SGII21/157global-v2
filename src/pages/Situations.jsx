@@ -21,7 +21,7 @@ function LabeledList({ items }) {
     <ul className="mt-5 space-y-3">
       {items.map((item) => (
         <li key={item.label} className="border-l border-accent pl-4 font-sans text-[17px] text-ink">
-          <span className="font-medium text-ink">{item.label}:</span> {item.text}
+          <strong>{item.label}:</strong> {item.text}
         </li>
       ))}
     </ul>
