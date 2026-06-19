@@ -71,7 +71,7 @@ export default function Situations() {
 
       <h2 className={h2Class}>Building Leverage Early</h2>
       <p className={`${bodyClass} mt-4`}>
-        We work with clients during major transitions to insulate them from future risk and establish early leverage. We step in when:
+        We work with clients during major transitions to insulate them from future risk and establish early leverage. Common matters include:
       </p>
       <LabeledList
         items={[
@@ -94,7 +94,7 @@ export default function Situations() {
 
       <h2 className={h2Class}>Regaining Leverage Under Pressure</h2>
       <p className={`${bodyClass} mt-4`}>
-        We step in to stabilize operations, re-establish control, and defend reputation when a situation begins to slip. We are called when:
+        We step in to stabilize operations, re-establish control, and defend reputation when a situation begins to slip. Common matters include:
       </p>
       <LabeledList
         items={[
