@@ -69,6 +69,24 @@ export default function Home() {
           </p>
         </div>
 
+        <div className="mt-8">
+          <h3 className="font-serif text-[20px] font-semibold italic text-ink">
+            When the Pressure Hits
+          </h3>
+          <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
+            High-stakes threats commonly produce a predictable response. The brain narrows focus to the immediate threat and pushes towards action to make the threat go away, a defensive email, the panicked phone call, the payment.
+          </p>
+          <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
+            That reaction is exactly what the other side is counting on.
+          </p>
+          <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
+            We step into our client's chaos to interrupt that cycle. This means finding the point of pressure, such as an unvarnished fact, a shift in public perception, or a legal vulnerability, that completely neutralizes the opponent's advantage, regardless of how much bigger or wealthier that opponent is. Our experience allows us to operationalize behavior and facts into asymmetric leverage, ending the matter quickly and quietly.
+          </p>
+          <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
+            The difference between a quiet exit and a long, drawn-out public lawsuit is almost always the ability to convert facts into leverage.
+          </p>
+        </div>
+
         <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
           We do not learn on the job. We apply over three decades of direct operational and advisory experience to build leverage and protect our clients.
         </p>
