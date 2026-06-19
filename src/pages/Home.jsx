@@ -45,7 +45,7 @@ export default function Home() {
 
       <section className="mx-auto max-w-3xl px-6 py-20">
         <p className="font-sans text-[17px] leading-[1.75] text-ink">
-          Leverage: The power, resource, or ability to influence an outcome, a decision, or adversary.
+          <strong>Leverage:</strong> The power, resource, or ability to influence an outcome, a decision, or adversary.
         </p>
         <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
           We help individuals and companies establish the power, resources, and narrative required to control outcomes. Over three decades of direct operational experience.
