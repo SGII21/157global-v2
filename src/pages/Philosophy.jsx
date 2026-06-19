@@ -43,10 +43,10 @@ export default function Philosophy() {
   return (
     <PageLayout>
       <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
-        What We Believe
+        Why We Exist
       </h1>
       <p className={`${bodyClass} mt-8`}>
-        We exist to help clients protect their present and future through their most difficult moments.
+        To help clients protect their present and future through their most difficult moments.
       </p>
       <p className={`${bodyClass} mt-6`}>
         High-pressure situations affect more than balance sheets and legal briefs. They disrupt families, destroy livelihoods, and threaten survival. Our responsibility is to step in, uncover the facts, establish the leverage, and execute a workable path forward.
