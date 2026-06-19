@@ -119,6 +119,22 @@ export default function Individuals() {
       <p className={`${bodyClass} mt-6`}>
         We don't just analyze situations. We establish facts, protect options, and build the leverage to drive the outcome.
       </p>
+
+      <Rule />
+
+      <h2 className={h2Class}>We Are Not Consultants</h2>
+      <p className={`${bodyClass} mt-6`}>
+        Traditional consultants rely on data-heavy analysis and presentations focused on traditional growth, cost-cutting, technology implementation, and long-term scaling.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Legal counsel are experts in the letter of the law. Strong legal counsel knows the operational facts, financial complexity, and root causes that determine the outcome of a legal strategy are a different discipline entirely.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        We step in behind the scenes, out of the public record, moving the situation toward a quiet resolution before it becomes a permanent scar.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        We use facts, leverage, and strategic pressure to force outcomes. Then we exit.
+      </p>
     </PageLayout>
   )
 }
