@@ -36,7 +36,7 @@ export default function About() {
         Our firm reflects the hands-on experience and philosophy of an operator who has built, scaled, and advised organizations across North America and Europe. This history includes years of direct operational leadership and strategic counsel within one of the world's most complex global conglomerates.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        Our capabilities were not developed through academic observation or consulting frameworks. They were forged through the actual ownership of outcomes, where performance was mandatory and actions carried real consequences.
+        Our capabilities were not developed through academic observation or consulting frameworks. They were forged through the actual ownership of outcomes, where performance was mandatory and actions carried consequences.
       </p>
       <p className={`${bodyClass} mt-6`}>
         We know that when a crisis hits, credentials and theoretical models fail. What matters is experienced involvement, tactical execution, and the ability to establish the leverage needed to survive.
