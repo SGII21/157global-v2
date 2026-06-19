@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-black px-6 py-12">
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-10 md:grid-cols-4">
-          <div>
+          <div className="shrink-0">
             <Link to="/" aria-label="157Global Home">
               <img
                 src="/157Global-Stacked-Black-web.png"
@@ -16,8 +16,8 @@ export default function Footer() {
                 style={{ filter: 'invert(1)' }}
               />
             </Link>
-            <p className="mt-4 font-sans text-[12px] leading-relaxed text-ink-muted">
-              Senior operational advisory for high-stakes matters.
+            <p className="mt-4 whitespace-nowrap font-sans text-[11px] leading-relaxed text-ink-muted">
+              Operational Advisory for High-Stakes Matters
             </p>
           </div>
 
