@@ -50,7 +50,7 @@ export default function Founder() {
 
         <blockquote className="my-10 border-l-[3px] border-accent pl-6 font-serif text-[20px] italic leading-[1.6] text-ink">
           <p>
-            "I founded <span style={{ whiteSpace: 'nowrap', display: 'inline-block', wordBreak: 'keep-all', overflowWrap: 'normal', fontVariantNumeric: 'lining-nums', fontFeatureSettings: '"lnum" 1' }}>157Global</span> because when real problems hit, the room gets loud, the clock speeds up, and pressure can corrupt decision making. Many times, allies and friends disappear, creating a sense of aloneness.
+            "I founded <span style={{ whiteSpace: 'nowrap', display: 'inline-block', wordBreak: 'keep-all', overflowWrap: 'normal', fontVariantNumeric: 'lining-nums', fontFeatureSettings: '"lnum" 1' }}>157Global</span> because when real problems hit, the room gets loud, the clock speeds up, and pressure affects decision making. Many times, allies and friends disappear, creating a sense of aloneness.
           </p>
           <p className="mt-6">
             I’ve been there, for large clients and for my own organizations. That’s why this firm is built on equal parts empathy and equal parts a desire to help. We step into the chaos and ensure that our clients benefit from seasoned judgment and disciplined execution, not bravado or emotional reaction.”
