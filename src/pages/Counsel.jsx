@@ -83,7 +83,7 @@ export default function Counsel() {
         ]}
       />
 
-      <p className={bodyClass}>
+      <p className={`${bodyClass} mt-6`}>
         We turn facts into leverage.
       </p>
     </PageLayout>
