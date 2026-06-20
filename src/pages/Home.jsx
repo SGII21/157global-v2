@@ -70,7 +70,7 @@ export default function Home() {
             That reaction is exactly what the other side is counting on.
           </p>
           <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
-            We step into our client's chaos to interrupt that cycle. This means finding the point of pressure, such as an unvarnished fact, a shift in public perception, or a legal vulnerability, that completely neutralizes the opponent's advantage, regardless of how much bigger or wealthier that opponent is. Our experience allows us to operationalize behavior and facts into asymmetric leverage, ending the matter quickly and quietly.
+            We step into our client's chaos to interrupt that cycle. This means finding the point of pressure, such as an unvarnished fact, a shift in public perception, or a legal vulnerability, that neutralizes the opponent's advantage, regardless of how much bigger or wealthier that opponent is. Our experience allows us to operationalize behavior and facts into asymmetric leverage, ending the matter quickly and quietly.
           </p>
           <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
             The difference between a quiet exit and a long, drawn-out public lawsuit is almost always the ability to convert facts into leverage.
