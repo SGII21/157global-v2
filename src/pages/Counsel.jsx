@@ -46,9 +46,6 @@ export default function Counsel() {
         Legal Counsel
       </h1>
       <p className={`${bodyClass} mt-8`}>
-        Legal outcomes are determined by operational facts.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
         Experienced legal counsel knows that what happened, why it happened, and what the records reflect are not legal questions. They are the reality that actively builds or destroys legal strategy.
       </p>
       <p className={`${bodyClass} mt-6`}>

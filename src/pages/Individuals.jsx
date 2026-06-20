@@ -122,7 +122,7 @@ export default function Individuals() {
 
       <Rule />
 
-      <h2 className={h2Class}>We Are Not Consultants</h2>
+      <h2 className={h2Class}>We Are Operational Advisors</h2>
       <p className={`${bodyClass} mt-6`}>
         Traditional consultants rely on data-heavy analysis and presentations focused on traditional growth, cost-cutting, technology implementation, and long-term scaling.
       </p>
