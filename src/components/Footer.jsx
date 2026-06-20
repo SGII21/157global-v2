@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="shrink-0">
             <Link to="/" aria-label="157Global Home">
               <img
-                src="/157Global-Stacked-Black-web.png"
+                src="/157Global-Stacked-Black-web.webp"
                 alt="157Global"
                 className="h-9 w-auto"
                 style={{ filter: 'invert(1)' }}

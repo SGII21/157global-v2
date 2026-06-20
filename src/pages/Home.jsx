@@ -32,7 +32,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-hero-overlay" />
         <div className="relative z-10 mx-auto max-w-4xl text-center text-white">
           <img
-            src="/157Global-Stacked-Black-web.png"
+            src="/157Global-Stacked-Black-web.webp"
             alt="157Global"
             className="mx-auto mb-8 w-[180px]"
             style={{ filter: 'invert(1)' }}
