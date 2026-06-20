@@ -83,8 +83,6 @@ export default function Counsel() {
         ]}
       />
 
-      <Rule />
-
       <p className={bodyClass}>
         We turn facts into leverage.
       </p>
