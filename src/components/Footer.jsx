@@ -19,7 +19,7 @@ export default function Footer() {
               />
             </Link>
             <p className="mt-4 whitespace-nowrap font-sans text-[11px] leading-relaxed text-ink-muted">
-              Operational Advisory for High-Stakes Matters
+              High-Stakes Operational Advisory
             </p>
           </div>
 
