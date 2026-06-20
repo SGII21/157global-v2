@@ -34,6 +34,8 @@ export default function Home() {
           <img
             src="/157Global-Stacked-Black-web.webp"
             alt="157Global"
+            width="360"
+            height="289"
             className="mx-auto mb-8 w-[180px]"
             style={{ filter: 'invert(1)' }}
           />

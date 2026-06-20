@@ -16,6 +16,8 @@ export default function Header() {
           <img
             src="/157Global-Stacked-Black-web.webp"
             alt="157Global"
+            width="360"
+            height="289"
             className="h-10 w-auto md:h-12"
             style={{ filter: 'invert(1)' }}
           />

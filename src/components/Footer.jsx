@@ -12,6 +12,8 @@ export default function Footer() {
               <img
                 src="/157Global-Stacked-Black-web.webp"
                 alt="157Global"
+                width="360"
+                height="289"
                 className="h-9 w-auto"
                 style={{ filter: 'invert(1)' }}
               />
