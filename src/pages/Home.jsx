@@ -67,7 +67,7 @@ export default function Home() {
             Pressure causes reactive decisions, incomplete information, and remedies focused on immediate relief.
           </p>
           <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
-            157Global steps in to interrupt that cycle by identifying the point of pressure, whether it is an unvarnished fact, a shift in perception, a legal vulnerability, or another condition that improves the client's position.
+            157Global steps in to interrupt that cycle by identifying the point of pressure, whether it's an unvarnished fact, a shift in perception, a legal vulnerability, or another condition that improves the client's position.
           </p>
           <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
             Whatever form it takes, leverage changes outcomes.
