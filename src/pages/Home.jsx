@@ -47,15 +47,15 @@ export default function Home() {
 
       <section className="mx-auto max-w-3xl px-6 py-20">
         <p className="font-sans text-[17px] leading-[1.75] text-ink">
-          <strong>Leverage:</strong> The power, resource, or ability to influence an outcome, a decision, or adversary.
+          <strong>Leverage:</strong> The power, resource, or ability to influence an outcome, a decision, or an adversary.
         </p>
 
         <div className="mt-8">
           <h3 className="font-serif text-[20px] font-semibold italic text-ink">
-            Early on:
+            Early On
           </h3>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            We step into deals, transactions, and strategic initiatives early to ensure the structure and management of the matter create the leverage required for success.
+            We engage before positions harden, options narrow, and leverage is lost. Whether evaluating an investment, acquisition, strategic initiative, or developing concern, our objective is the same: establish facts, identify opportunities and risks, and create the leverage required to improve the client's position.
           </p>
         </div>
 
@@ -64,19 +64,19 @@ export default function Home() {
             When the Pressure Hits
           </h3>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            High-stakes threats commonly produce a predictable response. The brain narrows focus to the immediate threat and pushes towards action to make the threat go away, a defensive email, the panicked phone call, the payment.
+            Pressure causes reactive decisions, incomplete information, and remedies focused on immediate relief.
           </p>
           <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
-            That reaction is exactly what the other side is counting on.
+            157Global steps in to interrupt that cycle by identifying the point of pressure, whether it is an unvarnished fact, a shift in perception, a legal vulnerability, or another condition that changes the client's position.
           </p>
           <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
-            We step into our client's chaos to interrupt that cycle. This means finding the point of pressure, such as an unvarnished fact, a shift in public perception, or a legal vulnerability, that neutralizes the opponent's advantage, regardless of how much bigger or wealthier that opponent is. Our experience allows us to operationalize behavior and facts into asymmetric leverage, ending the matter faster and quieter.
+            Whatever form it takes, leverage changes outcomes.
+          </p>
+          <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
+            We apply more than three decades of operational and advisory experience to help protect what matters and move toward realistic outcomes.
           </p>
         </div>
 
-        <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
-          We do not learn on the job. We apply over three decades of direct operational and advisory experience to build leverage and protect our clients.
-        </p>
         <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
           Experience dictates judgment. Judgment secures leverage.
         </p>
