@@ -118,9 +118,7 @@ export default function Individuals() {
       <p className={`${bodyClass} mt-6`}>
         We don't just analyze situations. We establish facts, protect options, and build the leverage to drive the outcome.
       </p>
-      <p className={`${bodyClass} mt-6`}>
-        Then we exit.
-      </p>
+      <p className="font-sans text-xl font-semibold leading-snug text-ink mt-10">Then we exit.</p>
     </PageLayout>
   )
 }
