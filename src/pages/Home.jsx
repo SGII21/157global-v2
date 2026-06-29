@@ -11,6 +11,20 @@ function Loading() {
   )
 }
 
+const bodyClass = 'font-sans text-[17px] leading-[1.75] text-ink'
+
+function LabeledList({ items }) {
+  return (
+    <ul className="mt-5 space-y-3">
+      {items.map((item) => (
+        <li key={item.label} className="border-l border-accent pl-4 font-sans text-[17px] text-ink">
+          <strong>{item.label}:</strong> {item.text}
+        </li>
+      ))}
+    </ul>
+  )
+}
+
 export default function Home() {
   const [loading, setLoading] = useState(true)
 
@@ -46,8 +60,28 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-3xl px-6 py-20">
-        <p className="font-sans text-[17px] leading-[1.75] text-ink">
-          <strong>Leverage:</strong> The power, resource, or ability to influence an outcome, a decision, or an adversary.
+        <p className={bodyClass}>
+          Two questions always surface when facing difficulty in high-stakes matters:
+        </p>
+
+        <LabeledList
+          items={[
+            {
+              label: 'Prevention',
+              text: 'How do I avoid this?',
+            },
+            {
+              label: 'Resolution',
+              text: 'How do I get out of it fast and favorably?',
+            },
+          ]}
+        />
+
+        <p className={`${bodyClass} mt-6`}>
+          The answer is the same. <strong>Leverage:</strong> The power, resource, or ability to influence an outcome, a decision, or an adversary.
+        </p>
+        <p className={`${bodyClass} mt-6`}>
+          At 157Global we do not view leverage as a Hollywood concept. We view it as the critical difference between success and failure in high-stakes matters.
         </p>
 
         <div className="mt-8">
@@ -55,7 +89,7 @@ export default function Home() {
             Early On
           </h3>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            We engage before positions harden, options narrow, and leverage is lost. Whether evaluating an investment, acquisition, strategic initiative, or developing concern, our objective is the same: establish facts, identify opportunities and risks, and create the leverage required to improve the client's position.
+            We engage before positions harden, options narrow, and critical momentum is lost. Whether evaluating an aggressive investment, a crucial acquisition, or a developing concern, our objective is the same: establish facts, isolate risks, and build the leverage required to protect your position.
           </p>
         </div>
 
@@ -64,20 +98,20 @@ export default function Home() {
             When the Pressure Hits
           </h3>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Pressure causes reactive decisions, incomplete information, and remedies focused on immediate relief.
-          </p>
-          <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
-            157Global steps in to interrupt that cycle by identifying the point of pressure, whether it's an unvarnished fact, a shift in perception, a legal vulnerability, or another condition that improves the client's position.
-          </p>
-          <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
-            Whatever form it takes, leverage changes outcomes.
-          </p>
-          <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
-            We apply more than three decades of operational and advisory experience to help protect what matters and move toward realistic outcomes.
+            Pressure breeds reactive decisions, fragmented information, and panic-induced remedies. When a client faces an escalating threat from civil or criminal matters, we identify the point of pressure, be it an unvarnished fact, a shift in public perception, a legal vulnerability, or another condition that improves the client's position.
           </p>
         </div>
 
-        <p className="mt-6 font-sans text-[17px] leading-[1.75] text-ink">
+        <div className="mt-8">
+          <h3 className="font-serif text-[20px] font-semibold italic text-ink">
+            The Difference
+          </h3>
+          <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
+            Whatever form it takes, leverage changes outcomes. We deploy more than three decades of raw operational and advisory experience to protect what matters and move toward realistic, favorable resolutions.
+          </p>
+        </div>
+
+        <p className={`${bodyClass} mt-6`}>
           Experience dictates judgment. Judgment secures leverage.
         </p>
       </section>
