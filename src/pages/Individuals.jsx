@@ -45,11 +45,16 @@ export default function Individuals() {
       <h1 className="font-sans text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         Individuals & Institutions
       </h1>
-      <p className={`${bodyClass} mt-8`}>
-        We step in when the gravity of the situation requires professionals whose experience meets the level.
+
+      <h2 className={h2Class}>We Are Operational Advisors</h2>
+      <p className={`${bodyClass} mt-6`}>
+        We are not an army of analysts, academics, or single-field "experts" checking off boxes.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        We are not an army of analysts, academics, or single-field "experts" learning on your time. We are senior operators who apply decades of direct experience to evaluate risks, build options, and when necessary, step directly into the line of execution.
+        Traditional consultants rely on data-heavy analysis and presentations focused on traditional growth, cost-cutting, technology implementation, and long-term scaling.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Strong legal counsel is expert in the letter of the law and understands that the operational facts, financial complexity, and root causes of a matter are a different discipline entirely.
       </p>
 
       <Rule />
@@ -80,10 +85,10 @@ export default function Individuals() {
 
       <h2 className={h2Class}>How We Work</h2>
       <p className={`${bodyClass} mt-6`}>
-        Every engagement begins by establishing truthful facts, isolating real priorities, understanding best and worst possible outcomes, and determining whether a situation can be resolved with your current resources.
+        Clients don't need an explosion to call us. Elite founders, family offices, and institutions engage 157Global early to pressure-test assumptions, review major transactions, and identify hidden risks before a manageable concern becomes an existential crisis.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        Depending on the severity of the problem, our involvement ranges from quiet, high-level advisory to absolute operational control. We are called to provide:
+        But when there is an explosion, depending on the severity of the problem, our involvement ranges from quiet, high-level advisory to absolute operational control. We are called to provide:
       </p>
       <LabeledList
         items={[
@@ -101,7 +106,7 @@ export default function Individuals() {
           },
           {
             label: 'High-Stakes Management',
-            text: 'Supporting clients through intrusive legal, regulatory, governmental, or restructuring matters.',
+            text: 'Supporting clients and their legal team through intrusive legal, regulatory, governmental, or restructuring matters.',
           },
           {
             label: 'Unified Response',
@@ -110,30 +115,11 @@ export default function Individuals() {
         ]}
       />
 
-      <Rule />
-
-      <h2 className={h2Class}>Early Intervention</h2>
-      <p className={`${bodyClass} mt-6`}>
-        Clients don't need an explosion to call us. Elite founders, family offices, and institutions engage 157Global early to pressure-test assumptions, review major transactions, and identify hidden risks before a manageable concern becomes an existential crisis.
-      </p>
       <p className={`${bodyClass} mt-6`}>
         We don't just analyze situations. We establish facts, protect options, and build the leverage to drive the outcome.
       </p>
-
-      <Rule />
-
-      <h2 className={h2Class}>We Are Operational Advisors</h2>
       <p className={`${bodyClass} mt-6`}>
-        Traditional consultants rely on data-heavy analysis and presentations focused on traditional growth, cost-cutting, technology implementation, and long-term scaling.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        Legal counsel are experts in the letter of the law. Strong legal counsel knows the operational facts, financial complexity, and root causes that determine the outcome of a legal strategy are a different discipline entirely.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        We step in behind the scenes, out of the public record, moving the situation toward a quiet resolution before it becomes a permanent scar.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        We use facts, leverage, and strategic pressure to force outcomes. Then we exit.
+        Then we exit.
       </p>
     </PageLayout>
   )
