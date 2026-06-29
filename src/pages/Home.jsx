@@ -98,7 +98,7 @@ export default function Home() {
             When the Pressure Hits
           </h3>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Pressure breeds reactive decisions, fragmented information, and panic-induced remedies. When a client faces an escalating threat from civil or criminal matters, we identify the point of pressure, be it an unvarnished fact, a shift in public perception, a legal vulnerability, or another condition that improves the client's position.
+            Pressure creates reactive decisions, fragmented information, and panic-induced remedies. When a client faces an escalating threat from civil or criminal matters, we identify the point of pressure, whether an unvarnished fact, a shift in public perception, a legal vulnerability, or another condition that improves the client's position.
           </p>
         </div>
 
