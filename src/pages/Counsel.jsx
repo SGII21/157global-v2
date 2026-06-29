@@ -80,11 +80,11 @@ export default function Counsel() {
       <p className={`${bodyClass} mt-6`}>
         We use facts to create leverage for counsel.
       </p>
-      <p className={`${bodyClass} mt-6`}>
+      <div className="mt-6 border-l border-accent pl-4 font-sans text-[17px] text-ink">
         While confidentiality and discretion of contact are understood, please do not disclose any confidential or privileged information before proper protocols are established.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        Legal Intake: legal@157global.com
+      </div>
+      <p className="mt-6">
+        <a href="mailto:legal@157global.com?subject=Legal%20Support%20Inquiry" className="font-sans text-sm font-medium tracking-widest uppercase text-ink hover:opacity-60 transition-opacity">legal@157global.com</a>
       </p>
     </PageLayout>
   )
