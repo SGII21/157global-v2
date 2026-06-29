@@ -81,7 +81,7 @@ export default function Home() {
           The answer is the same. <strong>Leverage:</strong> The power, resource, or ability to influence an outcome, a decision, or an adversary.
         </p>
         <p className={`${bodyClass} mt-6`}>
-          At 157Global we do not view leverage as a Hollywood concept. We view it as the critical difference between success and failure in high-stakes matters.
+          At 157Global we do not see leverage as a Hollywood concept. We know it's the critical difference between success and failure in high-stakes matters.
         </p>
 
         <div className="mt-8">
