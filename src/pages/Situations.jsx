@@ -57,15 +57,6 @@ export default function Situations() {
       <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         Situations
       </h1>
-      <p className={`${bodyClass} mt-8`}>
-        Most critical situations do not start as emergencies.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        They begin as standard decisions, shifting pressures, or quiet disagreements. By the time a problem is obvious, timelines are compressed, choices are limited, and leverage is weakening.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        People engage 157Global when the stakes require professionals who have navigated these exact scenarios before.
-      </p>
 
       <Rule />
 
