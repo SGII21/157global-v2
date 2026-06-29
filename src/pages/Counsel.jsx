@@ -46,42 +46,45 @@ export default function Counsel() {
         Legal Counsel
       </h1>
       <p className={`${bodyClass} mt-8`}>
-        Experienced legal counsel knows that what happened, why it happened, and what the records reflect are not legal questions. They are the reality that actively builds or destroys legal strategy.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        157Global is not a law firm, a traditional investigative agency, or an expert witness practice. We close the gap between what the legal strategy requires and what the facts support, establishing the leverage counsel needs to win.
+        157Global is not a law firm, a traditional investigative agency, or an expert witness practice. We are experienced operators and advisors. We have navigated plaintiff, defense, and regulatory matters by closing the gap between what the legal strategy requires and what leverage the facts support.
       </p>
 
       <Rule />
 
-      <h2 className={h2Class}>How We Support Legal Strategy</h2>
+      <h2 className={h2Class}>How We Support Our Legal Colleagues</h2>
       <LabeledList
         items={[
           {
             label: 'Pre-Litigation Assessment',
-            text: 'Reconstructing messy timelines, separating fact from fiction, and uncovering what actively happened before public or legal positions harden. We align business goals with legal strategy while managing early reputation and perception.',
+            text: 'Reconstructing messy timelines and separating fact from fiction. Uncovering what actively happened before legal positions harden. Aligning business goals with legal strategy while managing early reputation and perception.',
           },
           {
             label: 'Active Proceedings',
-            text: 'Supporting counsel with deep financial reviews, operational analysis, reputation and perception strategy, and evidence-backed narrative construction. We routinely operate under Kovel engagements and protected structures involving high-stakes litigation, fraud, white-collar defense, and regulatory exposure.',
+            text: 'Operating under Kovel engagements and tailored privacy structures. Supporting domestic and international counsel in high-stakes litigation, regulatory investigations, and white-collar defense. Providing financial reviews, operational analysis, reputation strategy, and evidence-backed narratives.',
           },
           {
             label: 'Crisis Stabilization',
-            text: 'Protecting cash flow, stabilizing operations, and managing external perception when legal pressure brings financial distress and cratering confidence. We build the operational moat that gives counsel the time and space they need to litigate.',
+            text: 'Protecting cash flow and stabilizing operations. Managing external perception when legal pressure brings financial distress and cratering confidence. Establishing the operational moat to give counsel the time and space they need to litigate.',
           },
           {
             label: 'Operational Intervention',
-            text: "Assuming interim executive authority or operational control if a client's business is actively deteriorating or leadership is compromised. We work to extend the operational lifespan before, during, and after litigation.",
+            text: 'Assuming interim executive authority or operational control if business leadership is compromised. Working to extend the operational lifespan before, during, and after litigation.',
           },
           {
             label: 'Post-Resolution Transition',
-            text: 'Managing the operational and reputational impact that lasts long after a settlement or judgment is closed to rebuild credibility, restore market confidence, and move the client forward cleanly.',
+            text: 'Managing the operational and reputational impact that lasts long after a settlement or judgment is closed. Restoring market confidence and moving the client forward cleanly.',
           },
         ]}
       />
 
       <p className={`${bodyClass} mt-6`}>
-        We turn facts into leverage.
+        We use facts to create leverage for counsel.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        While confidentiality and discretion of contact are understood, please do not disclose any confidential or privileged information before proper protocols are established.
+      </p>
+      <p className={`${bodyClass} mt-6`}>
+        Legal Intake: legal@157global.com
       </p>
     </PageLayout>
   )
