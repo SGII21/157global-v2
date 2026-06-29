@@ -89,7 +89,7 @@ export default function Home() {
             Early On
           </h3>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            We engage before positions harden, options narrow, and critical momentum is lost. Whether evaluating an aggressive investment, a crucial acquisition, or a developing concern, our objective is the same: establish facts, isolate risks, and build the leverage required to protect your position.
+            We engage before positions harden, options narrow, and critical momentum is lost. Whether it's an aggressive investment, a crucial acquisition, or a developing concern, our objective is the same: establish facts, isolate risks, and build the leverage required to protect your position.
           </p>
         </div>
 
