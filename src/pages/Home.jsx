@@ -111,9 +111,7 @@ export default function Home() {
           </p>
         </div>
 
-        <p className={`${bodyClass} mt-6`}>
-          Experience dictates judgment. Judgment secures leverage.
-        </p>
+        <p className="font-sans text-3xl font-normal leading-snug text-ink">Experience dictates judgment. Judgment secures leverage.</p>
       </section>
     </>
   )
