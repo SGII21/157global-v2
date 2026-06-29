@@ -107,7 +107,7 @@ export default function Home() {
             The Difference
           </h3>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Whatever form it takes, leverage changes outcomes. We deploy more than three decades of raw operational and advisory experience to protect what matters and move toward realistic, favorable resolutions.
+            Whatever form it takes, leverage changes outcomes. Clients get our more than three decades of raw operational and advisory experience to protect what matters and move toward realistic, favorable resolutions.
           </p>
         </div>
 
