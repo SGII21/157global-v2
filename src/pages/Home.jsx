@@ -60,7 +60,7 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-3xl px-6 py-20">
-        <p className="font-sans text-2xl font-normal leading-snug text-ink">
+        <p className="font-sans text-3xl font-semibold leading-snug text-ink">
           Two questions in every high-stakes difficulty:
         </p>
 
