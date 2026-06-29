@@ -61,7 +61,7 @@ export default function Home() {
 
       <section className="mx-auto max-w-3xl px-6 py-20">
         <p className="font-sans text-2xl font-normal leading-snug text-ink">
-          Two questions always surface when facing difficulty in <span style={{ whiteSpace: 'nowrap' }}>high-stakes</span> matters:
+          Two questions in every high-stakes difficulty:
         </p>
 
         <LabeledList
