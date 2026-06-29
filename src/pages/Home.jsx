@@ -111,7 +111,7 @@ export default function Home() {
           </p>
         </div>
 
-        <p className="font-sans text-3xl font-normal leading-snug text-ink">Experience dictates judgment. Judgment secures leverage.</p>
+        <p className="font-sans text-xl font-semibold leading-snug text-ink">Experience dictates judgment. Judgment secures leverage.</p>
       </section>
     </>
   )
