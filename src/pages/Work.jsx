@@ -59,7 +59,7 @@ export default function Work() {
       <CaseStudy
         title="Enterprise Support"
         challenge="Retained by the board of a Euro 50 conglomerate during a critical gateway issue involving compounding financial, labor, reputational, and quality failures under compressed timelines and intense political pressure."
-        action="Created and led a solution which included standing up an independent company with responsibility for P&L, establishing rigorous operating protocols and quality processes, and negotiating new agreements with labor to directly manage a union-represented workforce of over 300 employees."
+        action="Created and led a solution which included standing up an independent company with P&L responsibility, establishing rigorous operating protocols and quality processes, and negotiating new labor agreements to directly manage a union-represented workforce of over 300 employees."
         outcome="Achieved the highest-rated quality performance in North America for the group while generating annual cost savings exceeding eight figures over an eight-year tenure."
       />
 
@@ -68,8 +68,8 @@ export default function Work() {
       <CaseStudy
         title="Institutional Operations"
         challenge="Following internal failures, a global enterprise faced continued legal, liability, reputational, and commercial exposure across multiple jurisdictions, with a mandate directly from the Chairman of the Management Board."
-        action="Designed and executed an independent operational structure outside the main enterprise organization, embedding essential enterprise functions while bypassing internal political strife and neutralizing legal, reputational and commercial risk."
-        outcome="The structure operated successfully across the enterprise under 157Global leadership, through multiple CEO and Board transitions, for more than three decades without a single incident."
+        action="Designed and executed an independent operational structure outside the core enterprise organization, embedding essential enterprise functions while bypassing internal political strife and neutralizing legal, reputational and commercial risk."
+        outcome="Operated successfully across the enterprise under 157Global leadership, through multiple CEO and Board transitions, for more than three decades without a single incident."
       />
 
       <Rule />
@@ -77,8 +77,8 @@ export default function Work() {
       <CaseStudy
         title="Operational Support for Complex Legal Matters"
         challenge="International organizations required operational facts to support complex legal strategies across preventative business structuring, pre-litigation advisory, active civil and white-collar criminal defense, and post-resolution stabilization."
-        action="Worked directly alongside outside litigation counsel, transactional attorneys, and in-house general counsel to reconstruct messy operational data and build evidence-supported narratives."
-        outcome="Aligned corporate and principal's objectives with legal strategy, securing realistic outcomes and legal leverage."
+        action="Worked directly alongside outside litigation counsel, transactional attorneys, and in-house general counsel to reconstruct operational data and build evidence-supported narratives."
+        outcome="Aligned corporate and principal's objectives with legal strategy, securing realistic outcomes and necessary legal leverage."
       />
 
       <Rule />
