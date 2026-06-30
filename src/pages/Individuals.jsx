@@ -119,6 +119,7 @@ export default function Individuals() {
         We don't just analyze situations. We establish facts, protect options, and build the leverage to drive the outcome.
       </p>
       <p className="font-sans text-xl font-semibold leading-snug text-ink mt-10">Then we exit.</p>
+      <a href="mailto:inquiries@157global.com?subject=157Global%20Inquiry" className="font-sans text-sm font-medium text-ink underline hover:opacity-60 transition-opacity mt-6 inline-block">Contact</a>
     </PageLayout>
   )
 }
