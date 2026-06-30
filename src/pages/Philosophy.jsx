@@ -42,9 +42,8 @@ export default function Philosophy() {
 
   return (
     <PageLayout>
-      <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
-        Why We Exist
-      </h1>
+      <h1 className="font-serif text-5xl font-bold text-ink">Philosophy</h1>
+      <h2 className={h2Class}>Why We Exist</h2>
       <p className={`${bodyClass} mt-8`}>
         To help clients protect their present and future through their most difficult moments.
       </p>
@@ -79,7 +78,7 @@ export default function Philosophy() {
           },
           {
             label: 'Execution Over Analysis',
-            text: 'We do not deliver a deck of recommendations and walk away. We execute the strategy, and then we exit.',
+            text: 'We do not deliver a deck of recommendations and walk away. We execute the strategy. Then we exit.',
           },
         ]}
       />
