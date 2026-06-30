@@ -48,7 +48,7 @@ export default function Individuals() {
 
       <h2 className={h2Class}>We Are Operational Advisors</h2>
       <p className={`${bodyClass} mt-6`}>
-        Traditional consultants rely on data-heavy decks, and legal counsel focuses strictly on the letter of the law. We specialize in the operational facts, financial complexities, and root-cause problem management required to successfully execute solutions.
+        Traditional consultants rely on data-heavy decks, and legal counsel focuses on the law. We specialize in the operational facts, financial complexities, and root-cause problem management required to successfully execute solutions.
       </p>
 
       <Rule />
