@@ -48,7 +48,7 @@ export default function Philosophy() {
         To help clients protect their present and future through their most difficult moments.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        High-pressure situations affect more than balance sheets and legal briefs. They disrupt families, destroy livelihoods, and threaten survival. Our responsibility is to step in, uncover the facts, establish the leverage, and execute a workable path forward.
+        High-pressure situations affect more than balance sheets and legal briefs. They disrupt families, destroy livelihoods, and threaten survival. We step in, uncover the facts, establish the leverage, and execute a workable path forward.
       </p>
 
       <Rule />
