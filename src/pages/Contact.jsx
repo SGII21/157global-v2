@@ -29,12 +29,7 @@ export default function Contact() {
       <p className="mt-8 font-sans text-[16px] leading-[1.75] text-ink md:text-[17px]">
         Confidentiality and discretion are understood.
       </p>
-      <a
-        href="mailto:inquiries@157global.com"
-        className="mt-6 inline-block font-sans text-[17px] text-accent transition-colors duration-200 hover:text-accent-hover hover:underline"
-      >
-        inquiries@157global.com
-      </a>
+      <a href="mailto:inquiries@157global.com?subject=157Global%20Inquiry" className="font-sans text-sm font-medium text-ink underline hover:opacity-60 transition-opacity inline-block">Contact</a>
     </PageLayout>
   )
 }
