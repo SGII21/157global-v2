@@ -51,10 +51,7 @@ export default function Individuals() {
         We are not an army of analysts, academics, or single-field "experts" checking off boxes.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        Traditional consultants rely on data-heavy analysis and presentations focused on traditional growth, cost-cutting, technology implementation, and long-term scaling.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
-        Strong legal counsel is expert in the letter of the law and understands that the operational facts, financial complexity, and root causes of a matter are a different discipline entirely.
+        Traditional consultants rely on data-heavy decks, and legal counsel focuses strictly on the letter of the law. We specialize in the operational facts, financial complexities, and root-cause problem management required to successfully execute solutions.
       </p>
 
       <Rule />
