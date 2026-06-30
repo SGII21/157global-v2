@@ -48,9 +48,6 @@ export default function Individuals() {
 
       <h2 className={h2Class}>We Are Operational Advisors</h2>
       <p className={`${bodyClass} mt-6`}>
-        We are not an army of analysts, academics, or single-field "experts" checking off boxes.
-      </p>
-      <p className={`${bodyClass} mt-6`}>
         Traditional consultants rely on data-heavy decks, and legal counsel focuses strictly on the letter of the law. We specialize in the operational facts, financial complexities, and root-cause problem management required to successfully execute solutions.
       </p>
 
