@@ -60,16 +60,16 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-3xl px-6 py-20">
-        <p className="font-sans text-xl font-semibold leading-snug text-ink">
-          Every high-stakes business or personal concern creates a question:
+        <p className="font-sans text-2xl font-semibold leading-snug text-ink">
+          Every personal or business concern creates questions:
         </p>
 
         <div className="mt-4 space-y-3">
           <div className="border-l-2 border-ink pl-4">
-            <p className={bodyClass}>How do I avoid this threat?</p>
+            <p className={bodyClass}><strong>Prevention:</strong> How do I avoid this threat?</p>
           </div>
           <div className="border-l-2 border-ink pl-4">
-            <p className={bodyClass}>How do I get out of it fast and favorably?</p>
+            <p className={bodyClass}><strong>Resolution:</strong> How do I get out of it fast and favorably?</p>
           </div>
         </div>
 
@@ -78,7 +78,7 @@ export default function Home() {
         </p>
 
         <div className="mt-8">
-          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink">
+          <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
             Structure
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
@@ -87,7 +87,7 @@ export default function Home() {
         </div>
 
         <div className="mt-8">
-          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink">
+          <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
             Trouble
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
@@ -96,7 +96,7 @@ export default function Home() {
         </div>
 
         <div className="mt-8">
-          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink">
+          <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
             The Difference
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
