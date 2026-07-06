@@ -60,29 +60,19 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-3xl px-6 py-20">
-        <p className="font-sans text-2xl font-semibold leading-snug text-ink">
+        <p className="font-sans text-xl font-semibold leading-snug text-ink">
           Every high-stakes business or personal concern creates a question:
         </p>
 
-        <LabeledList
-          items={[
-            {
-              label: '',
-              text: 'How do I avoid this threat?',
-            },
-            {
-              label: '',
-              text: 'How do I get out of it fast and favorably?',
-            },
-          ]}
-        />
+        <p className={`${bodyClass} mt-4`}>How do I avoid this threat?</p>
+        <p className={`${bodyClass} mt-2`}>How do I get out of it fast and favorably?</p>
 
         <p className={`${bodyClass} mt-6`}>
           The answer is the same. <strong>Leverage:</strong> To us leverage is not a Hollywood concept. It is the ability to influence an outcome, a decision, or an adversary in the client's favor.
         </p>
 
         <div className="mt-8">
-          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]">
+          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink">
             Structure
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
@@ -91,7 +81,7 @@ export default function Home() {
         </div>
 
         <div className="mt-8">
-          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]">
+          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink">
             Trouble
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
@@ -100,7 +90,7 @@ export default function Home() {
         </div>
 
         <div className="mt-8">
-          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]">
+          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink">
             The Difference
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
