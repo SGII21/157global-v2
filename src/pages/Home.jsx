@@ -60,18 +60,18 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-3xl px-6 py-20">
-        <p className="font-sans text-3xl font-semibold leading-snug text-ink">
+        <p className="font-sans text-2xl font-semibold leading-snug text-ink">
           Every high-stakes business or personal concern creates a question:
         </p>
 
         <LabeledList
           items={[
             {
-              label: 'Prevention',
+              label: '',
               text: 'How do I avoid this threat?',
             },
             {
-              label: 'Resolution',
+              label: '',
               text: 'How do I get out of it fast and favorably?',
             },
           ]}
@@ -82,27 +82,27 @@ export default function Home() {
         </p>
 
         <div className="mt-8">
-          <h3 className="font-serif text-[20px] font-semibold italic text-ink">
+          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]">
             Structure
-          </h3>
+          </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
             We proactively engage before a situation develops and options narrow. Whether it is an aggressive investment, a crucial acquisition, or a potential vulnerability, our objective is the same: establish facts, isolate risks, and build the leverage required to protect our clients.
           </p>
         </div>
 
         <div className="mt-8">
-          <h3 className="font-serif text-[20px] font-semibold italic text-ink">
+          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]">
             Trouble
-          </h3>
+          </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
             Trouble creates reactionary decisions, fragmented information, and panic-induced remedies. When a client faces an escalating threat from financial, reputational, civil, or criminal matters, we identify the exact points of pressure. Whether uncovering hidden facts, managing public perception, or supporting legal counsel, we work to build the leverage necessary for our client's safe passage.
           </p>
         </div>
 
         <div className="mt-8">
-          <h3 className="font-serif text-[20px] font-semibold italic text-ink">
+          <h2 className="mt-12 font-serif text-[22px] font-semibold leading-[1.25] text-ink md:text-[28px]">
             The Difference
-          </h3>
+          </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
             Whatever form it takes, leverage, when successfully applied, wins. Our clients get more than three decades of raw operational and advisory experience to move them toward realistic, favorable resolutions.
           </p>
