@@ -64,8 +64,14 @@ export default function Home() {
           Every high-stakes business or personal concern creates a question:
         </p>
 
-        <p className={`${bodyClass} mt-4`}>How do I avoid this threat?</p>
-        <p className={`${bodyClass} mt-2`}>How do I get out of it fast and favorably?</p>
+        <div className="mt-4 space-y-3">
+          <div className="border-l-2 border-ink pl-4">
+            <p className={bodyClass}>How do I avoid this threat?</p>
+          </div>
+          <div className="border-l-2 border-ink pl-4">
+            <p className={bodyClass}>How do I get out of it fast and favorably?</p>
+          </div>
+        </div>
 
         <p className={`${bodyClass} mt-6`}>
           The answer is the same. <strong>Leverage:</strong> To us leverage is not a Hollywood concept. It is the ability to influence an outcome, a decision, or an adversary in the client's favor.
