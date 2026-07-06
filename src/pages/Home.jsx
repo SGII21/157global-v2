@@ -60,15 +60,15 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-3xl px-6 py-20">
-        <p className="font-sans text-2xl font-semibold leading-snug text-ink">
-          Every personal or business concern creates questions:
+        <p className="font-sans text-3xl font-semibold leading-snug text-ink mb-6">
+          When the questions are:
         </p>
 
-        <div className="mt-4 space-y-3">
-          <div className="border-l-2 border-ink pl-4">
+        <div className="mt-2 space-y-4">
+          <div className="border-l-2 border-ink pl-5 py-1">
             <p className={bodyClass}><strong>Prevention:</strong> How do I avoid this threat?</p>
           </div>
-          <div className="border-l-2 border-ink pl-4">
+          <div className="border-l-2 border-ink pl-5 py-1">
             <p className={bodyClass}><strong>Resolution:</strong> How do I get out of it fast and favorably?</p>
           </div>
         </div>
