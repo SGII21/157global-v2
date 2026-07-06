@@ -61,14 +61,14 @@ export default function Home() {
 
       <section className="mx-auto max-w-3xl px-6 py-20">
         <p className="font-sans text-3xl font-semibold leading-snug text-ink">
-          Two questions in every high-stakes difficulty:
+          Every high-stakes business or personal concern creates a question:
         </p>
 
         <LabeledList
           items={[
             {
               label: 'Prevention',
-              text: 'How do I avoid this?',
+              text: 'How do I avoid this threat?',
             },
             {
               label: 'Resolution',
@@ -78,27 +78,24 @@ export default function Home() {
         />
 
         <p className={`${bodyClass} mt-6`}>
-          The answer is the same. <strong>Leverage:</strong> The power, resource, or ability to influence an outcome, a decision, or an adversary.
-        </p>
-        <p className={`${bodyClass} mt-6`}>
-          At 157Global we do not see leverage as a Hollywood concept. We know it's the critical difference between success and failure in high-stakes matters.
+          The answer is the same. <strong>Leverage:</strong> To us leverage is not a Hollywood concept. It is the ability to influence an outcome, a decision, or an adversary in the client's favor.
         </p>
 
         <div className="mt-8">
           <h3 className="font-serif text-[20px] font-semibold italic text-ink">
-            Early On
+            Structure
           </h3>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            We engage before positions harden, options narrow, and critical momentum is lost. Whether it's an aggressive investment, a crucial acquisition, or a developing concern, our objective is the same: establish facts, isolate risks, and build the leverage required to protect your position.
+            We proactively engage before a situation develops and options narrow. Whether it is an aggressive investment, a crucial acquisition, or a potential vulnerability, our objective is the same: establish facts, isolate risks, and build the leverage required to protect our clients.
           </p>
         </div>
 
         <div className="mt-8">
           <h3 className="font-serif text-[20px] font-semibold italic text-ink">
-            When the Pressure Hits
+            Trouble
           </h3>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Pressure creates reactive decisions, fragmented information, and panic-induced remedies. When a client faces an escalating threat from civil or criminal matters, we identify the point of pressure, whether an unvarnished fact, a shift in public perception, a legal vulnerability, or another condition that improves the client's position.
+            Trouble creates reactionary decisions, fragmented information, and panic-induced remedies. When a client faces an escalating threat from financial, reputational, civil, or criminal matters, we identify the exact points of pressure. Whether uncovering hidden facts, managing public perception, or supporting legal counsel, we work to build the leverage necessary for our client's safe passage.
           </p>
         </div>
 
@@ -107,7 +104,7 @@ export default function Home() {
             The Difference
           </h3>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Whatever form it takes, leverage changes outcomes. Clients get our more than three decades of raw operational and advisory experience to protect what matters and move toward realistic, favorable resolutions.
+            Whatever form it takes, leverage, when successfully applied, wins. Our clients get more than three decades of raw operational and advisory experience to move them toward realistic, favorable resolutions.
           </p>
         </div>
 
