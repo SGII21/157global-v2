@@ -66,10 +66,10 @@ export default function Home() {
 
         <div className="mt-2 space-y-4">
           <div className="border-l-2 border-ink pl-5 py-1">
-            <p className={bodyClass}><strong>Prevention:</strong> How do I avoid this threat?</p>
+            <p className="font-sans text-[17px] font-semibold leading-[1.75] text-ink">How do I avoid this threat?</p>
           </div>
           <div className="border-l-2 border-ink pl-5 py-1">
-            <p className={bodyClass}><strong>Resolution:</strong> How do I get out of it fast and favorably?</p>
+            <p className="font-sans text-[17px] font-semibold leading-[1.75] text-ink">How do I get out of it fast and favorably?</p>
           </div>
         </div>
 
