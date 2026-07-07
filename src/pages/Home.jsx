@@ -74,7 +74,7 @@ export default function Home() {
         </div>
 
         <p className={`${bodyClass} mt-6`}>
-          The answer is the same. <strong>Leverage:</strong> To us leverage is not a Hollywood concept. It is the ability to influence an outcome, a decision, or an adversary in the client's favor.
+          The answer is the same: <strong>Leverage.</strong> Not the Hollywood version. Real leverage starts with understanding the facts and ends with knowing how to use them.
         </p>
 
         <div className="mt-8">
