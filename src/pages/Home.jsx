@@ -74,7 +74,7 @@ export default function Home() {
         </div>
 
         <p className={`${bodyClass} mt-6`}>
-          The answer is the same: <strong>Leverage.</strong> Not the Hollywood version. Real leverage starts with understanding the facts and ends with knowing how to use them.
+          The answer is the same: <strong>Leverage.</strong> Not the Hollywood version. Real leverage starts with understanding the facts and delivers by knowing how to use them.
         </p>
 
         <div className="mt-8">
