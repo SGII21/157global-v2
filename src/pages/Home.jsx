@@ -100,7 +100,7 @@ export default function Home() {
             The Difference
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Whatever form it takes, leverage, when applied with experience, wins. Our clients benefit from more than three decades of real-world, raw operational and advisory experience to move them toward realistic, favorable resolutions.
+            Whatever form it takes, leverage, when applied with experience, wins. Our clients benefit from more than three decades of real-world, raw operational and advisory experience.
           </p>
         </div>
 
