@@ -66,15 +66,15 @@ export default function Home() {
 
         <div className="mt-2 space-y-4">
           <div className="border-l-2 border-ink pl-5 py-1">
-            <p className="font-sans text-[17px] font-semibold leading-[1.75] text-ink">How do I avoid this threat?</p>
+            <p className="font-sans text-[17px] font-semibold leading-[1.75] text-ink">How do I handle this situation?</p>
           </div>
           <div className="border-l-2 border-ink pl-5 py-1">
-            <p className="font-sans text-[17px] font-semibold leading-[1.75] text-ink">How do I get out of it fast and favorably?</p>
+            <p className="font-sans text-[17px] font-semibold leading-[1.75] text-ink">How do I get through it in the strongest position possible?</p>
           </div>
         </div>
 
         <p className={`${bodyClass} mt-6`}>
-          The answer is the same: <strong>Leverage.</strong> Not the Hollywood version. Real leverage starts with understanding the facts and delivers by knowing how to use them.
+          The answer is the same: <strong>Leverage.</strong> Not Hollywood's version. Real leverage starts with understanding the facts, identifying opportunities, and knowing how to use them.
         </p>
 
         <div className="mt-8">
@@ -82,7 +82,7 @@ export default function Home() {
             Structure
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            We proactively engage before a situation develops and options narrow. Whether it is an aggressive investment, a crucial acquisition, or a potential vulnerability, our objective is the same: establish facts, isolate risks, and build the leverage required to protect our clients.
+            We engage early, before a situation develops and options narrow. Whether navigating an aggressive investment, a crucial acquisition, or a potential vulnerability, our objective is the same: establish facts, isolate risks, and build the leverage required to strengthen our clients' position.
           </p>
         </div>
 
@@ -91,7 +91,7 @@ export default function Home() {
             Trouble
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Trouble creates reactionary decisions, fragmented information, and panic-induced remedies. When a client faces an escalating threat from financial, reputational, civil, or criminal matters, we identify the exact points of pressure. Whether uncovering hidden facts, managing public perception, or supporting legal counsel, we work to build the leverage necessary for our client's safe passage.
+            Trouble creates reactionary decisions, fragmented information, and panic-induced thinking. When a client faces escalating financial, reputational, civil, or criminal matters, we identify the exact points of pressure. Whether uncovering hidden facts, managing public perception, or supporting legal counsel, we understand the environment and work to create the leverage needed to shape the outcome.
           </p>
         </div>
 
@@ -100,7 +100,7 @@ export default function Home() {
             The Difference
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Whatever form it takes, leverage, when successfully applied, wins. Our clients get more than three decades of raw operational and advisory experience to move them toward realistic, favorable resolutions.
+            Whatever form it takes, leverage, when applied with experience, wins. Our clients benefit from more than three decades of real-world, raw operational and advisory experience to move them toward realistic, favorable resolutions.
           </p>
         </div>
 
