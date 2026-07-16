@@ -62,7 +62,7 @@ export default function Home() {
       <section className="mx-auto max-w-3xl px-6 py-20">
         
         <p className={`${bodyClass} mt-6`}>
-          Personal or business, leverage influences the outcome. Not Hollywood's version. Real leverage is understanding the facts and knowing how to use them.
+          Personal or business, leverage drives the outcome. Not Hollywood's version. Real leverage is understanding the facts and knowing how to use them.
         </p>
 
         <div className="mt-8">
