@@ -61,8 +61,11 @@ export default function Home() {
 
       <section className="mx-auto max-w-3xl px-6 py-20">
         
-        <p className="font-sans text-2xl font-semibold leading-snug text-ink mt-6">
-  Whether facing a personal or business matter involving two or more parties, the difference between success and failure frequently turns on the party with leverage. Not Hollywood's version. Real leverage is understanding the facts and knowing how to use them.
+        <p className="font-sans text-lg font-medium leading-relaxed text-ink mt-6">
+  The difference between success and failure often turns on leverage.
+</p>
+<p className="font-sans text-lg font-medium leading-relaxed text-ink mt-4">
+  Not Hollywood's version. Real leverage is understanding the facts and knowing how to use them.
 </p>
 
         <div className="mt-8">
