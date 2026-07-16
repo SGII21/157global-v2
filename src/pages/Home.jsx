@@ -60,21 +60,9 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-3xl px-6 py-20">
-        <p className="font-sans text-3xl font-semibold leading-snug text-ink mb-6">
-          When the questions are:
-        </p>
-
-        <div className="mt-2 space-y-4">
-          <div className="border-l-2 border-ink pl-5 py-1">
-            <p className="font-sans text-[17px] font-semibold leading-[1.75] text-ink">How do I handle this situation?</p>
-          </div>
-          <div className="border-l-2 border-ink pl-5 py-1">
-            <p className="font-sans text-[17px] font-semibold leading-[1.75] text-ink">How do I get through it in the strongest position possible?</p>
-          </div>
-        </div>
-
+        
         <p className={`${bodyClass} mt-6`}>
-          The answer is the same: <strong>Leverage.</strong> Not Hollywood's version. Real leverage starts with understanding the facts, identifying opportunities, and knowing how to use them.
+          Whether personal or business, the answer to what matters is the same:<strong>Leverage.</strong> Not Hollywood's version. Real leverage is understanding the facts and knowing how to use them.
         </p>
 
         <div className="mt-8">
