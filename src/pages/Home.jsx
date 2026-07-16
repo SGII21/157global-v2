@@ -65,7 +65,10 @@ export default function Home() {
   The difference between success and failure often turns on leverage.
 </p>
 <p className="font-sans text-lg font-normal leading-relaxed text-ink mt-6">
-  Not Hollywood's version. Real leverage is understanding the facts and knowing how to use them.
+  Not Hollywood's version.
+</p>
+<p className="font-sans text-lg font-normal leading-relaxed text-ink mt-3">
+  Real leverage is understanding the facts and knowing how to use them.
 </p>
 
         <div className="mt-8">
