@@ -39,7 +39,7 @@ export default function Founder() {
           His work placed him in difficult, performance-driven, and unforgiving environments. The issues were real and the people affected were real.
         </p>
         <p className={`${bodyClass} mt-6`}>
-          This foundation is why 157Global exists. So the clients who need us, whether before a concern develops or in the middle of a crisis, get someone whose real world experience is the difference between theory and execution.
+          This foundation is why 157Global exists. The clients who need us, whether before a concern develops or in the middle of a crisis, get someone whose real world experience is the difference between theory and execution.
         </p>
 
         <img
@@ -53,7 +53,10 @@ export default function Founder() {
             "I founded <span style={{ whiteSpace: 'nowrap', display: 'inline-block', wordBreak: 'keep-all', overflowWrap: 'normal', fontVariantNumeric: 'lining-nums', fontFeatureSettings: '"lnum" 1' }}>157Global</span> because when real problems hit, the room gets loud, the clock speeds up, and pressure affects decision making. Many times, allies and friends disappear, creating a sense of aloneness.
           </p>
           <p className="mt-6">
-            I’ve been there, for large clients and for my own organizations. That’s why this firm is built on equal parts empathy and equal parts a desire to help. We step into the chaos and ensure that our clients benefit from seasoned judgment and disciplined execution, not bravado or emotional reaction.”
+            The first instinct is reactionary. A call goes to someone with a narrow focus and an even narrower vision of what the situation actually requires.
+          </p>
+          <p className="mt-6">
+            I've been there, for clients and for my own organizations. Our job is to understand the full picture, operate where others aren't capable, and stay focused on what the client actually needs. Whether preemptive, informational, reputational, or alternative leverage, we focus on delivering seasoned judgment and disciplined execution, not bravado or emotional reaction."
           </p>
         </blockquote>
       </div>
