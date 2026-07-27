@@ -56,7 +56,7 @@ export default function Founder() {
             The first instinct is reactionary. A call goes to someone with a narrow focus and an even narrower vision of what the situation actually requires.
           </p>
           <p className="mt-6">
-            I've been there, for clients and for my own organizations. Our job is to understand the full picture, operate where others aren't capable, and stay focused on what the client actually needs. Whether preemptive, informational, reputational, or alternative leverage, we focus on delivering seasoned judgment and disciplined execution, not bravado or emotional reaction."
+            I've been there. For clients and for my own organizations. Our job is to understand the full picture, operate where others aren't capable, and stay focused on what the client actually needs. Whether preemptive, informational, reputational, or alternative leverage, we focus on delivering seasoned judgment and disciplined execution, not bravado or emotional reaction."
           </p>
         </blockquote>
       </div>
