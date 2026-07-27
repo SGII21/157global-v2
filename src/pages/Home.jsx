@@ -61,7 +61,7 @@ export default function Home() {
 
       <section className="mx-auto max-w-3xl px-6 py-20">
         
-       <p className="font-sans text-xl font-semibold leading-snug text-ink mt-6">
+       <p className="font-sans text-lg font-semibold leading-snug text-ink mt-6">
   Whether structuring to prevent a future problem or dealing with a current one, our objective is the same: build leverage that strengthens our client's position.
 </p>
 <p className="font-sans text-lg font-normal leading-relaxed text-ink mt-6">
