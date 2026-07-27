@@ -30,16 +30,16 @@ export default function About() {
         About
       </h1>
       <p className={`${bodyClass} mt-8`}>
-        157Global is built on over three decades of direct accountability inside the world's most demanding operational, financial, and legal environments.
+        157Global is built on over three decades of direct accountability inside some of the most complex and demanding operational, financial, and legal environments in the world.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        Our firm reflects the hands-on experience and philosophy of an operator who has built, scaled, and advised organizations across North America and Europe. This history includes years of direct operational leadership and strategic counsel within one of the world's most complex global conglomerates.
+       Our firm is the direct result of that experience. Over three decades of building, leading, and advising across North America and Europe.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        Our capabilities were not developed through academic observation or consulting frameworks. They were forged through the actual ownership of outcomes, where performance was mandatory and actions carried consequences.
+        Our capabilities were not developed through academic observation or consulting frameworks. They were built through the actual ownership of outcomes, where performance was mandatory and actions carried consequences.
       </p>
       <p className={`${bodyClass} mt-6`}>
-        We know that when a crisis hits, credentials and theoretical models fail. What matters is experienced involvement, tactical execution, and the ability to establish the leverage needed to survive.
+       We know that when a crisis hits, credentials and theoretical models aren't enough. What matters is experienced involvement and the ability to establish the leverage needed to reach the best possible outcome.
       </p>
       <Link
         to="/about/founder"
