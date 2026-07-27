@@ -62,7 +62,7 @@ export default function Home() {
       <section className="mx-auto max-w-3xl px-6 py-20">
         
        <p className="font-sans text-xl font-semibold leading-snug text-ink mt-6">
-  The difference between success and failure often turns on leverage.
+  Whether structuring to prevent a future problem or dealing with a current one, our objective is the same: build leverage that strengthens our client's position.
 </p>
 <p className="font-sans text-lg font-normal leading-relaxed text-ink mt-6">
   Not Hollywood's version.
@@ -76,7 +76,7 @@ export default function Home() {
             Structure
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            We engage early, before a situation develops and options narrow. Whether navigating an aggressive investment, a crucial acquisition, or a potential vulnerability, our objective is the same: establish facts, isolate risks, and build the leverage required to strengthen our clients' position.
+            We engage early, before a situation develops and options narrow. Whether navigating an aggressive investment, a crucial acquisition, or a potential vulnerability, our objective is the same: establish facts, isolate risks, and build the preemptive leverage required to strengthen our clients' position.
           </p>
         </div>
 
