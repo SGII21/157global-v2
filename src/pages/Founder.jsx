@@ -43,7 +43,7 @@ export default function Founder() {
         </p>
 
         <img
-          src="/skip-glass.jpg"
+          src="/Headshot Jul 27, 2026, 03_58_35 PM"
           alt="Skip Glass"
           className="mx-auto my-10 block h-auto max-h-[450px] w-auto"
         />
