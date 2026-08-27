@@ -62,30 +62,27 @@ export default function Home() {
       <section className="mx-auto max-w-3xl px-6 py-20">
         
        <p className="font-sans text-lg font-semibold leading-snug text-ink mt-6">
-  Whether structuring to prevent a future problem or dealing with a current one, our objective is the same: build leverage that strengthens our client's position.
+  Whether engaged to prevent a future problem or deal with a current one, our objective is the same: to improve and strengthen our client's position.
 </p>
 <p className="font-sans text-lg font-normal leading-relaxed text-ink mt-6">
-  Not Hollywood's version.
-</p>
-<p className="font-sans text-lg font-normal leading-relaxed text-ink mt-3">
-  Real leverage is understanding the facts and knowing how to use them.
+ With over three decades as global operators and advisors, we understand the importance of turning facts into leverage. Not Hollywood's version. Real leverage is the ability to discover and use facts to achieve a desired outcome.
 </p>
 
         <div className="mt-8">
           <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
-            Structure
+            Structuring
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            We engage early, before a situation develops and options narrow. Whether navigating an aggressive investment, a crucial acquisition, or a potential vulnerability, our objective is the same: establish facts, isolate risks, and build the preemptive leverage required to strengthen our clients' position.
+            Whether navigating an aggressive investment, a crucial acquisition, or a potential vulnerability, clients engage us early, before a situation develops and options narrow. We work to establish facts, isolate risks, and build the preemptive leverage required to strengthen our clients' position.
           </p>
         </div>
 
         <div className="mt-8">
           <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
-            Trouble
+            Trouble Arrives
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Trouble creates reactionary decisions, fragmented information, and panic-induced thinking. When a client faces escalating financial, reputational, civil, or criminal matters, we identify the exact points of pressure. Whether uncovering hidden facts, managing public perception, or supporting legal counsel, we understand the environment and work to create the leverage needed to shape the outcome.
+            Trouble cascades from reactionary decisions to fragmented information, financial pressure, reputational risk, and panic-induced thinking. When a client faces escalating financial, reputational, civil, or criminal matters, we are engaged to identify the exact points of pressure and provide a path to resolve them. Whether uncovering hidden facts, managing public perception, aligning strategies across every front, or supporting legal counsel, we understand the environment and execute to create the leverage needed to shape the outcome.
           </p>
         </div>
 
@@ -94,7 +91,7 @@ export default function Home() {
             The Difference
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Whatever form it takes, leverage, when applied with experience, wins. Our clients benefit from more than three decades of real-world, raw operational and advisory experience.
+           Engagements are taken selectively. The clients we do accept benefit from our decades of real-world operational and advisory global experience managing and executing multi-forum, multi-disciplinary matters.
           </p>
         </div>
 
