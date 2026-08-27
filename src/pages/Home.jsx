@@ -82,7 +82,7 @@ export default function Home() {
             Trouble Arrives
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Trouble cascades from reactionary decisions to fragmented information, financial pressure, reputational risk, and panic-induced thinking. When a client faces escalating financial, reputational, civil, or criminal matters, we are engaged to identify the exact points of pressure and provide a path to resolve them. Whether uncovering hidden facts, managing public perception, aligning strategies across every front, or supporting legal counsel, we understand the environment and execute to create the leverage needed to shape the outcome.
+            Trouble cascades from reactionary decisions to fragmented information, financial pressure, reputational risk, and panic-induced thinking. When a client faces escalating financial, reputational, civil, or criminal matters, we are engaged to identify the exact points of pressure and provide a path to resolve them. Whether uncovering hidden facts, managing public perception, unifying strategies across every front, or supporting legal counsel, we understand the environment and execute to create the leverage needed to shape the outcome.
           </p>
         </div>
 
