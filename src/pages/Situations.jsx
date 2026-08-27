@@ -68,15 +68,15 @@ export default function Situations() {
         items={[
           {
             label: 'High-Stakes Transactions',
-            text: 'Major investments, cross-border deals, or strategic initiatives where structure and execution dictate future leverage.',
+            text: 'Major investments, cross-border deals, or strategic initiatives where the details of structure and execution decide who holds the advantage later.',
           },
           {
             label: 'Misaligned Leadership',
-            text: 'Boards, advisors, or leadership teams are fragmented on objectives, slowing vital momentum.',
+            text: 'Boards, advisors, or leadership teams disagree on direction, and decisions that should take days take months.',
           },
           {
             label: 'High-Value Transitions',
-            text: 'Corporate restructuring or leadership successions threaten organizational stability and market perception.',
+            text: 'Corporate restructuring or leadership successions put a company's stability and standing at risk.',
           },
         ]}
       />
@@ -95,30 +95,20 @@ export default function Situations() {
           },
           {
             label: 'Broken Dynamics',
-            text: 'Vital partnerships, relationships, or underperforming acquisitions begin to fracture.',
+            text: 'Partnerships, relationships, or acquisitions that once worked start to fracture, and the cost shows up fast.',
           },
           {
             label: 'Shifted Power',
-            text: 'An outside party or regulatory body has gained leverage, altering the power dynamic against our client.',
+            text: 'An outside party or regulatory body has gained the upper hand, and the balance no longer favors our client.',
           },
         ]}
       />
 
-      <Rule />
-
+     <Rule />
       <h2 className={h2Class}>The Objective</h2>
       <p className={`${bodyClass} mt-6`}>
-        Whether we build leverage early or restore it late, our objective does not change:
+        Whether we are called in early or after a situation has already turned, the objective does not change. We establish facts over assumptions, isolate what matters most, and build the position needed to protect it and move forward.
       </p>
-      <NumberedList
-        items={[
-          'Establish facts over assumptions.',
-          'Isolate priorities immediately.',
-          <>
-            Build the leverage to protect what matters most and execute a <span className="whitespace-nowrap">clear path forward.</span>
-          </>,
-        ]}
-      />
     </PageLayout>
   )
 }
