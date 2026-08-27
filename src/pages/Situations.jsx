@@ -76,7 +76,7 @@ export default function Situations() {
           },
           {
             label: 'High-Value Transitions',
-            text: 'Corporate restructuring or leadership successions put a company's stability and standing at risk.',
+            text: 'Corporate restructuring or leadership successions put a company\'s stability and standing at risk.',
           },
         ]}
       />
