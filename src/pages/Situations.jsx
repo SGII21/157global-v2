@@ -107,7 +107,7 @@ export default function Situations() {
      <Rule />
       <h2 className={h2Class}>The Objective</h2>
       <p className={`${bodyClass} mt-6`}>
-        Whether we are called in early or after a situation has already turned, the objective does not change. We establish facts over assumptions, isolate what matters most, and build the position needed to protect it and move forward.
+       Whether we are called in early or after a situation has already turned, the objective does not change. We establish facts over assumptions, isolate what matters most, and build the position that lets our client move forward.
       </p>
     </PageLayout>
   )
