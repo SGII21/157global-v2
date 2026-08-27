@@ -62,7 +62,7 @@ export default function Situations() {
 
       <h2 className={h2Class}>Building Leverage Early</h2>
       <p className={`${bodyClass} mt-4`}>
-        We work with clients during major transitions to insulate them from future risk and establish early leverage. Common matters include:
+        We work with clients to establish leverage early, before risk becomes a weapon. Common matters include:
       </p>
       <LabeledList
         items={[
@@ -75,8 +75,8 @@ export default function Situations() {
             text: 'Boards, advisors, or leadership teams disagree on direction, and decisions that should take days take months.',
           },
           {
-            label: 'High-Value Transitions',
-            text: 'Corporate restructuring or leadership successions put a company\'s stability and standing at risk.',
+            label: 'Restructuring and Succession',
+            text: 'A change in ownership, leadership, or corporate structure puts a company\'s stability and standing at risk.',
           },
         ]}
       />
