@@ -59,7 +59,7 @@ export default function Work() {
       <CaseStudy
         title="Enterprise Support"
         challenge="Retained by the board of a Euro 50 conglomerate during a critical gateway issue involving compounding financial, labor, reputational, and quality failures under compressed timelines and intense political pressure."
-        action="Created and led a solution which included standing up an independent company with P&L responsibility, establishing rigorous operating protocols and quality processes, and negotiating new labor agreements to directly manage a union-represented workforce of over 300 employees."
+        action="Created and led an initiative that included standing up an independent company with P&L responsibility, establishing rigorous operating protocols and quality processes, and negotiating new labor agreements to directly manage a union-represented workforce of over 300 employees."
         outcome="Achieved the highest-rated quality performance in North America for the group while generating annual cost savings exceeding eight figures over an eight-year tenure."
       />
 
@@ -68,7 +68,7 @@ export default function Work() {
       <CaseStudy
         title="Institutional Operations"
         challenge="Following internal failures, a global enterprise faced continued legal, liability, reputational, and commercial exposure across multiple jurisdictions, with a mandate directly from the Chairman of the Management Board."
-        action="Designed and executed an independent operational structure outside the core enterprise organization, embedding essential enterprise functions while bypassing internal political strife and neutralizing legal, reputational and commercial risk."
+        action="Designed and executed an independent operational structure outside the core enterprise organization, embedding essential enterprise functions while bypassing internal political strife and neutralizing legal, reputational, and commercial risk."
         outcome="Operated successfully across the enterprise under 157Global leadership, through multiple CEO and Board transitions, for more than three decades without a single incident."
       />
 
@@ -77,8 +77,8 @@ export default function Work() {
       <CaseStudy
         title="Operational Support for Complex Legal Matters"
         challenge="International organizations required operational facts to support complex legal strategies across preventative business structuring, pre-litigation advisory, active civil and white-collar criminal defense, and post-resolution stabilization."
-        action="Worked directly alongside outside litigation counsel, transactional attorneys, and in-house general counsel to reconstruct operational data and build evidence-supported narratives."
-        outcome="Aligned corporate and principal's objectives with legal strategy, securing realistic outcomes and necessary legal leverage."
+        action="Worked directly alongside outside litigation counsel, transactional attorneys, and in-house general counsel to reconstruct operational data and build evidence-backed narratives."
+        outcome="Aligned corporate and principal objectives with legal strategy, securing realistic outcomes and necessary legal leverage."
       />
 
       <Rule />
@@ -87,16 +87,16 @@ export default function Work() {
         title="Reputation and Stakeholder Management"
         challenge="An organization facing severe reputational repercussions from public reporting and operational breakdowns required immediate intervention to protect confidence and organizational stability."
         action="Isolated and fixed the root operational failures while simultaneously controlling the narrative through integrated communications and disciplined engagement."
-        outcome="Restored confidence, protected organizational stability, and protected the entity's competitive position in the global market."
+        outcome="Restored confidence, protected organizational stability, and preserved the entity's competitive position in the global market."
       />
 
       <Rule />
 
       <CaseStudy
         title="Post-Acquisition Integration"
-        challenge="Following the acquisition of a significant stake in a ten-figure enterprise, the acquiring entity encountered deep cultural conflict, operational bottlenecks, and severe quality gaps not addressed prior to closing, compounded by active resistance from the acquiree and external government backing for the legacy owners."
+        challenge="Following the cross-border acquisition of a significant stake in a ten-figure enterprise, the acquiring entity encountered deep cultural conflict, operational bottlenecks, and severe quality gaps not addressed prior to closing, compounded by active resistance from the acquiree and external government backing for the legacy owners."
         action="Managed both operations and stakeholder politics, establishing an independent operating framework that bridged competing objectives and cultures."
-        outcome="Successfully protected the investor's long-term capital and strategic interests by achieving requirements and goals set forth in engagement."
+        outcome="Successfully protected the investor's long-term capital and strategic interests by meeting the requirements and achieving the goals set forth in the engagement."
       />
 
       <Rule />
