@@ -70,7 +70,7 @@ export default function Philosophy() {
           },
           {
             label: 'Perception is Reality',
-            text: 'Strength and weakness are predicated on reputation and market perception. Failure to align these with strategic goals hands your leverage to the other side.',
+            text: 'Perception of strength or weakness is the reality until proven otherwise. This perception has to be deliberately aligned with strategy and managed, or leverage passes to the other side.',
           },
           {
             label: 'Judgment Over Checklists',
