@@ -56,15 +56,15 @@ export default function Counsel() {
         items={[
           {
             label: 'Pre-Litigation Assessment',
-            text: 'Reconstructing messy timelines and separating fact from fiction. Uncovering what actively happened before legal positions harden. Aligning business goals with legal strategy while managing early reputation and perception.',
+            text: 'Reconstructing messy timelines and separating fact from fiction. Uncovering what actually happened before legal positions harden. Aligning business goals with legal strategy while managing early reputation and perception.',
           },
           {
             label: 'Active Proceedings',
-            text: 'Operating under Kovel engagements and tailored privacy structures. Supporting domestic and international counsel in high-stakes litigation, regulatory investigations, and white-collar defense. Providing financial reviews, operational analysis, reputation strategy, and evidence-backed narratives.',
+            text: "Operating under Kovel engagements where privilege applies, and building tailored confidentiality structures where it doesn't. Supporting domestic and international counsel in high-stakes litigation, regulatory investigations, and white-collar defense. Providing financial reviews, operational analysis, reputation strategy, and evidence-backed narratives.",
           },
           {
             label: 'Crisis Stabilization',
-            text: 'Protecting cash flow and stabilizing operations. Managing external perception when legal pressure brings financial distress and cratering confidence. Establishing the operational moat to give counsel the time and space they need to litigate.',
+            text: "Protecting cash flow and steadying operations. Managing external perception when legal pressure brings financial distress and cratering confidence. Establishing the operational moat that keeps a client's business running through the crisis, so counsel has the time and space they need to litigate.",
           },
           {
             label: 'Operational Intervention',
@@ -78,7 +78,7 @@ export default function Counsel() {
       />
 
       <p className="font-sans text-xl font-semibold leading-snug text-ink mt-10">We use facts to create leverage for counsel.</p>
-      <div className="bg-stone-300 px-6 py-4 mt-10"><p className="font-sans text-sm font-normal leading-relaxed text-ink opacity-80">While confidentiality and discretion of contact are understood, please do not disclose any confidential or privileged information before proper protocols are established.</p></div>
+      <div className="bg-stone-300 px-6 py-4 mt-10"><p className="font-sans text-sm font-normal leading-relaxed text-ink opacity-80">While initial contact is treated as confidential, please don't share anything privileged or case-specific until formal protocols are in place.</p></div>
       <a href="mailto:legal@157global.com?subject=Legal%20Support%20Inquiry" className="font-sans text-sm font-medium text-ink underline hover:opacity-60 transition-opacity mt-6 inline-block">Contact</a>
     </PageLayout>
   )
