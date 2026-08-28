@@ -61,9 +61,9 @@ export default function Home() {
 
       <section className="mx-auto max-w-3xl px-6 py-20">
         
-       <p className="font-sans text-lg font-semibold leading-snug text-ink mt-6">
-  Whether engaged to prevent a future problem or deal with a current one, our objective is the same: to improve and strengthen our client's position.
-</p>
+        <p className="font-sans text-xl font-semibold leading-snug text-ink mt-6">
+  We have one objective: to improve and strengthen our clients' position.
+</p>   
 <p className="font-sans text-lg font-normal leading-relaxed text-ink mt-6">
  With over three decades as global operators and advisors, we understand the importance of turning facts into leverage. Not Hollywood's version. Real leverage is the ability to discover and use facts to achieve a desired outcome.
 </p>
