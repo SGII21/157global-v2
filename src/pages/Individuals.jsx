@@ -48,7 +48,7 @@ export default function Individuals() {
 
       <h2 className={h2Class}>We Are Operational Advisors</h2>
       <p className={`${bodyClass} mt-6`}>
-        Not theorists. Not deck-builders. Never black-and-white thinkers. We understand the operational facts, financial complexities, and root-cause problems that stand between our clients and the outcome they need, and have the experience to execute against them.
+        Not theorists. Not deck-builders. Never black-and-white thinkers. We understand the operational facts, financial complexities, and root-cause problems that stand between our clients and the outcome they need. We have the experience to execute against them.
       </p>
 
       <Rule />
