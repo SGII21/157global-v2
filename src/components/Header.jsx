@@ -45,7 +45,7 @@ export default function Header() {
             <button type="button" className={navLinkClass}>
               About
             </button>
-            <div className="invisible absolute left-0 top-full w-48 border border-[rgba(255,255,255,0.12)] bg-black py-2 opacity-0 transition-opacity duration-200 group-hover:visible group-hover:opacity-100">
+            <div className="invisible absolute righ-0 top-full w-48 border border-[rgba(255,255,255,0.12)] bg-black py-2 opacity-0 transition-opacity duration-200 group-hover:visible group-hover:opacity-100">
               <Link to="/about" className={dropdownLinkClass}>
                 About 157Global
               </Link>
