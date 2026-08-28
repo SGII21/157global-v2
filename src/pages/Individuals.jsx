@@ -48,7 +48,7 @@ export default function Individuals() {
 
       <h2 className={h2Class}>We Are Operational Advisors</h2>
       <p className={`${bodyClass} mt-6`}>
-        Traditional consultants rely on data-heavy decks, and legal counsel focuses on the law. We specialize in the operational facts, financial complexities, and root-cause problem management required to successfully execute solutions.
+        Not theorists. Not deck-builders. Never black-and-white thinkers. We understand the operational facts, financial complexities, and root-cause problems that stand between our clients and the outcome they need, and have the experience to execute against them.
       </p>
 
       <Rule />
@@ -58,11 +58,11 @@ export default function Individuals() {
         items={[
           {
             label: 'Founders & Owners',
-            text: 'Navigating operational breakdowns, toxic disputes, sudden leadership failures, personal brand or reputation damage, or bet-the-company decisions.',
+            text: 'Navigating operational breakdowns, toxic conflicts, sudden leadership failures, personal brand or reputation damage, or bet-the-company decisions.',
           },
           {
             label: 'Family Offices & High Net Worth Individuals',
-            text: 'Handling complex disputes, confidentiality threats, or sensitive situations where judgment matters more than checking boxes.',
+            text: 'Handling complex disputes, confidentiality threats, or situations too sensitive for a standard process.',
           },
           {
             label: 'Executives & Boards',
@@ -79,7 +79,7 @@ export default function Individuals() {
 
       <h2 className={h2Class}>How We Work</h2>
       <p className={`${bodyClass} mt-6`}>
-        Clients don't need an explosion to call us. Elite founders, family offices, and institutions engage 157Global early to pressure-test assumptions, review major transactions, and identify hidden risks before a manageable concern becomes an existential crisis.
+        Clients don't need an explosion to call us. Founders, family offices, and institutions engage 157Global early to identify and mitigate hidden risks, pressure-test assumptions, and review major transactions before a manageable concern becomes an existential crisis.
       </p>
       <p className={`${bodyClass} mt-6`}>
         But when there is an explosion, depending on the severity of the problem, our involvement ranges from quiet, high-level advisory to absolute operational control. We are called to provide:
@@ -96,21 +96,25 @@ export default function Individuals() {
           },
           {
             label: 'Restoring Order',
-            text: 'Restoring order across leadership, operations, relationships, and perception.',
+            text: 'Reestablishing order across leadership, operations, and relationships.',
           },
           {
             label: 'High-Stakes Management',
             text: 'Supporting clients and their legal team through intrusive legal, regulatory, governmental, or restructuring matters.',
           },
           {
+            label: 'Reputation Management',
+            text: 'Strengthening relationships and negotiating position by aligning narrative, credibility, and legal strategy to improve perception.',
+          },
+          {
             label: 'Unified Response',
-            text: "Coordinating a client's existing advisors and, when necessary, engaging elite, specialized resources strictly based on capability, not convenience.",
+            text: "Coordinating a client's existing advisors and, when necessary, engaging additional specialists strictly based on capability, not convenience.",
           },
         ]}
       />
 
       <p className={`${bodyClass} mt-6`}>
-        We don't just analyze situations. We establish facts, protect options, and build the leverage to drive the outcome.
+        We don't just analyze. We establish facts, protect options, and build the leverage to drive the outcome.
       </p>
       <p className="font-sans text-xl font-semibold leading-snug text-ink mt-10">Then we exit.</p>
       <a href="mailto:inquiries@157global.com?subject=157Global%20Inquiry" className="font-sans text-sm font-medium text-ink underline hover:opacity-60 transition-opacity mt-6 inline-block">Contact</a>
