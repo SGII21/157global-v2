@@ -54,7 +54,7 @@ export default function LegalNotice() {
 
       <h2 className={h2Class}>Professional Disclaimer</h2>
       <p className={`${bodyClass} mt-6`}>
-        157Global, LLC is a private advisory firm. It does not provide legal representation, public accounting, tax advisory, or licensed investigative services. All services provided by 157Global are operational, strategic, and advisory in nature.
+        157Global, LLC is a private advisory firm. It does not provide legal advice or representation, public accounting, tax advisory, or licensed investigative services. All services provided by 157Global are operational, strategic, and advisory in nature.
       </p>
 
       <h2 className={h2Class}>Applicable Jurisdictions</h2>
