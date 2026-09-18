@@ -60,27 +60,30 @@ export default function Situations() {
 
       <Rule />
 
-      <h2 className={h2Class}>What is going on?</h2>
+            <h2 className={h2Class}>What is going on?</h2>
       <p className={`${bodyClass} mt-4`}>
-        Sometimes the first indication of a problem or an opportunity is simply a feeling. We work to establish and understand the facts, determine what is actually happening, and give our clients the insight they need.
+        Sometimes the first indication of a problem or opportunity is simply a feeling. We work to establish and understand the facts, determine what is actually happening, and give our clients the insight they need.
       </p>
-     
+
       <Rule />
 
       <h2 className={h2Class}>Should we do this, and how?</h2>
       <p className={`${bodyClass} mt-4`}>
         Opportunity and risk can masquerade as one another. We work to understand the facts, consequences, and available options to build the leverage needed to help our clients pursue their goals.
       </p>
-      
+
+      <Rule />
+
       <h2 className={h2Class}>What do we do about it?</h2>
       <p className={`${bodyClass} mt-4`}>
-        This is for the client who knows there is a problem. 157Global moves directly to uncovering facts, learning what has happened, understanding what matters and where pressure exists, and then building the leverage needed to influence the siutation in our client's favor.
-      </p
-      
-     <Rule />
+        This is for the client who knows there is a problem. 157Global moves directly to uncovering facts, learning what has happened, understanding what matters and where pressure exists, and then building the leverage needed to influence the situation in our client's favor.
+      </p>
+
+      <Rule />
+
       <h2 className={h2Class}>The Objective</h2>
       <p className={`${bodyClass} mt-6`}>
-       No matter why or when we engage, the objective does not change. We establish facts over assumptions, isolate what matters most, and work to strengthen our client's position.
+        No matter why or when we engage, the objective does not change. We establish facts over assumptions, isolate what matters most, and work to strengthen our client's position.
       </p>
     </PageLayout>
   )
