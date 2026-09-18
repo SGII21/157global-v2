@@ -57,7 +57,7 @@ export default function Work() {
       <Rule />
 
       <CaseStudy
-        title="Enterprise Support"
+        title="Enterprise Operations & Stabilization"
         challenge="Retained by the board of a Euro 50 conglomerate during a critical gateway issue involving compounding financial, labor, reputational, and quality failures under compressed timelines and intense political pressure."
         action="Created and led an initiative that included standing up an independent company with P&L responsibility, establishing rigorous operating protocols and quality processes, and negotiating new labor agreements to directly manage a union-represented workforce of over 300 employees."
         outcome="Achieved the highest-rated quality performance in North America for the group while generating annual cost savings exceeding eight figures over an eight-year tenure."
@@ -66,9 +66,9 @@ export default function Work() {
       <Rule />
 
       <CaseStudy
-        title="Institutional Operations"
+        title="Independent Enterprise Structure"
         challenge="Following internal failures, a global enterprise faced continued legal, liability, reputational, and commercial exposure across multiple jurisdictions, with a mandate directly from the Chairman of the Management Board."
-        action="Designed and executed an independent operational structure outside the core enterprise organization, embedding essential enterprise functions while bypassing internal political strife and neutralizing legal, reputational, and commercial risk."
+        action="Designed and executed an independent operational structure outside the core enterprise organization, embedding essential enterprise functions while bypassing internal political strife while separating the enterprise from the legal, reputational, and commerical risks associated with direct ownership and control."
         outcome="Operated successfully across the enterprise under 157Global leadership, through multiple CEO and Board transitions, for more than three decades without a single incident."
       />
 
@@ -84,7 +84,7 @@ export default function Work() {
       <Rule />
 
       <CaseStudy
-        title="Reputation and Stakeholder Management"
+        title="Operational Failure Affecting Reputation"
         challenge="An organization facing severe reputational repercussions from public reporting and operational breakdowns required immediate intervention to protect confidence and organizational stability."
         action="Isolated and fixed the root operational failures while simultaneously controlling the narrative through integrated communications and disciplined engagement."
         outcome="Restored confidence, protected organizational stability, and preserved the entity's competitive position in the global market."
@@ -102,7 +102,7 @@ export default function Work() {
       <Rule />
 
       <CaseStudy
-        title="Government and Regulatory Navigation"
+        title="Regulatory Exposure & Operational Continuity"
         challenge="Engaged following systemic compliance failures involving imports, exports, regulatory violations, and substantial liability exposure for a global enterprise."
         action="Built and ran an operational structure capable of coordinating compliance, security, legal, and operational functions simultaneously, with zero margin for error or public exposure."
         outcome="Met all regulatory requirements across multiple jurisdictions while maintaining uninterrupted operational continuity for more than three decades."
