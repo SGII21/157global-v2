@@ -60,7 +60,7 @@ export default function Counsel() {
           },
           {
             label: 'Active Proceedings',
-            text: "Operating under Kovel engagements where privilege applies, and building tailored confidentiality structures where it doesn't. Supporting domestic and international counsel in high-stakes litigation, regulatory investigations, and white-collar defense. Providing financial reviews, operational analysis, reputation strategy, and evidence-backed narratives.",
+            text: "Operating under Kovel when counsel requires 157Global expertise in anticipation of or during litigation. Supporting domestic and international counsel through financial reviews, operational analysis, business intelligence, reputation strategy, and evidence-backed narratives.",
           },
           {
             label: 'Crisis Stabilization',
@@ -74,7 +74,11 @@ export default function Counsel() {
             label: 'Post-Resolution Transition',
             text: 'Managing the operational and reputational impact that lasts long after a settlement or judgment is closed. Restoring market confidence and moving the client forward cleanly.',
           },
-        ]}
+          {
+            label: 'Confidentiality & Discretion',
+            text: "Structuring sensitive matters to protect legitimate confidentiality, control unnecessary disclosure, and preserve the client's position, with legal and regulatory requirements addressed by appropriate counsel and professionals.",
+          },
+      ]}
       />
 
       <p className="font-sans text-xl font-semibold leading-snug text-ink mt-10">We use facts to create leverage for counsel.</p>
