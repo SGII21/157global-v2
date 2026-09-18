@@ -39,7 +39,7 @@ export default function Founder() {
           His work placed him in difficult, performance-driven, and unforgiving environments. The issues were real and so were the people they affected.
         </p>
         <p className={`${bodyClass} mt-6`}>
-          This foundation is why 157Global exists. The clients who need us, whether before a concern develops or in the middle of a crisis, get someone whose real-world experience is the difference between theory and execution.
+          This foundation is why 157Global exists. The clients who need us may be facing an opportunity, a developing concern, a crisis, an unanswered question, or an important decision.
         </p>
         <img
           src="/HeadshotJul272026.png"
@@ -54,7 +54,7 @@ export default function Founder() {
             The first instinct is reactionary. Almost always a call goes to someone with a narrow focus and an even narrower vision of what the situation actually requires.
           </p>
           <p className="mt-6">
-            I've been there. For clients and for my own organizations. Our job is to understand the full picture, operate where others aren't capable, and stay focused on what the client actually needs. Whether preemptive, informational, reputational, or alternative leverage, we focus on delivering seasoned judgment and disciplined execution, not bravado or emotional reaction."
+            I've been there. For clients and for my own organizations. Our job is to understand the full picture, operate where others aren't capable, and address the client actual needs. We execute towards our client's goals using seasoned judgment and discipline, not bravado or emotional reaction."
           </p>
         </blockquote>
       </div>
