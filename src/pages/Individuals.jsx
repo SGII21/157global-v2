@@ -46,9 +46,9 @@ export default function Individuals() {
         Individuals & Institutions
       </h1>
 
-      <h2 className={h2Class}>We Are Operational Advisors</h2>
+      <h2 className={h2Class}>We Are Advisors Who Are Operators</h2>
       <p className={`${bodyClass} mt-6`}>
-        Not theorists. Not deck-builders. Never black-and-white thinkers. We understand the operational facts, financial complexities, and root-cause problems that stand between our clients and the outcome they need. We have the experience to execute against them.
+        Not theorists. Not deck-builders. Never black-and-white thinkers. We understand the facts, complexities, and competing interests that stand between our clients and the outcome they need. We have the experience to drive execution.
       </p>
 
       <Rule />
@@ -79,44 +79,18 @@ export default function Individuals() {
 
       <h2 className={h2Class}>How We Work</h2>
       <p className={`${bodyClass} mt-6`}>
-        Clients don't need an explosion to call us. Founders, family offices, and institutions engage 157Global early to identify and mitigate hidden risks, pressure-test assumptions, and review major transactions before a manageable concern becomes an existential crisis.
+        Clients don't need an explosion to call us. 
       </p>
       <p className={`${bodyClass} mt-6`}>
-        But when there is an explosion, depending on the severity of the problem, our involvement ranges from quiet, high-level advisory to absolute operational control. We are called to provide:
+        We engage when needed. That may be early, when something doesn't make sense or an important decision is being considered, or later, when a problem already exists. We become involved when our role brings value based on what the client needs and what the situation requires.
       </p>
-      <LabeledList
-        items={[
-          {
-            label: 'Targeted Advisory',
-            text: 'Analyzing complex, overlapping risks and providing the clear, objective counsel needed to navigate them.',
-          },
-          {
-            label: 'Direct Action',
-            text: 'Stepping into the operation when the situation requires execution, not just advice.',
-          },
-          {
-            label: 'Restoring Order',
-            text: 'Reestablishing order across leadership, operations, and relationships.',
-          },
-          {
-            label: 'High-Stakes Management',
-            text: 'Supporting clients and their legal team through intrusive legal, regulatory, governmental, or restructuring matters.',
-          },
-          {
-            label: 'Reputation Management',
-            text: 'Strengthening relationships and negotiating position by aligning narrative, credibility, and legal strategy to improve perception.',
-          },
-          {
-            label: 'Unified Response',
-            text: "Coordinating a client's existing advisors and, when necessary, engaging additional specialists strictly based on capability, not convenience.",
-          },
-        ]}
-      />
-
+      <p className={`${bodyClass} mt-6`}>
+        That may mean advising, taking direct action, working with existing advisors and resources, bringing in specialized expertise, or overseeing execution.
+      </p>
+           
       <p className={`${bodyClass} mt-6`}>
         We don't just analyze. We establish facts, protect options, and build the leverage to drive the outcome.
       </p>
-      <p className="font-sans text-xl font-semibold leading-snug text-ink mt-10">Then we exit.</p>
       <a href="mailto:inquiries@157global.com?subject=157Global%20Inquiry" className="font-sans text-sm font-medium text-ink underline hover:opacity-60 transition-opacity mt-6 inline-block">Contact</a>
     </PageLayout>
   )
