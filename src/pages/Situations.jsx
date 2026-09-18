@@ -60,54 +60,27 @@ export default function Situations() {
 
       <Rule />
 
-      <h2 className={h2Class}>Building Leverage Early</h2>
+      <h2 className={h2Class}>What is going on?</h2>
       <p className={`${bodyClass} mt-4`}>
-        We work with clients to establish leverage early, before risk becomes a weapon. Common matters include:
+        Sometimes the first indication of a problem or an opportunity is simply a feeling. We work to establish and understand the facts, determine what is actually happening, and give our clients the insight they need.
       </p>
-      <LabeledList
-        items={[
-          {
-            label: 'High-Stakes Transactions',
-            text: 'Major investments, cross-border deals, or strategic initiatives where the details of structure and execution decide who holds the advantage later.',
-          },
-          {
-            label: 'Misaligned Leadership',
-            text: 'Boards, advisors, or leadership teams disagree on direction, and decisions that should take days take months.',
-          },
-          {
-            label: 'Restructuring and Succession',
-            text: 'A change in ownership, leadership, or corporate structure puts a company\'s stability and standing at risk.',
-          },
-        ]}
-      />
-
+     
       <Rule />
 
-      <h2 className={h2Class}>Regaining Leverage Under Pressure</h2>
+      <h2 className={h2Class}>Should we do this, and how?</h2>
       <p className={`${bodyClass} mt-4`}>
-        We step in to stabilize operations, re-establish control, and defend reputation when a situation begins to slip. Common matters include:
+        Opportunity and risk can masquerade as one another. We work to understand the facts, consequences, and available options to build the leverage needed to help our clients pursue their goals.
       </p>
-      <LabeledList
-        items={[
-          {
-            label: 'Compounding Vulnerabilities',
-            text: 'Financial distress, legal exposure, and reputational concerns begin to overlap and multiply.',
-          },
-          {
-            label: 'Broken Dynamics',
-            text: 'Partnerships, relationships, or acquisitions that once worked start to fracture, and the cost shows up fast.',
-          },
-          {
-            label: 'Shifted Power',
-            text: 'An outside party or regulatory body has gained the upper hand, and the balance no longer favors our client.',
-          },
-        ]}
-      />
-
+      
+      <h2 className={h2Class}>What do we do about it?</h2>
+      <p className={`${bodyClass} mt-4`}>
+        This is for the client who knows there is a problem. 157Global moves directly to uncovering facts, learning what has happened, understanding what matters and where pressure exists, and then building the leverage needed to influence the siutation in our client's favor.
+      </p
+      
      <Rule />
       <h2 className={h2Class}>The Objective</h2>
       <p className={`${bodyClass} mt-6`}>
-       Whether we are called in early or after a situation has already turned, the objective does not change. We establish facts over assumptions, isolate what matters most, and build the position that lets our client move forward.
+       No matter why or when we engage, the objective does not change. We establish facts over assumptions, isolate what matters most, and work to strengthen our client's position.
       </p>
     </PageLayout>
   )
