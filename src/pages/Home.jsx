@@ -65,15 +65,15 @@ export default function Home() {
   We have one objective: to improve and strengthen our clients' position.
 </p>     
 <p className="font-sans text-lg font-normal leading-relaxed text-ink mt-6">
- With over three decades as global operators and advisors, we understand the importance of turning facts into leverage. Not Hollywood's version. Real leverage is the ability to discover and use facts to achieve a desired outcome.
+ With over three decades as global operators and advisors, we understand the importance of turning facts into leverage. Not Hollywood's version. Real leverage comes from understanding the situation and using what matters to improve our client's position.
 </p>
 
         <div className="mt-8">
           <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
-            Structuring
+            Early
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Whether navigating an aggressive investment, a crucial acquisition, or a potential vulnerability, clients engage us early, before a situation develops and options narrow. We work to establish facts, isolate risks, and build the preemptive leverage required to strengthen our clients' position.
+            Whether a new opportunity, a crucial acquisition, or a potential concern, clients engage us early, before options evaporate. We work to establish and understand the facts, isolate risks, and build leverage required to improve our clients' position.
           </p>
         </div>
 
