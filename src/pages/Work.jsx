@@ -60,7 +60,7 @@ export default function Work() {
         title="Enterprise Operations & Stabilization"
         challenge="Retained by the board of a Euro 50 conglomerate during a critical gateway issue involving compounding financial, labor, reputational, and quality failures under compressed timelines and intense political pressure."
         action="Created and led an initiative that included standing up an independent company with P&L responsibility, establishing rigorous operating protocols and quality processes, and negotiating new labor agreements to directly manage a union-represented workforce of over 300 employees."
-        outcome="Achieved the highest-rated quality performance in North America for the group while generating annual cost savings exceeding eight figures over an eight-year tenure."
+        outcome="Over an eight year tenure, achieved the highest-rated quality performance in North America for the group while generating cost savings exceeding eight figures."
       />
 
       <Rule />
