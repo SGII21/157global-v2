@@ -78,10 +78,10 @@ export default function Philosophy() {
           },
           {
             label: 'Substance Over Hype',
-            text: 'We don't create beautiful PowerPoints. We maximize strength.',
+            text: "We don't create beautiful PowerPoints. We maximize strength.",
           },
         ]}
       />
     </PageLayout>
   )
-}
+} 
