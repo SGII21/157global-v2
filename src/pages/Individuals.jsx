@@ -89,7 +89,7 @@ export default function Individuals() {
       </p>
            
       <p className={`${bodyClass} mt-6`}>
-        We don't just analyze. We establish facts, protect options, and build the leverage to drive the outcome.
+        We don't just analyze. We establish facts, protect options, and build the leverage needed for the situation.
       </p>
       <a href="mailto:inquiries@157global.com?subject=157Global%20Inquiry" className="font-sans text-sm font-medium text-ink underline hover:opacity-60 transition-opacity mt-6 inline-block">Contact</a>
     </PageLayout>
