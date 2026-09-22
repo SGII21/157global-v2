@@ -96,7 +96,7 @@ export default function Work() {
         title="Post-Acquisition Integration"
         challenge="Following the cross-border acquisition of a significant stake in a ten-figure enterprise, the acquiring entity encountered deep cultural conflict, operational bottlenecks, and severe quality gaps not addressed prior to closing, compounded by active resistance from the acquiree and external government backing for the legacy owners."
         action="Managed both operations and stakeholder politics, establishing an independent operating framework that bridged competing objectives and cultures."
-        outcome="Successfully protected the investor's long-term capital and strategic interests by meeting the requirements and achieving the goals set forth in the engagement."
+        outcome="Successfully protected the investor's long-term capital and strategic interests."
       />
 
       <Rule />
