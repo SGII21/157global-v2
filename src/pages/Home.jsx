@@ -58,7 +58,7 @@ export default function Home() {
           </h1>
 
           <p className="mt-6 font-sans text-[13px] font-medium uppercase tracking-[0.16em] leading-relaxed text-white/80 md:text-[14px]">
-            Acquire, Assimilate, Understand &amp; Diagnose, Create, Execute
+            Acquire, Assimilate, Understand, Diagnose, Create, Execute
           </p>
           
         </div>
