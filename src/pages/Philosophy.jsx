@@ -45,7 +45,7 @@ export default function Philosophy() {
       <h1 className="font-serif text-5xl font-bold text-ink">Philosophy</h1>
       <h2 className={h2Class}>Why We Exist</h2>
       <p className={`${bodyClass} mt-8`}>
-        To help clients protect and strengthen their position, now and for the future.
+        To improve and strengthen our clients' position.
       </p>
       <p className={`${bodyClass} mt-6`}>
         High pressure situations affect more than balance sheets and legal briefs. They disrupt families, destroy livelihoods, and threaten survival. We step in, uncover the facts, establish the leverage, and execute the workable path forward.
