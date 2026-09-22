@@ -68,7 +68,7 @@ export default function Work() {
       <CaseStudy
         title="Independent Enterprise Structure"
         challenge="Following internal failures, a global enterprise faced continued legal, liability, reputational, and commercial exposure across multiple jurisdictions, with a mandate directly from the Chairman of the Management Board."
-        action="Designed and executed an independent operational structure outside the core enterprise organization, embedding essential enterprise functions while bypassing internal political strife while separating the enterprise from the legal, reputational, and commerical risks associated with direct ownership and control."
+        action="Designed and executed an independent operational structure outside the core enterprise organization, embedding essential enterprise functions while bypassing internal political strife and separating the enterprise from the legal, reputational, and commercial risks associated with direct ownership and control."
         outcome="Operated successfully across the enterprise under 157Global leadership, through multiple CEO and Board transitions, for more than three decades without a single incident."
       />
 
