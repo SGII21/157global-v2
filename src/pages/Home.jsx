@@ -56,6 +56,11 @@ export default function Home() {
           <h1 className="font-serif text-[34px] font-bold leading-[1.1] text-white md:text-[52px]">
             Experienced judgment in difficult places.
           </h1>
+
+          <p className="mt-6 font-sans text-[13px] font-medium uppercase tracking-[0.16em] leading-relaxed text-white/80 md:text-[14px]">
+            Acquire, Assimilate, Understand &amp; Diagnose, Create, Execute
+          </p>
+          
         </div>
       </section>
 
