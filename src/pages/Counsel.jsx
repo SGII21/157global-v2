@@ -72,7 +72,7 @@ export default function Counsel() {
           },
           {
             label: 'Post-Resolution Transition',
-            text: 'Managing the operational and reputational impact that lasts long after a settlement or judgment is closed. Restoring market confidence and moving the client forward cleanly.',
+            text: 'Managing the operational and reputational impact that lasts long after the legal matter is resolved. Restoring market confidence and moving the client forward cleanly.',
           },
           {
             label: 'Confidentiality & Discretion',
