@@ -78,7 +78,7 @@ export default function Home() {
             Early
           </h2>
           <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Whether a new opportunity, a crucial acquisition, or a potential concern, clients engage us early, before options evaporate. We work to establish and understand the facts, isolate risks, and build leverage required to improve our clients' position.
+            Whether a new opportunity, a crucial acquisition, or a potential concern, clients engage us early to understand their options. We work to establish the facts, identify risks and opportunities, and build the leverage required to improve our clients' position.
           </p>
         </div>
 
