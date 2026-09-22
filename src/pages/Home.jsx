@@ -70,7 +70,7 @@ export default function Home() {
   We have one objective: to improve and strengthen our clients' position.
 </p>     
 <p className="font-sans text-lg font-normal leading-relaxed text-ink mt-6">
- With over three decades as global operators and advisors, we understand the importance of turning facts into leverage. Not Hollywood's version. Real leverage comes from understanding the situation and using what matters to improve our client's position.
+ With over three decades as global operators and advisors, we know the importance of understanding the situation and using facts to create the leverage that improves our client's position.
 </p>
 
         <div className="mt-8">
