@@ -46,7 +46,7 @@ export default function Counsel() {
         Legal Counsel
       </h1>
       <p className={`${bodyClass} mt-8`}>
-        157Global is not a law firm, an investigative agency, or an expert witness practice. We are experienced operators and advisors. We have navigated complex, multi-jurisdictional plaintiff, defense, and regulatory matters, working with counsel on strategy, fact and narrative development, positioning, and execution.
+        157Global is not a law firm, an investigative agency, or an expert witness practice. We are experienced operators and advisors who have navigated complex, multi-jurisdictional plaintiff, defense, and regulatory matters, working with counsel on strategy, fact and narrative development, positioning, and execution.
       </p>
 
       <Rule />
