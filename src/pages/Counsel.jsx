@@ -1,10 +1,14 @@
+
 import { useEffect, useState } from 'react'
 import PageLayout from '../components/PageLayout'
 
 function Loading() {
   return (
     <div className="flex min-h-screen items-center justify-center">
-      <div className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent" style={{ animation: 'spin 0.7s linear infinite' }} />
+      <div
+        className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent"
+        style={{ animation: 'spin 0.7s linear infinite' }}
+      />
     </div>
   )
 }
@@ -20,7 +24,10 @@ function LabeledList({ items }) {
   return (
     <ul className="mt-5 space-y-3">
       {items.map((item) => (
-        <li key={item.label} className="border-l border-accent pl-4 font-sans text-[17px] text-ink">
+        <li
+          key={item.label}
+          className="border-l border-accent pl-4 font-sans text-[17px] text-ink"
+        >
           <strong>{item.label}:</strong> {item.text}
         </li>
       ))}
@@ -45,45 +52,65 @@ export default function Counsel() {
       <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         Legal Counsel
       </h1>
+
       <p className={`${bodyClass} mt-8`}>
-        157Global is not a law firm, an investigative agency, or an expert witness practice. We are experienced operators and advisors who have navigated complex, multi-jurisdictional plaintiff, defense, and regulatory matters, working with counsel on strategy, fact and narrative development, positioning, and execution.
+        157Global is not a law firm, an investigative agency, or an expert
+        witness practice. We are experienced operators and advisors who work
+        alongside counsel in the United States and abroad on civil, criminal,
+        and regulatory matters, including proceedings running concurrently
+        across federal and state jurisdictions. We support plaintiff and
+        defense counsel on both sides of disputes and other sensitive matters.
       </p>
 
       <Rule />
 
       <h2 className={h2Class}>How We Support Our Legal Colleagues</h2>
+
       <LabeledList
         items={[
           {
             label: 'Pre-Litigation Assessment',
-            text: 'Reconstructing messy timelines and separating fact from fiction. Uncovering what actually happened before legal positions harden. Aligning business goals with legal strategy while managing early reputation and perception.',
+            text: "Finding and evaluating facts, events, transactions, and communications to understand and interpret what benefits or endangers the client's position. Working with counsel to identify risks, opportunities, and inconsistencies, and develop options before legal positions harden.",
           },
           {
             label: 'Active Proceedings',
-            text: "Operating under Kovel when counsel requires 157Global expertise in anticipation of or during litigation. Supporting domestic and international counsel through financial reviews, operational analysis, business intelligence, reputation strategy, and evidence-backed narratives.",
+            text: "Working alongside counsel in civil, criminal, and regulatory matters to identify and evaluate facts, assess business and financial circumstances, understand the intent, positions and interests of the parties, and contribute to strategy and narrative development. Providing operational support and managing business or reputational concerns that may affect the client's position. Working under a Kovel arrangement when requested by counsel.",
           },
           {
             label: 'Crisis Stabilization',
-            text: "Protecting cash flow and steadying operations. Managing external perception when legal pressure brings financial distress and cratering confidence. Establishing the operational moat that keeps a client's business running through the crisis, so counsel has the time and space they need to litigate.",
+            text: "Protecting business operations, financial interests, personal and professional reputations, and relationships threatened by litigation, regulatory scrutiny, or other legal exposure. Working with counsel and clients to contain damage, preserve options, and stabilize their position while legal matters proceed.",
           },
           {
             label: 'Operational Intervention',
-            text: 'Assuming interim executive authority or operational control if business leadership is compromised. Working to extend the operational lifespan before, during, and after litigation.',
+            text: "Taking direct operational responsibility or developing and overseeing a course of action executed by the client's own personnel in alignment with counsel to address operating problems, maintain business continuity, protect value, and strengthen the client's position during and after legal proceedings.",
           },
           {
             label: 'Post-Resolution Transition',
-            text: 'Managing the operational and reputational impact that lasts long after the legal matter is resolved. Restoring market confidence and moving the client forward cleanly.',
+            text: "Addressing the business, financial, operational, and reputational consequences that remain after a legal matter is resolved. Working with counsel and clients to restore stability, rebuild relationships, enhance remaining value, and position the client to move forward.",
           },
           {
-            label: 'Confidentiality & Discretion',
-            text: "Structuring sensitive matters to protect legitimate confidentiality, control unnecessary disclosure, and preserve the client's position, with legal and regulatory requirements addressed by appropriate counsel and professionals.",
+            label: 'Structural & Operational Confidentiality',
+            text: "Working with counsel to develop and implement business structures that protect the client. Our experience includes ring-fencing operations, establishing independent operating entities, managing confidential transactions, and allocating responsibilities and risks through contractual arrangements while preserving appropriate client oversight and control.",
           },
-      ]}
+        ]}
       />
 
-      <p className="font-sans text-xl font-semibold leading-snug text-ink mt-10">We use facts to create leverage for counsel.</p>
-      <div className="bg-stone-300 px-6 py-4 mt-10"><p className="font-sans text-sm font-normal leading-relaxed text-ink opacity-80">While initial contact is treated as confidential, please don't share anything privileged or case-specific until formal protocols are in place.</p></div>
-      <a href="mailto:legal@157global.com?subject=Legal%20Support%20Inquiry" className="font-sans text-sm font-medium text-ink underline hover:opacity-60 transition-opacity mt-6 inline-block">Contact</a>
+      <p className="mt-10 font-sans text-xl font-semibold leading-snug text-ink">
+        We use facts to create leverage for counsel.
+      </p>
+
+      <p className="mt-10 font-sans text-sm font-normal leading-relaxed text-ink opacity-80">
+        Please do not submit privileged or case-specific information until
+        appropriate confidentiality and engagement arrangements have been
+        established.
+      </p>
+
+      <a
+        href="mailto:legal@157global.com?subject=Legal%20Support%20Inquiry"
+        className="mt-6 inline-block font-sans text-sm font-medium text-ink underline transition-opacity hover:opacity-60"
+      >
+        Contact
+      </a>
     </PageLayout>
   )
 }
