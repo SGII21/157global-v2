@@ -1,28 +1,12 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://157global.com/</loc>
-  </url>
-  <url>
-    <loc>https://157global.com/who-we-serve/individuals-and-institutions</loc>
-  </url>
-  <url>
-    <loc>https://157global.com/who-we-serve/counsel</loc>
-  </url>
-  <url>
-    <loc>https://157global.com/philosophy</loc>
-  </url>
-  <url>
-    <loc>https://157global.com/work</loc>
-  </url>
-  <url>
-    <loc>https://157global.com/about</loc>
-  </url>
-  <url>
-    <loc>https://157global.com/about/founder</loc>
-  </url>
-  <url>
-    <loc>https://157global.com/contact</loc>
-  </url>
+  <url><loc>https://157global.com/</loc></url>
+  <url><loc>https://157global.com/who-we-serve/individuals-and-institutions</loc></url>
+  <url><loc>https://157global.com/who-we-serve/counsel</loc></url>
+  <url><loc>https://157global.com/philosophy</loc></url>
+  <url><loc>https://157global.com/work</loc></url>
+  <url><loc>https://157global.com/about</loc></url>
+  <url><loc>https://157global.com/about/founder</loc></url>
+  <url><loc>https://157global.com/contact</loc></url>
 </urlset>
