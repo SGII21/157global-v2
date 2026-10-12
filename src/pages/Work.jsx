@@ -1,36 +1,22 @@
+
 import { useEffect, useState } from 'react'
 import PageLayout from '../components/PageLayout'
 
 function Loading() {
   return (
     <div className="flex min-h-screen items-center justify-center">
-      <div className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent" style={{ animation: 'spin 0.7s linear infinite' }} />
+      <div
+        className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent"
+        style={{ animation: 'spin 0.7s linear infinite' }}
+      />
     </div>
   )
 }
 
 const bodyClass = 'font-sans text-[16px] leading-[1.75] text-ink md:text-[17px]'
-const h3Class = 'mt-8 font-serif text-[20px] font-semibold italic text-ink'
 
 function Rule() {
   return <div className="my-10 h-px w-full bg-[rgba(30,30,28,0.15)]" />
-}
-
-function CaseStudy({ title, challenge, action, outcome }) {
-  return (
-    <>
-      <h3 className={h3Class}>{title}</h3>
-      <p className={`${bodyClass} mt-4`}>
-        <strong>The Challenge:</strong> {challenge}
-      </p>
-      <p className={`${bodyClass} mt-4`}>
-        <strong>The Action:</strong> {action}
-      </p>
-      <p className={`${bodyClass} mt-4`}>
-        <strong>The Outcome:</strong> {outcome}
-      </p>
-    </>
-  )
 }
 
 export default function Work() {
@@ -50,63 +36,80 @@ export default function Work() {
       <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         Representative Work
       </h1>
+
       <p className={`${bodyClass} mt-8`}>
-        These matters represent a subset of the high-stakes environments our leadership has navigated over the past three decades.
+        Over more than three decades, our principal and his companies have
+        worked in the United States and Europe on matters including:
       </p>
 
       <Rule />
 
-      <CaseStudy
-        title="Enterprise Operations & Stabilization"
-        challenge="Retained at the board level of a Euro 50 conglomerate during a critical gateway issue involving compounding financial, labor, reputational, and quality failures under compressed timelines and intense political pressure."
-        action="Created and led an initiative that included standing up an independent company with P&L responsibility, establishing rigorous operating protocols and quality processes, and negotiating new labor agreements to directly manage a union-represented workforce of over 300 employees."
-        outcome="Over an eight year tenure, achieved the highest-rated quality performance in North America for the group while generating cost savings exceeding eight figures."
-      />
+      <p className={bodyClass}>
+        Established and operated an independent union-represented company
+        with full P&amp;L and balance sheet responsibility at the request of
+        the leadership of a European multinational conglomerate facing
+        serious financial, labor, quality, and reputational problems at a
+        critical North American gateway operation. Over eight years, the
+        company achieved the group's highest quality rating in North America
+        and generated eight-figure cost savings for the parent company.
+      </p>
 
       <Rule />
 
-      <CaseStudy
-        title="Independent Enterprise Structure"
-        challenge="Following internal failures, a global enterprise faced continued legal, liability, reputational, and commercial exposure across multiple jurisdictions, with a mandate directly from the Chairman of the Management Board."
-        action="Designed and executed an independent operational structure outside the core enterprise organization, embedding essential enterprise functions while bypassing internal political strife and separating the enterprise from the legal, reputational, and commercial risks associated with direct ownership and control."
-        outcome="Operated successfully across the enterprise under 157Global leadership, through multiple CEO and Board transitions, for more than three decades without a single incident."
-      />
+      <p className={bodyClass}>
+        Designed, established, and operated an independent group of companies
+        under a direct mandate from the Chairman of the Board of Management,
+        working with the client's legal team to address legal, liability,
+        reputational, and commercial exposure across multiple jurisdictions
+        arising from internal enterprise politics and the risks associated
+        with direct ownership and control. The companies operated for more
+        than three decades, through multiple CEO and Board transitions,
+        fulfilling their responsibilities.
+      </p>
 
       <Rule />
 
-      <CaseStudy
-        title="Operational Support for Complex Legal Matters"
-        challenge="International organizations required operational facts to support complex legal strategies across preventative business structuring, pre-litigation advisory, active civil and white-collar criminal defense, and post-resolution stabilization."
-        action="Worked directly alongside outside litigation counsel, transactional attorneys, and in-house general counsel to reconstruct operational data and build evidence-backed narratives."
-        outcome="Aligned corporate and principal objectives with legal strategy, securing realistic outcomes and necessary legal leverage."
-      />
+      <p className={bodyClass}>
+        Worked directly alongside outside litigation counsel, transactional
+        attorneys, and in-house general counsel to identify facts, interpret
+        events, assess business and financial circumstances, develop options,
+        execute strategy, and provide operational support. This work aligned
+        corporate and principal objectives with legal strategy, established
+        leverage, and supported successful outcomes.
+      </p>
 
       <Rule />
 
-      <CaseStudy
-        title="Operational Failure Affecting Reputation"
-        challenge="An organization facing severe reputational repercussions from public reporting and operational breakdowns required immediate intervention to protect confidence and organizational stability."
-        action="Isolated and fixed the root operational failures while simultaneously controlling the narrative through integrated communications and disciplined engagement."
-        outcome="Restored confidence, protected organizational stability, and preserved the entity's competitive position in the global market."
-      />
+      <p className={bodyClass}>
+        Isolated and fixed operational failures for a client facing
+        reputational repercussions while simultaneously controlling the
+        narrative through integrated communications and disciplined
+        engagement. The work restored confidence, protected organizational
+        stability, and preserved the client's competitive position.
+      </p>
 
       <Rule />
 
-      <CaseStudy
-        title="Post-Acquisition Integration"
-        challenge="Following the cross-border acquisition of a significant stake in a ten-figure enterprise, the acquiring entity encountered deep cultural conflict, operational bottlenecks, and severe quality gaps not addressed prior to closing, compounded by active resistance from the acquiree and external government backing for the legacy owners."
-        action="Managed both operations and stakeholder politics, establishing an independent operating framework that bridged competing objectives and cultures."
-        outcome="Successfully protected the investor's long-term capital and strategic interests."
-      />
+      <p className={bodyClass}>
+        Established and operated an independent company to address cultural
+        conflict, operational bottlenecks, and quality gaps following a
+        client's cross-border acquisition, which was also marked by active
+        resistance from the acquired company and external government support
+        for the legacy owners. The arrangement protected the client's capital
+        and strategic interests.
+      </p>
 
       <Rule />
 
-      <CaseStudy
-        title="Regulatory Exposure & Operational Continuity"
-        challenge="Engaged following systemic compliance failures involving imports, exports, regulatory violations, and substantial liability exposure for a global enterprise."
-        action="Built and ran an operational structure capable of coordinating compliance, security, legal, and operational functions simultaneously, with zero margin for error or public exposure."
-        outcome="Met all regulatory requirements across multiple jurisdictions while maintaining uninterrupted operational continuity for more than three decades."
-      />
+      <p className={bodyClass}>
+        Designed and operated an independent operational structure
+        coordinating compliance, security, legal, and operational functions
+        simultaneously under a mandate from the senior leadership of a
+        global enterprise, following systemic failures involving imports,
+        exports, regulatory violations, confidentiality, and liability
+        exposure. Maintained uninterrupted operational continuity across
+        multiple jurisdictions for more than three decades.
+      </p>
     </PageLayout>
   )
 }
