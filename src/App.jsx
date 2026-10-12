@@ -1,10 +1,10 @@
+
 import { useEffect } from 'react'
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import CookieBanner from './components/CookieBanner'
 import Home from './pages/Home'
-import Situations from './pages/Situations'
 import Individuals from './pages/Individuals'
 import Counsel from './pages/Counsel'
 import Philosophy from './pages/Philosophy'
@@ -36,7 +36,7 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/situations" element={<Situations />} />
+            <Route path="/situations" element={<Navigate to="/" replace />} />
             <Route path="/who-we-serve/individuals-and-institutions" element={<Individuals />} />
             <Route path="/who-we-serve/counsel" element={<Counsel />} />
             <Route path="/philosophy" element={<Philosophy />} />
