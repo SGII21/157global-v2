@@ -137,10 +137,7 @@ export default function Home() {
           Clients don't need an explosion to call us. Just a need.
         </p>
 
-        <p className="mt-10 font-sans text-xl font-semibold leading-snug text-ink">
-          Experience builds judgment. Judgment secures leverage. Leverage is currency.
-        </p>
-
+       
       </section>
     </>
   )
