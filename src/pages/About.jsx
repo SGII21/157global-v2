@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import PageLayout from '../components/PageLayout'
@@ -5,7 +6,10 @@ import PageLayout from '../components/PageLayout'
 function Loading() {
   return (
     <div className="flex min-h-screen items-center justify-center">
-      <div className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent" style={{ animation: 'spin 0.7s linear infinite' }} />
+      <div
+        className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent"
+        style={{ animation: 'spin 0.7s linear infinite' }}
+      />
     </div>
   )
 }
@@ -29,12 +33,22 @@ export default function About() {
       <h1 className="font-serif text-[30px] font-bold leading-[1.15] text-ink md:text-[42px]">
         About
       </h1>
+
       <p className={`${bodyClass} mt-8`}>
-        157Global is built on over three decades of direct accountability inside complex and demanding operational, financial, and legal environments. Our firm is the direct result of that experience, building, leading, and advising across North America and Europe.
+        157Global is the direct result of experience gained through building,
+        leading, and advising inside complex and demanding operational,
+        financial, and legal environments across North America and Europe.
       </p>
+
       <p className={`${bodyClass} mt-6`}>
-        Our capabilities were not developed through academic theory or consulting frameworks. They were built through the actual ownership of outcomes, where performance was mandatory and actions carried consequences. When the stakes are high, credentials and theory aren't enough. What matters is experienced involvement and the ability to establish and use leverage to improve our client's position.
+        Our capabilities were not developed through academic theory or
+        consulting frameworks. They were built through the actual ownership
+        of outcomes, where performance was mandatory and actions carried
+        consequences. When the stakes are high, credentials and theory
+        aren't enough. What matters is experienced involvement and the
+        ability to establish and use leverage to improve our client's position.
       </p>
+
       <Link
         to="/about/founder"
         className="mt-8 inline-block font-sans text-[15px] text-accent transition-colors duration-200 hover:text-accent-hover hover:underline"
