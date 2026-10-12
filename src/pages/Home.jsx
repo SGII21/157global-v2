@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from 'react'
 
 function Loading() {
@@ -12,18 +13,6 @@ function Loading() {
 }
 
 const bodyClass = 'font-sans text-[17px] leading-[1.75] text-ink'
-
-function LabeledList({ items }) {
-  return (
-    <ul className="mt-5 space-y-3">
-      {items.map((item) => (
-        <li key={item.label} className="border-l border-accent pl-4 font-sans text-[17px] text-ink">
-          <strong>{item.label}:</strong> {item.text}
-        </li>
-      ))}
-    </ul>
-  )
-}
 
 export default function Home() {
   const [loading, setLoading] = useState(true)
@@ -44,6 +33,7 @@ export default function Home() {
         style={{ backgroundImage: 'url("/LinkedIn_Banner.webp")' }}
       >
         <div className="absolute inset-0 bg-hero-overlay" />
+
         <div className="relative z-10 mx-auto max-w-4xl text-center text-white">
           <img
             src="/157Global-Stacked-Black-web.webp"
@@ -53,54 +43,104 @@ export default function Home() {
             className="mx-auto mb-8 w-[180px]"
             style={{ filter: 'invert(1)' }}
           />
+
           <h1 className="font-serif text-[34px] font-bold leading-[1.1] text-white md:text-[52px]">
-            Experienced judgment in difficult places.
+            Experienced Judgment for Matters of Consequence
           </h1>
 
           <p className="mt-6 font-sans text-[13px] font-medium uppercase tracking-[0.16em] leading-relaxed text-white/80 md:text-[14px]">
-            Acquire, Assimilate, Understand, Diagnose, Create, Execute
+            ACQUIRE · ASSIMILATE · UNDERSTAND · DIAGNOSE · STRATEGIZE · EXECUTE
           </p>
-          
         </div>
       </section>
 
       <section className="mx-auto max-w-3xl px-6 py-20">
-        
- <p className="font-sans text-2xl font-semibold leading-snug text-ink mt-6">
-  We have one objective: to improve and strengthen our clients' position.
-</p>     
-<p className="font-sans text-lg font-normal leading-relaxed text-ink mt-6">
- With over three decades as global operators and advisors, we know the importance of understanding the situation and using facts to create the leverage that improves our client's position.
-</p>
+
+        <h2 className="font-serif text-[28px] font-semibold leading-[1.25] text-ink">
+          What We Do
+        </h2>
+
+        <p className={`${bodyClass} mt-5`}>
+          157Global is a boutique advisory firm. We advise and, when necessary,
+          execute. Our clients come to us when dealing with important decisions,
+          operating and structural problems, commercial disputes, legal or
+          reputational exposure.
+        </p>
+
+        <p className={`${bodyClass} mt-5`}>
+          We have more than three decades of experience in the United States
+          and Europe, from standing up and operating businesses to assignments
+          for senior leadership and boards of major international enterprises.
+        </p>
+
+        <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
+          What We Work On
+        </h2>
 
         <div className="mt-8">
-          <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
-            Early
-          </h2>
-          <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Whether a new opportunity, a crucial acquisition, or a potential concern, clients engage us early to understand their options. We work to establish the facts, identify risks and opportunities, and build the leverage required to improve our clients' position.
+          <h3 className="font-serif text-[23px] font-semibold leading-[1.25] text-ink">
+            Opportunities, Transactions &amp; Important Decisions
+          </h3>
+          <p className={`${bodyClass} mt-3`}>
+            Acquisitions, investments, expansion, divestitures and transitions.
+            We help clients understand what they are considering, the risks and
+            opportunities, and how to proceed.
           </p>
         </div>
 
         <div className="mt-8">
-          <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
-            Trouble Arrives
-          </h2>
-          <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-            Trouble cascades from reactionary decisions to fragmented information, financial pressure, reputational risk, and panic-induced thinking. When a client faces escalating financial, reputational, civil, or criminal matters, we are engaged to identify the exact points of pressure and provide a path to resolve them. Whether uncovering hidden facts, managing public perception, unifying strategies across every front, or supporting legal counsel, we understand the environment and execute to create the leverage needed to shape the outcome.
+          <h3 className="font-serif text-[23px] font-semibold leading-[1.25] text-ink">
+            Business Performance &amp; Operating Problems
+          </h3>
+          <p className={`${bodyClass} mt-3`}>
+            When a business or contract isn't performing, we help determine
+            what needs to change and, when necessary, do the work to change it.
           </p>
         </div>
 
         <div className="mt-8">
-          <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
-            The Difference
-          </h2>
-          <p className="mt-3 font-sans text-[17px] leading-[1.75] text-ink">
-           Engagements are taken selectively. The clients we do accept benefit from our decades of real-world operational and advisory global experience managing and executing multi-forum, multi-disciplinary matters.
+          <h3 className="font-serif text-[23px] font-semibold leading-[1.25] text-ink">
+            Commercial, Structural &amp; Ownership Matters
+          </h3>
+          <p className={`${bodyClass} mt-3`}>
+            Difficult business relationships, contractual disputes, ownership
+            or governance problems, and arrangements that no longer serve the
+            client. We examine the facts, understand the interests involved,
+            and determine which options could improve the client's position.
           </p>
         </div>
 
-        <p className="font-sans text-xl font-semibold leading-snug text-ink mt-10">Experience dictates judgment. Judgment secures leverage.</p>
+        <div className="mt-8">
+          <h3 className="font-serif text-[23px] font-semibold leading-[1.25] text-ink">
+            Disputes, Legal &amp; Sensitive Matters
+          </h3>
+          <p className={`${bodyClass} mt-3`}>
+            We help clients establish facts, reconstruct events, and understand
+            the business and financial circumstances surrounding disputes,
+            suspected wrongdoing, regulatory concerns, and other sensitive
+            matters. We work directly for the client or under the direction of
+            counsel, depending on the circumstances and the protections required.
+          </p>
+        </div>
+
+        <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
+          Why Clients Call
+        </h2>
+
+        <p className={`${bodyClass} mt-5`}>
+          Sometimes something is just off. Other times there's a clear problem.
+          Sometimes they need help getting through a bad situation. Sometimes
+          nothing is wrong, but an important decision lies ahead.
+        </p>
+
+        <p className="mt-8 font-sans text-xl font-semibold leading-snug text-ink">
+          Clients don't need an explosion to call us. Just a need.
+        </p>
+
+        <p className="mt-10 font-sans text-xl font-semibold leading-snug text-ink">
+          Experience builds judgment. Judgment secures leverage. Leverage is currency.
+        </p>
+
       </section>
     </>
   )
