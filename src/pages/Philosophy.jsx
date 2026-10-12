@@ -1,10 +1,14 @@
+
 import { useEffect, useState } from 'react'
 import PageLayout from '../components/PageLayout'
 
 function Loading() {
   return (
     <div className="flex min-h-screen items-center justify-center">
-      <div className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent" style={{ animation: 'spin 0.7s linear infinite' }} />
+      <div
+        className="h-8 w-8 rounded-full border-2 border-[rgba(30,30,28,0.15)] border-t-accent"
+        style={{ animation: 'spin 0.7s linear infinite' }}
+      />
     </div>
   )
 }
@@ -20,7 +24,10 @@ function LabeledList({ items }) {
   return (
     <ul className="mt-5 space-y-3">
       {items.map((item) => (
-        <li key={item.label} className="border-l border-accent pl-4 font-sans text-[17px] text-ink">
+        <li
+          key={item.label}
+          className="border-l border-accent pl-4 font-sans text-[17px] text-ink"
+        >
           <strong>{item.label}:</strong> {item.text}
         </li>
       ))}
@@ -42,18 +49,27 @@ export default function Philosophy() {
 
   return (
     <PageLayout>
-      <h1 className="font-serif text-5xl font-bold text-ink">Philosophy</h1>
+      <h1 className="font-serif text-5xl font-bold text-ink">
+        Philosophy
+      </h1>
+
       <h2 className={h2Class}>Why We Exist</h2>
+
       <p className={`${bodyClass} mt-8`}>
         To improve and strengthen our clients' position.
       </p>
+
       <p className={`${bodyClass} mt-6`}>
-        High pressure situations affect more than balance sheets and legal briefs. They disrupt families, destroy livelihoods, and threaten survival. We step in, uncover the facts, establish the leverage, and execute the workable path forward.
+        Decisions affect more than balance sheets and legal briefs.
+        They create opportunities, provide for families, or disrupt
+        livelihoods and threaten survival. We step in, uncover the
+        facts, establish leverage, and execute the workable path forward.
       </p>
 
       <Rule />
 
       <h2 className={h2Class}>Our Core Principles</h2>
+
       <LabeledList
         items={[
           {
@@ -74,14 +90,14 @@ export default function Philosophy() {
           },
           {
             label: 'Judgment Over Checklists',
-            text: 'Process maps and checklists fail when a crisis hits. Real leverage is created by seasoned judgment, knowing when to act, when to wait, and how to control a chaotic situation.',
+            text: 'Real leverage is created by seasoned judgment, knowing when to act, when to wait, and how to control a chaotic situation.',
           },
           {
             label: 'Substance Over Hype',
-            text: "We don't create beautiful PowerPoints. We maximize strength.",
+            text: "Real power is measured, calculated and quiet. It doesn't need to be hyped.",
           },
         ]}
       />
     </PageLayout>
   )
-} 
+}
