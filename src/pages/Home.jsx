@@ -63,7 +63,7 @@ export default function Home() {
         <p className={`${bodyClass} mt-5`}>
           157Global is a boutique advisory firm. We advise and, when necessary,
           execute. Our clients come to us when dealing with important decisions,
-          operating and structural problems, commercial disputes, legal or
+          operational and structural problems, commercial disputes, legal or
           reputational exposure.
         </p>
 
