@@ -118,7 +118,7 @@ export default function Home() {
             We help clients establish facts, reconstruct events, and understand
             the business and financial circumstances surrounding disputes,
             suspected wrongdoing, regulatory concerns, and other sensitive
-            matters. We work directly for the client or under the direction of
+            matters. Once we identify leverage, we advise clients on their options and execute the resolution when required. We work directly for the client or under the direction of
             counsel, depending on the circumstances and the protections required.
           </p>
         </div>
