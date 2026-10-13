@@ -89,11 +89,9 @@ export default function Individuals() {
       <h2 className={h2Class}>How We Work</h2>
 
       <p className={`${bodyClass} mt-6`}>
-        We engage when needed. That may be early, when something doesn't
+        We engage when our role brings value to the situation. That may be early, when something doesn't
         make sense or an important decision is being considered, or later,
-        when a problem already exists. We become involved when our role
-        brings value based on what the client needs and what the situation
-        requires.
+        when a problem already exists. 
       </p>
 
       <p className={`${bodyClass} mt-6`}>
