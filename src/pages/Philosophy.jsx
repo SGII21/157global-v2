@@ -63,7 +63,7 @@ export default function Philosophy() {
         Decisions affect more than balance sheets and legal briefs.
         They create opportunities, provide for families, or disrupt
         livelihoods and threaten survival. We step in, uncover the
-        facts, establish leverage, and execute the workable path forward.
+        facts, establish leverage, and when needed, execute the workable path forward.
       </p>
 
       <Rule />
