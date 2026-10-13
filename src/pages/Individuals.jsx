@@ -56,10 +56,7 @@ export default function Individuals() {
       <h2 className={h2Class}>We Are Advisors Who Are Operators</h2>
 
       <p className={`${bodyClass} mt-6`}>
-        Not theorists. Not deck-builders. Never black-and-white thinkers.
-        We understand the facts, complexities, and competing interests
-        that stand between our clients and the outcome they need.
-        We have the experience to drive execution.
+        157Global is not made of theorists, deck-builders, or black-and-white thinkers. We understand the facts, complexities, and competing interests that stand between our clients and the outcomes they need, and we have the experience to drive execution.
       </p>
 
       <Rule />
