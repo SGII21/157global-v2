@@ -98,6 +98,21 @@ export default function Philosophy() {
           },
         ]}
       />
+
+      <Rule />
+
+      <blockquote className="mt-12 border-l-2 border-accent pl-6">
+        <p className="font-serif text-[18px] italic leading-[1.7] text-ink md:text-[20px]">
+          “Let him show forethought and consideration in his orders...
+          whether the task concerns God or the world, let him be
+          discerning and moderate... Let him so temper everything
+          that the strong have something to strive for and the weak
+          have nothing to run from.”
+        </p>
+        <footer className="mt-5 font-sans text-[13px] leading-relaxed text-ink/70">
+          — Adapted from Chapter 64, <cite>The Rule of St. Benedict</cite>
+        </footer>
+      </blockquote>
     </PageLayout>
   )
 }
