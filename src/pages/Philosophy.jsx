@@ -90,7 +90,7 @@ export default function Philosophy() {
           },
           {
             label: 'Judgment Over Checklists',
-            text: 'Real leverage is created by seasoned judgment, knowing when to act, when to wait, and how to control a chaotic situation.',
+            text: 'Leverage only exists with the seasoned judgment to know when to act, when to wait, and how to control a chaotic situation.',
           },
           {
             label: 'Substance Over Hype',
