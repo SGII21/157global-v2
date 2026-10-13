@@ -128,9 +128,7 @@ export default function Home() {
         </h2>
 
         <p className={`${bodyClass} mt-5`}>
-          Sometimes something is just off. Other times there's a clear problem.
-          Sometimes they need help getting through a bad situation. Sometimes
-          nothing is wrong, but an important decision lies ahead.
+          Sometimes something is just off. Other times there's a clear problem. Sometimes they need help getting through a bad situation. Sometimes nothing is wrong, but an important decision lies ahead.
         </p>
 
         <p className="mt-8 font-sans text-xl font-semibold leading-snug text-ink">
