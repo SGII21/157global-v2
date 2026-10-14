@@ -82,7 +82,7 @@ export default function Counsel() {
           },
           {
             label: 'Post-Resolution Transition',
-            text: "Addressing the business, financial, operational, and reputational consequences that remain after a legal matter is resolved. Working with counsel and clients to restore stability, rebuild relationships, enhance remaining value, and position the client to move forward.",
+            text: "Addressing the business, financial, operational, and reputational consequences that remain after a legal matter is resolved. Working with counsel and clients to restore stability, rebuild relationships, enhance value, and position the client to move forward.",
           },
           {
             label: 'Structural & Operational Confidentiality',
