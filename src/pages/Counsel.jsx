@@ -65,8 +65,8 @@ export default function Counsel() {
       <LabeledList
         items={[
           {
-            label: 'Pre-Litigation Assessment',
-            text: "Finding and evaluating facts, events, transactions, and communications to understand and interpret what benefits or endangers the client's position. Working with counsel to identify risks, opportunities, and inconsistencies, and develop options before legal positions harden.",
+            label: 'Pre-Litigation & Transactional Support',
+            text: "Establishing, interpreting, and testing facts, events, transactions, and communications. Identifying risks, opportunities, and inconsistencies to help clients and counsel evaluate transactions, potential disputes, and other important decisions while options remain available.",
           },
           {
             label: 'Active Proceedings',
