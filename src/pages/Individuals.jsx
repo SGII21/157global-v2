@@ -53,10 +53,10 @@ export default function Individuals() {
         Individuals &amp; Organizations
       </h1>
 
-      <h2 className={h2Class}>We Are Advisors Who Are Operators</h2>
+      <h2 className={h2Class}>We Are Operators Who Advise</h2>
 
       <p className={`${bodyClass} mt-6`}>
-        157Global is not made of theorists, deck-builders, or black-and-white thinkers. We understand the facts, complexities, and competing interests that stand between our clients and the outcomes they need, and we have the experience to drive execution.
+        We understand the facts, complexities, and competing interests that stand between our clients and the outcomes they need, and we have the experience to drive execution.
       </p>
 
       <Rule />
