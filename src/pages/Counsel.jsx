@@ -78,7 +78,7 @@ export default function Counsel() {
           },
           {
             label: 'Operational Intervention',
-            text: "Taking direct operational responsibility or developing and overseeing a course of action executed by the client's own personnel in alignment with counsel to address operating problems, maintain business continuity, protect value, and strengthen the client's position during and after legal proceedings.",
+            text: "Taking direct operational responsibility on behalf of the client, or developing and overseeing action by the client's personnel to address problems, maintain business continuity, and protect value while coordinating with counsel.",
           },
           {
             label: 'Post-Resolution Transition',
