@@ -86,7 +86,7 @@ export default function Counsel() {
           },
           {
             label: 'Structural & Operational Confidentiality',
-            text: "Working with counsel to develop and implement business structures that protect the client. Our experience includes ring-fencing operations, establishing independent operating entities, managing confidential transactions, and allocating responsibilities and risks through contractual arrangements while preserving appropriate client oversight and control.",
+            text: "Working with counsel to develop and implement business structures that protect the client, including ring-fencing operations, establishing independent operating entities, managing confidential transactions, and allocating responsibilities and risks through contractual arrangements while preserving appropriate client oversight and control.",
           },
         ]}
       />
