@@ -115,11 +115,7 @@ export default function Home() {
             Disputes, Legal &amp; Sensitive Matters
           </h3>
           <p className={`${bodyClass} mt-3`}>
-            We help clients establish facts, reconstruct events, and understand
-            the business and financial circumstances surrounding disputes,
-            suspected wrongdoing, regulatory concerns, and other sensitive
-            matters. Once we identify leverage, we advise clients on their options and execute the resolution when required. We work directly for the client or under the direction of
-            counsel, depending on the circumstances and the protections required.
+           We help clients establish facts, reconstruct events, and understand the motivations, business matters, and financial circumstances surrounding disputes, suspected wrongdoing, regulatory concerns, and other sensitive matters. We identify leverage, develop business and operational options, and execute agreed courses of action when required. We work directly for the client or alongside counsel, depending on the circumstances and the protections required. Legal advice and legal strategy remain the responsibility of counsel.
           </p>
         </div>
 
