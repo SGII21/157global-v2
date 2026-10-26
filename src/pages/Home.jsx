@@ -61,16 +61,11 @@ export default function Home() {
         </h2>
 
         <p className={`${bodyClass} mt-5`}>
-          157Global is a boutique advisory firm. We advise and, when necessary,
-          execute. Our clients come to us when dealing with important decisions,
-          operational and structural matters, commercial disputes, legal or
-          reputational exposure.
+          157Global is a boutique advisory firm. We listen, advise, and when required, execute. Clients come to us for help with important decisions, operational and structural matters, commercial disputes, and legal or reputational exposure.
         </p>
 
         <p className={`${bodyClass} mt-5`}>
-          We have more than three decades of experience in the United States
-          and Europe, from standing up and operating businesses to assignments
-          for senior leadership and boards of major international enterprises.
+          We bring more than three decades of experience in the United States and Europe, from establishing and operating businesses to carrying out assignments for senior leadership and boards of major international enterprises.
         </p>
 
         <h2 className="mt-12 font-serif text-[28px] font-semibold leading-[1.25] text-ink">
