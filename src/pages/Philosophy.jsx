@@ -60,10 +60,7 @@ export default function Philosophy() {
       </p>
 
       <p className={`${bodyClass} mt-6`}>
-        Decisions affect more than balance sheets and legal briefs.
-        They create opportunities, provide for families, or disrupt
-        livelihoods and threaten survival. We step in, uncover the
-        facts, establish leverage, and when needed, execute the workable path forward.
+        Decisions affect more than balance sheets and legal briefs. They create opportunities, provide for families, or disrupt livelihoods and threaten survival. We listen, uncover the facts, understand our clients' goals, and when needed, establish leverage and execute the workable path forward.
       </p>
 
       <Rule />
