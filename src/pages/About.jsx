@@ -41,12 +41,7 @@ export default function About() {
       </p>
 
       <p className={`${bodyClass} mt-6`}>
-        Our capabilities were not developed through academic theory or
-        consulting frameworks. They were built through the actual ownership
-        of outcomes, where performance was mandatory and actions carried
-        consequences. When the stakes are high, credentials and theory
-        aren't enough. What matters is experienced involvement and the
-        ability to establish and use leverage to improve our client's position.
+        Our capabilities were not developed through academic theory or consulting frameworks. They were built through the actual ownership of outcomes, where performance was mandatory and actions carried consequences. For our clients, what matters is experienced involvement and our ability to strengthen or improve their position.
       </p>
 
       <Link
