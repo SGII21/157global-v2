@@ -54,8 +54,7 @@ export default function Counsel() {
       </h1>
 
       <p className={`${bodyClass} mt-8`}>
-        157Global is not a law firm, an investigative agency, or an expert
-        witness practice. We are experienced operators who advise and work alongside counsel in the United States and abroad on civil, criminal, regulatory, and transactional matters, including proceedings across borders and jurisdictions. We support plaintiff, defense, and transaction counsel.
+        157Global is not a law firm, an investigative agency, or an expert witness practice. We are experienced operators who advise and work alongside counsel in the United States and abroad on civil, criminal, regulatory, and transactional matters, including proceedings across borders and jurisdictions. We help plaintiff, defense, and transaction counsel understand the facts, people, and business realities behind their matters.
       </p>
 
       <Rule />
