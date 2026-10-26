@@ -56,7 +56,7 @@ export default function Individuals() {
       <h2 className={h2Class}>We Are Operators Who Advise</h2>
 
       <p className={`${bodyClass} mt-6`}>
-        We understand the facts, complexities, and competing interests that stand between our clients and the outcomes they need, and we have the experience to drive execution.
+        We understand the facts and competing interests that influence our clients' ability to achieve the outcomes they want, and we have the experience to execute.
       </p>
 
       <Rule />
