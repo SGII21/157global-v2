@@ -95,9 +95,7 @@ export default function Individuals() {
       </p>
 
       <p className={`${bodyClass} mt-6`}>
-        Depending on the need, we advise, take direct action, work with existing
-        advisors and resources, bring in specialized expertise, or
-        oversee execution.
+        Depending on the need, we advise, take direct action, ensure existing advisors and strategies are aligned with the objective, bring in specialized expertise, or execute directly.
       </p>
 
       <p className={`${bodyClass} mt-6`}>
