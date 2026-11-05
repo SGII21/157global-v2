@@ -61,7 +61,7 @@ export default function Home() {
         </h2>
 
         <p className={`${bodyClass} mt-5`}>
-         157Global is a specialized advisory firm. We serve as strategic counsel to individuals, organizations, and legal teams, with the experienced judgment to execute when required. Clients come to us for help with important decisions, operational and structural matters, commercial disputes, and legal or reputational exposure.
+         We are strategic advisors to individuals, organizations, and legal teams, with the experienced judgment to execute when required. Clients come to us for help with important decisions, operational and structural matters, commercial disputes, and legal or reputational exposure.
         </p>
 
         <p className={`${bodyClass} mt-5`}>
